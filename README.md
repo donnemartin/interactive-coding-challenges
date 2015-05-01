@@ -3,7 +3,11 @@ practice
 
 Data structures and algorithms practice problems.
 
-##License
+## Arrays and Strings
+
+* [Check for unique characters in a string](http://nbviewer.ipython.org/github/donnemartin/practice/blob/master/arrays-strings/unique_chars.ipynb)
+
+## License
 
     Copyright 2014 Donne Martin
 
