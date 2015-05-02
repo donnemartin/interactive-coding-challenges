@@ -7,6 +7,7 @@ Data structures and algorithms practice problems.
 
 * [Check if a string contains unique characters](http://nbviewer.ipython.org/github/donnemartin/practice/blob/master/arrays-strings/unique_chars.ipynb)
 * [Reverse characters in a string](http://nbviewer.ipython.org/github/donnemartin/practice/blob/master/arrays-strings/reverse_string.ipynb)
+* [Check if a string is a permutation of another](http://nbviewer.ipython.org/github/donnemartin/practice/blob/master/arrays-strings/permutation.ipynb)
 
 ## License
 
