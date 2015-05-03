@@ -1,7 +1,7 @@
-practice
+algorithms-data-structures
 ============
 
-Data structures and algorithms practice problems.
+Continually updated IPython Notebooks containing algorithms and data structures.
 
 ## Arrays and Strings
 
@@ -11,7 +11,7 @@ Data structures and algorithms practice problems.
 
 ## License
 
-    Copyright 2014 Donne Martin
+    Copyright 2015 Donne Martin
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
