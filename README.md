@@ -8,6 +8,7 @@ Continually updated IPython Notebooks containing algorithms and data structures.
 * [Check if a string contains unique characters](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/unique_chars.ipynb)
 * [Reverse characters in a string](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/reverse_string.ipynb)
 * [Check if a string is a permutation of another](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/permutation.ipynb)
+* [Encode spaces in a string in-place](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/replace_char.ipynb)
 
 ## License
 
