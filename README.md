@@ -11,6 +11,10 @@ Continually updated IPython Notebooks containing algorithms and data structures.
 * [Encode spaces in a string in-place](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/replace_char.ipynb)
 * [Compress a string](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/compress.ipynb)
 
+## Linked Lists
+
+* [Linked list with insert, find, delete, and print methods](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/linked-list.ipynb)
+
 ## License
 
     Copyright 2015 Donne Martin
