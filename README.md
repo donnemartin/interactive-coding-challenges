@@ -16,6 +16,7 @@ Continually updated IPython Notebooks containing algorithms and data structures.
 
 * [Linked list with insert, find, delete, and print methods](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/linked-list.ipynb)
 * [Remove duplicates from a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/remove-duplicates.ipynb)
+* [Find the kth to last element of a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/kth-to-last-elem.ipynb)
 
 ## License
 
