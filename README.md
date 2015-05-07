@@ -15,6 +15,7 @@ Continually updated IPython Notebooks containing algorithms and data structures.
 ## Linked Lists
 
 * [Linked list with insert, find, delete, and print methods](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/linked-list.ipynb)
+* [Remove duplicates from a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/remove-duplicates.ipynb)
 
 ## License
 
