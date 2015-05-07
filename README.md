@@ -10,6 +10,7 @@ Continually updated IPython Notebooks containing algorithms and data structures.
 * [Determine if a string is a permutation of another](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/permutation.ipynb)
 * [Encode spaces in a string in-place](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/replace_char.ipynb)
 * [Compress a string](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/compress.ipynb)
+* [Determine if a string is a rotation of another](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/rotation.ipynb)
 
 ## Linked Lists
 
