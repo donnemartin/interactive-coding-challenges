@@ -1,23 +1,15 @@
 
 class Node(object):
-    def __init__(self, data):
-        self.next = None
+    def __init__(self, data, next_node=None):
+        self.next = next_node
         self.data = data
         
     def __str__(self):
         return self.data
 
 class LinkedList(object):
-    def __init__(self, head):
+    def __init__(self, head=None):
         self.head = head
-
-    def __len__(self):
-        curr = self.head
-        counter = 0
-        while curr is not None:
-            counter += 1
-            curr = curr.next
-        return counter
     
     def insert_to_front(self, data):
         if data is None:
@@ -29,10 +21,10 @@ class LinkedList(object):
             node.next = self.head
             self.head = node
             
-    def append(self, data):
+    def append(self, data, next_node=None):
         if data is None:
             return
-        node = Node(data)
+        node = Node(data, next_node)
         if self.head is None:
             self.head = node
         else:
