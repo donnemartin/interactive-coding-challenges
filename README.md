@@ -19,6 +19,7 @@ Continually updated IPython Notebooks containing algorithms and data structures.
 * [Find the kth to last element of a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/kth-to-last-elem.ipynb)
 * [Delete a node in the middle of a linked list, given access to only that node](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/delete-mid.ipynb)
 * [Partition a linked list around a given value](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/partition.ipynb)
+* [Add two numbers whose digits are stored in a linked list in reverse order](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/add-reverse.ipynb)
 
 ## License
 
