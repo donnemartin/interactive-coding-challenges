@@ -10,6 +10,14 @@ class Node(object):
 class LinkedList(object):
     def __init__(self, head=None):
         self.head = head
+
+    def __len__(self):
+        curr = self.head
+        counter = 0
+        while curr is not None:
+            counter += 1
+            curr = curr.next
+        return counter
     
     def insert_to_front(self, data):
         if data is None:
