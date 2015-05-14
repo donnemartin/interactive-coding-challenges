@@ -8,7 +8,7 @@
 algorithms-data-structures
 ============
 
-Continually updated IPython Notebooks containing algorithms and data structures.
+Continually updated IPython Notebooks containing coding problems and solutions (algorithms and data structures).
 
 ## Arrays and Strings
 
