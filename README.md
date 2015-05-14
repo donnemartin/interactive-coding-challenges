@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif">
+  <br/>
+  <i>Wikipedia: Quicksort, Merge Sort</i>
+</p>
+
 algorithms-data-structures
 ============
 
