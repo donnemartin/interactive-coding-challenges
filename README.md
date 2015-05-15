@@ -28,6 +28,10 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Partition a linked list around a given value](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/partition.ipynb)
 * [Add two numbers whose digits are stored in a linked list in reverse order](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/add-reverse.ipynb)
 
+## Stacks and Queues
+
+* [Implement a stack with push, pop, and peek methods using a linked list.](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack.ipynb)
+
 ## License
 
     Copyright 2015 Donne Martin
