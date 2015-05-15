@@ -30,7 +30,8 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 
 ## Stacks and Queues
 
-* [Implement a stack with push, pop, and peek methods using a linked list.](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack.ipynb)
+* [Implement a stack with push, pop, and peek methods using a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack.ipynb)
+* [Implement a queue with enqueue and dequeue methods using a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue.ipynb)
 
 ## License
 
