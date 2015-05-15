@@ -21,7 +21,7 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 
 ## Linked Lists
 
-* [Linked list with insert, find, delete, and print methods](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/linked-list.ipynb)
+* [Implement a linked list with insert, find, delete, and print methods](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/linked-list.ipynb)
 * [Remove duplicates from a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/remove-duplicates.ipynb)
 * [Find the kth to last element of a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/kth-to-last-elem.ipynb)
 * [Delete a node in the middle of a linked list, given access to only that node](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/delete-mid.ipynb)
