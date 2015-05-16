@@ -1,3 +1,4 @@
+# Need to avoid naming this queue.py as it will conflict with IPython Notebook
 
 class Node(object):
     def __init__(self, data):
