@@ -34,6 +34,7 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Implement a queue with enqueue and dequeue methods using a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue.ipynb)
 * [Implement n stacks using a single array](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/n-stacks.ipynb)
 * [Implement a stack that keeps track of its minimum element](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack-min.ipynb)
+* [Implement SetOfStacks that wraps a list of stacks, each bound by a capacity](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/set-of-stacks.ipynb)
 
 ## License
 
