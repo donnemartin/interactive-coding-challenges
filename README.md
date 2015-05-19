@@ -28,6 +28,8 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Partition a linked list around a given value](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/partition.ipynb)
 * [Add two numbers whose digits are stored in a linked list in reverse order](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/add-reverse.ipynb)
 * [Find the start of a linked list loop](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/find-loop-start.ipynb)
+* [Determine if a linked list is a palindrome](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/palindrome.ipynb)
+
 
 ## Stacks and Queues
 
