@@ -38,6 +38,7 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Implement n stacks using a single array](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/n-stacks.ipynb)
 * [Implement a stack that keeps track of its minimum element](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack-min.ipynb)
 * [Implement a set of stacks class that wraps a list of stacks, each bound by a capacity](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/set-of-stacks.ipynb)
+* [Implement the Towers of Hanoi with 3 towers and N disks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/hanoi.ipynb)
 
 ## License
 
