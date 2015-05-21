@@ -30,7 +30,6 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Find the start of a linked list loop](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/find-loop-start.ipynb)
 * [Determine if a linked list is a palindrome](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked-lists/palindrome.ipynb)
 
-
 ## Stacks and Queues
 
 * [Implement a stack with push, pop, and peek methods using a linked list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack.ipynb)
@@ -39,6 +38,10 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Implement a stack that keeps track of its minimum element](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack-min.ipynb)
 * [Implement a set of stacks class that wraps a list of stacks, each bound by a capacity](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/set-of-stacks.ipynb)
 * [Implement the Towers of Hanoi with 3 towers and N disks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/hanoi.ipynb)
+
+## Hacker Rank
+
+* [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
 
 ## License
 
