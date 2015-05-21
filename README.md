@@ -42,6 +42,7 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 ## Hacker Rank
 
 * [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
+* [Maximizing XOR](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/maximizing-xor.ipynb)
 
 ## License
 
