@@ -24,3 +24,6 @@ class Stack(object):
         if self.top is not None:
             return self.top.data
         return None
+
+    def is_empty(self):
+        return self.peek() is None
