@@ -39,6 +39,7 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Implement a set of stacks class that wraps a list of stacks, each bound by a capacity](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/set-of-stacks.ipynb)
 * [Implement the Towers of Hanoi with 3 towers and N disks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/hanoi.ipynb)
 * [Implement a queue using two stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue-from-stacks.ipynb)
+* [Sort a stack using another stack as a buffer](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/sort-stack.ipynb)
 
 ## Hacker Rank
 
