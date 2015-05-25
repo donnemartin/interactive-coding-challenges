@@ -41,6 +41,10 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 * [Implement a queue using two stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue-from-stacks.ipynb)
 * [Sort a stack using another stack as a buffer](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/sort-stack.ipynb)
 
+## Sorting and Searching
+
+* [Implement selection sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/selection-sort.ipynb#)
+
 ## Hacker Rank
 
 * [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
