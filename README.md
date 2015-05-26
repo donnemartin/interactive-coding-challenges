@@ -10,6 +10,8 @@ algorithms-data-structures
 
 Continually updated IPython Notebooks containing coding problems and solutions (algorithms and data structures).
 
+Most solutions are in Python.
+
 ## Arrays and Strings
 
 * [Determine if a string contains unique characters](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/unique_chars.ipynb)
