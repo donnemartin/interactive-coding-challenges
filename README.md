@@ -48,6 +48,7 @@ Most solutions are in Python.
 * [Implement selection sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/selection-sort.ipynb#)
 * [Implement insertion sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/insertion-sort.ipynb#)
 * [Implement quick sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/quick-sort.ipynb#)
+* [Implement merge sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/merge-sort.ipynb#)
 
 ## Hacker Rank
 
