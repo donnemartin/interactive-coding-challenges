@@ -12,6 +12,21 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 
 Most solutions are in Python.
 
+## Index
+
+* [Arrays and Strings](#arrays-and-strings)
+* [Linked Lists](#linked-lists)
+* [Stacks and Queues](#stacks-and-queues)
+* [Sorting and Searching](#sorting-and-searching)
+* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming)
+* [Trees and Graphs](#trees-and-graphs)
+* [Bit Manipulation](#bit-manipulation)
+* [Scalability and Memory Limits](#scalability-and-memory-limits)
+* [Concurrency](#concurrency)
+* [Hacker Rank and TopCoder](#hacker-rank-and-topcoder)
+* [Credits](#credits)
+* [License](#license)
+
 ## Arrays and Strings
 
 * [Determine if a string contains unique characters](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/unique_chars.ipynb)
