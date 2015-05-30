@@ -50,7 +50,27 @@ Most solutions are in Python.
 * [Implement quick sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/quick-sort.ipynb#)
 * [Implement merge sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting-searching/merge-sort.ipynb#)
 
-## Hacker Rank
+## Recursion and Dynamic Programming
+
+[Coming Soon]
+
+## Trees and Graphs
+
+[Coming Soon]
+
+## Bit Manipulation
+
+[Coming Soon]
+
+## Scalability and Memory Limits
+
+[Coming Soon]
+
+## Concurrency
+
+[Coming Soon]
+
+## Hacker Rank and TopCoder
 
 * [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
 * [Maximizing XOR](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/maximizing-xor.ipynb)
