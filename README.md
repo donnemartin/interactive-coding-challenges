@@ -67,7 +67,7 @@ Most solutions are in Python.
 
 ## Recursion and Dynamic Programming
 
-[Coming Soon]
+* [Implement fibonacci recursively, dynamically, and iteratively](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/recursion-dynamic/fibonacci.ipynb#)
 
 ## Trees and Graphs
 
