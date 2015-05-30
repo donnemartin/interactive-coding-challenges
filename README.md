@@ -75,6 +75,15 @@ Most solutions are in Python.
 * [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
 * [Maximizing XOR](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/maximizing-xor.ipynb)
 
+## Credits
+
+* [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
+* [Programming Interviews Exposed](http://www.amazon.com/gp/product/1118261364/)
+* [Elements of Programming Interviews](http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600)
+* [Hacker Rank](https://www.hackerrank.com)
+* [TopCoder](https://www.topcoder.com/)
+
 ## License
 
     Copyright 2015 Donne Martin
