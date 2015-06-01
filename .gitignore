@@ -58,3 +58,6 @@ target/
 
 # Repo scratch directory
 scratch/
+
+# IPython Notebook templates
+template.ipynb
