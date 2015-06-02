@@ -35,6 +35,7 @@ Most solutions are in Python.
 * [Encode spaces in a string in-place](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/replace_char.ipynb)
 * [Compress a string](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/compress.ipynb)
 * [Determine if a string is a rotation of another](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/rotation.ipynb)
+* [Implement a hash table with set, get, and remove methods](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/hash-map.ipynb)
 
 ## Linked Lists
 
