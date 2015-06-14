@@ -24,7 +24,8 @@ Most solutions are in Python.
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
 * [Concurrency](#concurrency)
 * [Hacker Rank and TopCoder](#hacker-rank-and-topcoder)
-* [Credits](#credits)
+* [notebook-installation](#notebook-installation)
+* [credits](#credits)
 * [License](#license)
 
 ## Arrays and Strings
@@ -90,6 +91,20 @@ Most solutions are in Python.
 
 * [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
 * [Maximizing XOR](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/maximizing-xor.ipynb)
+
+## notebook-installation
+
+Anaconda is a free distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing that aims to simplify package management and deployment.
+
+Follow instructions to install [Anaconda](http://docs.continuum.io/anaconda/install.html) or the more lightweight [miniconda](http://conda.pydata.org/miniconda.html).
+
+To view interactive content or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
+
+```
+$ git clone https://github.com/donnemartin/data-science-ipython-notebooks.git
+$ cd [downloaded repo directory name]
+$ ipython notebook
+```
 
 ## Credits
 
