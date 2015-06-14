@@ -24,9 +24,9 @@ Most solutions are in Python.
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
 * [Concurrency](#concurrency)
 * [Hacker Rank and TopCoder](#hacker-rank-and-topcoder)
-* [notebook-installation](#notebook-installation)
-* [credits](#credits)
-* [contact-info](#contact-info)
+* [Notebook Installation](#notebook-installation)
+* [Credits](#credits)
+* [Contact Info](#contact-info)
 * [License](#license)
 
 ## Arrays and Strings
