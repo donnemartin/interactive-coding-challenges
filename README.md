@@ -93,7 +93,7 @@ Most solutions are in Python.
 * [Utopian Tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/utopian-tree.ipynb)
 * [Maximizing XOR](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hacker-rank/maximizing-xor.ipynb)
 
-## notebook-installation
+## Notebook Installation
 
 Anaconda is a free distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing that aims to simplify package management and deployment.
 
@@ -116,7 +116,7 @@ $ ipython notebook
 * [Hacker Rank](https://www.hackerrank.com)
 * [TopCoder](https://www.topcoder.com/)
 
-## contact-info
+## Contact Info
 
 Feel free to contact me to discuss any issues, questions, or comments.
 
