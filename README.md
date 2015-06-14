@@ -26,6 +26,7 @@ Most solutions are in Python.
 * [Hacker Rank and TopCoder](#hacker-rank-and-topcoder)
 * [notebook-installation](#notebook-installation)
 * [credits](#credits)
+* [contact-info](#contact-info)
 * [License](#license)
 
 ## Arrays and Strings
@@ -114,6 +115,16 @@ $ ipython notebook
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600)
 * [Hacker Rank](https://www.hackerrank.com)
 * [TopCoder](https://www.topcoder.com/)
+
+## contact-info
+
+Feel free to contact me to discuss any issues, questions, or comments.
+
+* Email: [donne.martin@gmail.com](mailto:donne.martin@gmail.com)
+* Twitter: [@donne_martin](https://twitter.com/donne_martin)
+* GitHub: [donnemartin](https://github.com/donnemartin)
+* LinkedIn: [donnemartin](https://www.linkedin.com/in/donnemartin)
+* Website: [donnemartin.com](http://donnemartin.com)
 
 ## License
 
