@@ -10,6 +10,8 @@ algorithms-data-structures
 
 Continually updated IPython Notebooks containing coding problems and solutions (algorithms and data structures).
 
+This repo is a collection of my notes while sharpening my skills tackling coding problems.
+
 Most solutions are in Python.
 
 ## Index
@@ -127,6 +129,10 @@ Feel free to contact me to discuss any issues, questions, or comments.
 * Website: [donnemartin.com](http://donnemartin.com)
 
 ## License
+
+This repository contains a variety of content; some developed by Donne Martin, and some from third-parties.  The third-party content is distributed under the license provided by those parties.
+
+The content developed by Donne Martin is distributed under the following license:
 
     Copyright 2015 Donne Martin
 
