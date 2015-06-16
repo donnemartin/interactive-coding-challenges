@@ -126,7 +126,7 @@ For more details on installation, follow the directions [here.](http://ipython.o
 To interact with or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
 
 ```
-$ git clone https://github.com/donnemartin/data-science-ipython-notebooks.git
+$ git clone https://github.com/donnemartin/algorithms-data-structures.git
 $ cd [downloaded repo directory name]
 $ ipython notebook
 ```
