@@ -97,11 +97,21 @@ Most solutions are in Python.
 
 ## Notebook Installation
 
-Anaconda is a free distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing that aims to simplify package management and deployment.
+If you already have Python installed and are familiar with installing packages, you can get IPython with pip:
 
-Follow instructions to install [Anaconda](http://docs.continuum.io/anaconda/install.html) or the more lightweight [miniconda](http://conda.pydata.org/miniconda.html).
+```
+pip install ipython
+```
 
-To view interactive content or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
+Or if you want to also get the dependencies for the IPython notebook:
+
+```
+pip install "ipython[notebook]"
+```
+
+For more details on installation, follow the directions [here](http://ipython.org/install.html)
+
+To interact with or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
 
 ```
 $ git clone https://github.com/donnemartin/data-science-ipython-notebooks.git
