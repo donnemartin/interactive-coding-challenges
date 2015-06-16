@@ -25,7 +25,7 @@ Most solutions are in Python.
 * [Bit Manipulation](#bit-manipulation)
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
 * [Concurrency](#concurrency)
-* [Hacker Rank and TopCoder](#hacker-rank-and-topcoder)
+* [Hacker Rank and TopCoder](#hackerrank-and-topcoder)
 * [Notebook Installation](#notebook-installation)
 * [Credits](#credits)
 * [Contact Info](#contact-info)
