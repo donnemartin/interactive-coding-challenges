@@ -12,8 +12,6 @@ Continually updated IPython Notebooks containing coding problems and solutions (
 
 This repo is a collection of my notes while sharpening my skills tackling coding problems.
 
-Most solutions are in Python.
-
 ## Index
 
 * [Arrays and Strings](#arrays-and-strings)
