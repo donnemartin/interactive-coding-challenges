@@ -28,6 +28,7 @@ class LinkedList(object):
         else:
             node.next = self.head
             self.head = node
+        return node
             
     def append(self, data, next_node=None):
         if data is None:
@@ -40,6 +41,7 @@ class LinkedList(object):
             while curr_node.next is not None:
                 curr_node = curr_node.next
             curr_node.next = node
+        return node
             
     def find(self, data):
         if data is None:
@@ -52,6 +54,7 @@ class LinkedList(object):
                 return curr_node
             else:
                 curr_node = curr_node.next
+        return
                 
     def delete(self, data):
         if data is None:
@@ -73,3 +76,11 @@ class LinkedList(object):
         while curr_node is not None:
             print(curr_node.data)
             curr_node = curr_node.next
+
+    def get_all_data(self):
+        data = []
+        curr_node = self.head
+        while curr_node is not None:
+            data.append(curr_node.data)
+            curr_node = curr_node.next
+        return data
