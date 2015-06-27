@@ -136,6 +136,8 @@ Notebook tested with Python 2.7.x.
 * [Elements of Programming Interviews](http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) | [GitHub](https://github.com/epibook/epibook.github.io)
 * [Programming Interviews Exposed](http://www.amazon.com/gp/product/1118261364/)
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) | [Selected Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+* [CareerCup](http://www.careercup.com/)
+* [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
 * [TopCoder](https://www.topcoder.com/)
 
