@@ -25,6 +25,7 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 * [Hacker Rank and TopCoder](#hackerrank-and-topcoder)
 * [Notebook Installation](#notebook-installation)
 * [Credits](#credits)
+* [Contributing](#contributing)
 * [Contact Info](#contact-info)
 * [License](#license)
 
@@ -140,6 +141,14 @@ Notebook tested with Python 2.7.x.
 * [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
 * [TopCoder](https://www.topcoder.com/)
+
+## Contributing
+
+Contributions are welcome!
+
+For bug reports or requests please [submit an issue](https://github.com/donnemartin/data-science-ipython-notebooks/issues).
+
+For pull requests, please follow the general notebook format.
 
 ## Contact Info
 
