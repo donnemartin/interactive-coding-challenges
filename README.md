@@ -128,6 +128,8 @@ $ cd [downloaded repo directory name]
 $ ipython notebook
 ```
 
+Notebook tested with Python 2.7.x.
+
 ## Credits
 
 * [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) | [GitHub](https://github.com/gaylemcd/ctci)
