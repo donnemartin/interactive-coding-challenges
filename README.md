@@ -149,10 +149,6 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 ## License
 
-This repository contains a variety of content; some developed by Donne Martin, and some from third-parties.  The third-party content is distributed under the license provided by those parties.
-
-The content developed by Donne Martin is distributed under the following license:
-
     Copyright 2015 Donne Martin
 
     Licensed under the Apache License, Version 2.0 (the "License");
