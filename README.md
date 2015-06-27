@@ -65,7 +65,7 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 | [queue-from-stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue-from-stacks.ipynb) | Implement a queue using two stacks |
 | [sort-stack](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/sort-stack.ipynb) | Sort a stack using another stack as a buffer |
 | [stack](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/stack.ipynb) | Implement a stack with push, pop, and peek methods using a linked list |
-| [queue](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue.ipynb) | Implement a queue with enqueue and dequeue methods using a linked list |
+| [queue](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks-queues/queue-list.ipynb) | Implement a queue with enqueue and dequeue methods using a linked list |
 
 ## Sorting and Searching
 
