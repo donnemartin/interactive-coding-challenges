@@ -22,7 +22,7 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 * [Bit Manipulation](#bit-manipulation)
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
 * [Concurrency](#concurrency)
-* [Hacker Rank and TopCoder](#hackerrank-and-topcoder)
+* [HackerRank and TopCoder](#hackerrank-and-topcoder)
 * [Notebook Installation](#notebook-installation)
 * [Credits](#credits)
 * [Contributing](#contributing)
