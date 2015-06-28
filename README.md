@@ -45,14 +45,14 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [remove-duplicates](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/remove-duplicates.ipynb) | Remove duplicates from a linked list |
-| [kth-to-last-elem](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/kth-to-last-elem.ipynb) | Find the kth to last element of a linked list |
-| [delete-mid](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/delete-mid.ipynb) | Delete a node in the middle of a linked list, given access to only that node |
-| [partition](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/partition.ipynb) | Partition a linked list around a given value |
-| [add-reverse](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/add-reverse.ipynb) | Add two numbers whose digits are stored in a linked list in reverse order |
-| [find-loop-start](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/find-loop-start.ipynb) | Find the start of a linked list loop |
-| [palindrome](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/palindrome.ipynb) | Determine if a linked list is a palindrome |
-| [linked-list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/linked-list.ipynb) | Implement a linked list with insert, find, delete, and print methods |
+| [remove-duplicates](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/remove_duplicates/remove_duplicates.ipynb) | Remove duplicates from a linked list |
+| [kth-to-last-elem](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/kth_to_last_elem/kth_to_last_elem.ipynb) | Find the kth to last element of a linked list |
+| [delete-mid](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/delete_mid/delete_mid.ipynb) | Delete a node in the middle of a linked list, given access to only that node |
+| [partition](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/partition/partition.ipynb) | Partition a linked list around a given value |
+| [add-reverse](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/add_reverse/add_reverse.ipynb) | Add two numbers whose digits are stored in a linked list in reverse order |
+| [find-loop-start](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/find_loop_start/find_loop_start.ipynb) | Find the start of a linked list loop |
+| [palindrome](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/palindrome/palindrome.ipynb) | Determine if a linked list is a palindrome |
+| [linked-list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/linked_list/linked_list.ipynb) | Implement a linked list with insert, find, delete, and print methods |
 
 ## Stacks and Queues
 
