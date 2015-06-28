@@ -45,36 +45,36 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [remove-duplicates](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/remove_duplicates/remove_duplicates.ipynb) | Remove duplicates from a linked list |
-| [kth-to-last-elem](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/kth_to_last_elem/kth_to_last_elem.ipynb) | Find the kth to last element of a linked list |
-| [delete-mid](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/delete_mid/delete_mid.ipynb) | Delete a node in the middle of a linked list, given access to only that node |
+| [remove_duplicates](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/remove_duplicates/remove_duplicates.ipynb) | Remove duplicates from a linked list |
+| [kth_to_last_elem](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/kth_to_last_elem/kth_to_last_elem.ipynb) | Find the kth to last element of a linked list |
+| [delete_mid](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/delete_mid/delete_mid.ipynb) | Delete a node in the middle of a linked list, given access to only that node |
 | [partition](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/partition/partition.ipynb) | Partition a linked list around a given value |
-| [add-reverse](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/add_reverse/add_reverse.ipynb) | Add two numbers whose digits are stored in a linked list in reverse order |
-| [find-loop-start](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/find_loop_start/find_loop_start.ipynb) | Find the start of a linked list loop |
+| [add_reverse](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/add_reverse/add_reverse.ipynb) | Add two numbers whose digits are stored in a linked list in reverse order |
+| [find_loop_start](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/find_loop_start/find_loop_start.ipynb) | Find the start of a linked list loop |
 | [palindrome](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/palindrome/palindrome.ipynb) | Determine if a linked list is a palindrome |
-| [linked-list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/linked_list/linked_list.ipynb) | Implement a linked list with insert, find, delete, and print methods |
+| [linked_list](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/linked_lists/linked_list/linked_list.ipynb) | Implement a linked list with insert, find, delete, and print methods |
 
 ## Stacks and Queues
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [n-stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/n-stacks.ipynb) | Implement n stacks using a single array |
-| [stack-min](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/stack-min.ipynb) | Implement a stack that keeps track of its minimum element |
-| [set-of-stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/set-of-stacks.ipynb) | Implement a set of stacks class that wraps a list of stacks, each bound by a capacity |
-| [hanoi](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/hanoi.ipynb) | Implement the Towers of Hanoi with 3 towers and N disks |
-| [queue-from-stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/queue-from-stacks.ipynb) | Implement a queue using two stacks |
-| [sort-stack](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/sort-stack.ipynb) | Sort a stack using another stack as a buffer |
-| [stack](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/stack.ipynb) | Implement a stack with push, pop, and peek methods using a linked list |
-| [queue](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/queue-list.ipynb) | Implement a queue with enqueue and dequeue methods using a linked list |
+| [n_stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/n_stacks/n_stacks.ipynb) | Implement n stacks using a single array |
+| [stack_min](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/stack_min/stack_min.ipynb) | Implement a stack that keeps track of its minimum element |
+| [set_of_stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/set_of_stacks/set_of_stacks.ipynb) | Implement a set of stacks class that wraps a list of stacks, each bound by a capacity |
+| [hanoi](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/hanoi/hanoi.ipynb) | Implement the Towers of Hanoi with 3 towers and N disks |
+| [queue_from_stacks](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/queue_from_stacks/queue_from_stacks.ipynb) | Implement a queue using two stacks |
+| [sort_stack](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/sort_stack/sort_stack.ipynb) | Sort a stack using another stack as a buffer |
+| [stack](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/stack/stack.ipynb) | Implement a stack with push, pop, and peek methods using a linked list |
+| [queue](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/stacks_queues/queue_list/queue_list.ipynb) | Implement a queue with enqueue and dequeue methods using a linked list |
 
 ## Sorting and Searching
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [selection-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/selection_sort/selection_sort.ipynb#) | Implement selection sort |
-| [insertion-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/insertion_sort/insertion_sort.ipynb#) | Implement insertion sort |
-| [quick-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/quick_sort/quick_sort.ipynb#) | Implement quick sort |
-| [merge-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/merge_sort/merge_sort.ipynb#) | Implement merge sort |
+| [selection_sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/selection_sort/selection_sort.ipynb#) | Implement selection sort |
+| [insertion_sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/insertion_sort/insertion_sort.ipynb#) | Implement insertion sort |
+| [quick_sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/quick_sort/quick_sort.ipynb#) | Implement quick sort |
+| [merge_sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/merge_sort/merge_sort.ipynb#) | Implement merge sort |
 
 ## Recursion and Dynamic Programming
 
@@ -102,8 +102,8 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [utopian-tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/utopian_tree/utopian_tree.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
-| [maximizing-xor](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/maximizing_xor/maximizing_xor.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
+| [utopian_tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/utopian_tree/utopian_tree.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
+| [maximizing_xor](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/maximizing_xor/maximizing_xor.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
 
 ## Notebook Installation
 
