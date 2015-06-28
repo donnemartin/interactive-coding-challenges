@@ -102,8 +102,8 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [utopian-tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/utopian-tree.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
-| [maximizing-xor](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/maximizing-xor.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
+| [utopian-tree](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/utopian_tree/utopian_tree.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
+| [maximizing-xor](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/hackerrank_topcoder/maximizing_xor/maximizing_xor.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
 
 ## Notebook Installation
 
