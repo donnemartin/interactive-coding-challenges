@@ -33,13 +33,13 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [unique_chars](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/unique_chars.ipynb) | Determine if a string contains unique characters |
-| [reverse_string](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/reverse_string.ipynb) | Reverse characters in a string |
-| [permutation](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/permutation.ipynb) | Determine if a string is a permutation of another |
-| [replace_char](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/replace_char.ipynb) | Encode spaces in a string in-place |
-| [compress](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/compress.ipynb) | Compress a string |
-| [rotation](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/rotation.ipynb) | Determine if a string is a rotation of another |
-| [hash-map](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/hash-map.ipynb) | Implement a hash table with set, get, and remove methods |
+| [unique_chars](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/unique_chars/unique_chars.ipynb) | Determine if a string contains unique characters |
+| [reverse_string](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/reverse_string/reverse_string.ipynb) | Reverse characters in a string |
+| [permutation](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/permutation/permutation.ipynb) | Determine if a string is a permutation of another |
+| [replace_char](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/replace_char/replace_char.ipynb) | Encode spaces in a string in-place |
+| [compress](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/compress/compress.ipynb) | Compress a string |
+| [rotation](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/rotation/rotation.ipynb) | Determine if a string is a rotation of another |
+| [hash-map](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/arrays-strings/hash_map/hash_map.ipynb) | Implement a hash table with set, get, and remove methods |
 
 ## Linked Lists
 
