@@ -71,10 +71,10 @@ This repo is a collection of my notes while sharpening my skills tackling coding
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [selection-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/selection-sort.ipynb#) | Implement selection sort |
-| [insertion-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/insertion-sort.ipynb#) | Implement insertion sort |
-| [quick-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/quick-sort.ipynb#) | Implement quick sort |
-| [merge-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/merge-sort.ipynb#) | Implement merge sort |
+| [selection-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/selection_sort/selection_sort.ipynb#) | Implement selection sort |
+| [insertion-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/insertion_sort/insertion_sort.ipynb#) | Implement insertion sort |
+| [quick-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/quick_sort/quick_sort.ipynb#) | Implement quick sort |
+| [merge-sort](http://nbviewer.ipython.org/github/donnemartin/algorithms-data-structures/blob/master/sorting_searching/merge_sort/merge_sort.ipynb#) | Implement merge sort |
 
 ## Recursion and Dynamic Programming
 
