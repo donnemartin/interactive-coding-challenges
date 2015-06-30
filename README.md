@@ -78,7 +78,7 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [fibonacci](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/recursion_dynamic/fibonacci_solution.ipynb#) | Implement fibonacci recursively, dynamically, and iteratively |
+| [fibonacci](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci.ipynb#) | Implement fibonacci recursively, dynamically, and iteratively |
 
 ## Trees and Graphs
 
