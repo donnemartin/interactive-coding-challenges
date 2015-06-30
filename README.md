@@ -43,14 +43,14 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [remove_duplicates](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/remove_duplicates/remove_duplicates.ipynb) | Remove duplicates from a linked list |
-| [kth_to_last_elem](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/kth_to_last_elem/kth_to_last_elem.ipynb) | Find the kth to last element of a linked list |
-| [delete_mid](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/delete_mid/delete_mid.ipynb) | Delete a node in the middle of a linked list, given access to only that node |
-| [partition](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/partition/partition.ipynb) | Partition a linked list around a given value |
-| [add_reverse](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/add_reverse/add_reverse.ipynb) | Add two numbers whose digits are stored in a linked list in reverse order |
-| [find_loop_start](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/find_loop_start/find_loop_start.ipynb) | Find the start of a linked list loop |
-| [palindrome](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/palindrome/palindrome.ipynb) | Determine if a linked list is a palindrome |
-| [linked_list](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/linked_list/linked_list.ipynb) | Implement a linked list with insert, find, delete, and print methods |
+| [remove_duplicates](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/remove_duplicates/remove_duplicates_solution.ipynb) | Remove duplicates from a linked list |
+| [kth_to_last_elem](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/kth_to_last_elem/kth_to_last_elem_solution.ipynb) | Find the kth to last element of a linked list |
+| [delete_mid](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/delete_mid/delete_mid_solution.ipynb) | Delete a node in the middle of a linked list, given access to only that node |
+| [partition](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/partition/partition_solution.ipynb) | Partition a linked list around a given value |
+| [add_reverse](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/add_reverse/add_reverse_solution.ipynb) | Add two numbers whose digits are stored in a linked list in reverse order |
+| [find_loop_start](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/find_loop_start/find_loop_start_solution.ipynb) | Find the start of a linked list loop |
+| [palindrome](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/palindrome/palindrome_solution.ipynb) | Determine if a linked list is a palindrome |
+| [linked_list](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/linked_lists/linked_list/linked_list_solution.ipynb) | Implement a linked list with insert, find, delete, and print methods |
 
 ## Stacks and Queues
 
