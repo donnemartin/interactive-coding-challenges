@@ -56,29 +56,29 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [n_stacks](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/n_stacks/n_stacks.ipynb) | Implement n stacks using a single array |
-| [stack_min](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/stack_min/stack_min.ipynb) | Implement a stack that keeps track of its minimum element |
-| [set_of_stacks](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/set_of_stacks/set_of_stacks.ipynb) | Implement a set of stacks class that wraps a list of stacks, each bound by a capacity |
-| [hanoi](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/hanoi/hanoi.ipynb) | Implement the Towers of Hanoi with 3 towers and N disks |
-| [queue_from_stacks](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/queue_from_stacks/queue_from_stacks.ipynb) | Implement a queue using two stacks |
-| [sort_stack](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/sort_stack/sort_stack.ipynb) | Sort a stack using another stack as a buffer |
-| [stack](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/stack/stack.ipynb) | Implement a stack with push, pop, and peek methods using a linked list |
-| [queue](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/queue_list/queue_list.ipynb) | Implement a queue with enqueue and dequeue methods using a linked list |
+| [n_stacks](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/n_stacks/n_stacks_solution.ipynb) | Implement n stacks using a single array |
+| [stack_min](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/stack_min/stack_min_solution.ipynb) | Implement a stack that keeps track of its minimum element |
+| [set_of_stacks](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/set_of_stacks/set_of_stacks_solution.ipynb) | Implement a set of stacks class that wraps a list of stacks, each bound by a capacity |
+| [hanoi](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/hanoi/hanoi_solution.ipynb) | Implement the Towers of Hanoi with 3 towers and N disks |
+| [queue_from_stacks](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/queue_from_stacks/queue_from_stacks_solution.ipynb) | Implement a queue using two stacks |
+| [sort_stack](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/sort_stack/sort_stack_solution.ipynb) | Sort a stack using another stack as a buffer |
+| [stack](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/stack/stack_solution.ipynb) | Implement a stack with push, pop, and peek methods using a linked list |
+| [queue](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/stacks_queues/queue_list/queue_list_solution.ipynb) | Implement a queue with enqueue and dequeue methods using a linked list |
 
 ## Sorting and Searching
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [selection_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort.ipynb#) | Implement selection sort |
-| [insertion_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort.ipynb#) | Implement insertion sort |
-| [quick_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort.ipynb#) | Implement quick sort |
-| [merge_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort.ipynb#) | Implement merge sort |
+| [selection_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb#) | Implement selection sort |
+| [insertion_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_solution.ipynb#) | Implement insertion sort |
+| [quick_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_solution.ipynb#) | Implement quick sort |
+| [merge_sort](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_solution.ipynb#) | Implement merge sort |
 
 ## Recursion and Dynamic Programming
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [fibonacci](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/recursion_dynamic/fibonacci.ipynb#) | Implement fibonacci recursively, dynamically, and iteratively |
+| [fibonacci](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/recursion_dynamic/fibonacci_solution.ipynb#) | Implement fibonacci recursively, dynamically, and iteratively |
 
 ## Trees and Graphs
 
