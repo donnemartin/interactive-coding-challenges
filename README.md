@@ -31,13 +31,13 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [unique_chars](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/unique_chars/unique_chars.ipynb) | Determine if a string contains unique characters |
-| [reverse_string](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/reverse_string/reverse_string.ipynb) | Reverse characters in a string |
-| [permutation](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/permutation/permutation.ipynb) | Determine if a string is a permutation of another |
-| [replace_char](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/replace_char/replace_char.ipynb) | Encode spaces in a string in-place |
-| [compress](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/compress/compress.ipynb) | Compress a string |
+| [unique_chars](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/unique_chars/unique_chars_solution.ipynb) | Determine if a string contains unique characters |
+| [reverse_string](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/reverse_string/reverse_string_solution.ipynb) | Reverse characters in a string |
+| [permutation](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/permutation/permutation_solution.ipynb) | Determine if a string is a permutation of another |
+| [replace_char](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/replace_char/replace_char_solution.ipynb) | Encode spaces in a string in-place |
+| [compress](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/compress/compress_solution.ipynb) | Compress a string |
 | [rotation](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/rotation/rotation_solution.ipynb) | Determine if a string is a rotation of another |
-| [hash-map](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/hash_map/hash_map.ipynb) | Implement a hash table with set, get, and remove methods |
+| [hash-map](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/hash_map/hash_map_solution.ipynb) | Implement a hash table with set, get, and remove methods |
 
 ## Linked Lists
 
