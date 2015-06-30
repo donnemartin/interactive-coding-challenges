@@ -36,7 +36,7 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 | [permutation](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/permutation/permutation.ipynb) | Determine if a string is a permutation of another |
 | [replace_char](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/replace_char/replace_char.ipynb) | Encode spaces in a string in-place |
 | [compress](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/compress/compress.ipynb) | Compress a string |
-| [rotation](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/rotation/rotation.ipynb) | Determine if a string is a rotation of another |
+| [rotation](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/rotation/rotation_solution.ipynb) | Determine if a string is a rotation of another |
 | [hash-map](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/arrays_strings/hash_map/hash_map.ipynb) | Implement a hash table with set, get, and remove methods |
 
 ## Linked Lists
