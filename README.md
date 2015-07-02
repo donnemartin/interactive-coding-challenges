@@ -100,8 +100,8 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [utopian_tree](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/hackerrank_topcoder/utopian_tree/utopian_tree.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
-| [maximizing_xor](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/hackerrank_topcoder/maximizing_xor/maximizing_xor.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
+| [utopian_tree](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/hackerrank_topcoder/utopian_tree/utopian_tree_solution.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
+| [maximizing_xor](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/hackerrank_topcoder/maximizing_xor/maximizing_xor_solution.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
 
 ## Notebook Installation
 
