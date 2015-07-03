@@ -20,7 +20,7 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 * [Bit Manipulation](#bit-manipulation)
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
 * [Concurrency](#concurrency)
-* [HackerRank and TopCoder](#hackerrank-and-topcoder)
+* [Online Judges](#online-judges)
 * [Notebook Installation](#notebook-installation)
 * [Credits](#credits)
 * [Contributing](#contributing)
@@ -96,12 +96,12 @@ Continually updated Python Notebooks containing TDD-based coding challenges and 
 
 [Coming Soon]
 
-## HackerRank and TopCoder
+## Online Judges
 
 | Notebook | Problem Statement |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [utopian_tree](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/hackerrank_topcoder/utopian_tree/utopian_tree_solution.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
-| [maximizing_xor](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/hackerrank_topcoder/maximizing_xor/maximizing_xor_solution.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
+| [utopian_tree](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/online_judges/utopian_tree/utopian_tree_solution.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/utopian-tree) |
+| [maximizing_xor](http://nbviewer.ipython.org/github/donnemartin/coding-challenges/blob/master/online_judges/maximizing_xor/maximizing_xor_solution.ipynb) | [View problem statement on HackerRank](https://www.hackerrank.com/challenges/maximizing-xor) |
 
 ## Notebook Installation
 
