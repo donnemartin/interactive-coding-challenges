@@ -7,11 +7,11 @@ Please carefully read this page before submitting a pull request.
 
 ## Bug Reports
 
-For bug reports or requests [submit an issue](https://github.com/donnemartin/coding-challenges/issues).
+For bug reports or requests [submit an issue](https://github.com/donnemartin/interactive-coding-challenges/issues).
 
 ## Pull Requests
 
-**Please follow the general [Repo Structure](https://github.com/donnemartin/coding-challenges#repo-structure) and [Notebook Structure](https://github.com/donnemartin/coding-challenges#notebook-structure) before submitting your pull request.**
+**Please follow the general [Repo Structure](https://github.com/donnemartin/interactive-coding-challenges#repo-structure) and [Notebook Structure](https://github.com/donnemartin/interactive-coding-challenges#notebook-structure) before submitting your pull request.**
 
 ### GitHub Pull Requests Docs
 
@@ -19,7 +19,7 @@ If you are not familiar with pull requests, review the [pull request docs](https
 
 ### Notebook Installation
 
-Refer to [Accessing the Challenges](https://github.com/donnemartin/coding-challenges#accessing-the-challenges), [Notebook Installation](https://github.com/donnemartin/coding-challenges#notebook-installation), and [Nose Installation](https://github.com/donnemartin/coding-challenges#nose-installation) to set up your local environment.
+Refer to [Accessing the Challenges](https://github.com/donnemartin/interactive-coding-challenges#accessing-the-challenges), [Notebook Installation](https://github.com/donnemartin/interactive-coding-challenges#notebook-installation), and [Nose Installation](https://github.com/donnemartin/interactive-coding-challenges#nose-installation) to set up your local environment.
 
 ### Adding New Solutions to Existing Challenges
 
@@ -34,13 +34,13 @@ The README contains several sample challenges that are not yet implemented.
 * The sample challenges are only suggestions, please do not limit yourself to only these topics
 * Feel free to send pull requests on different challenges or categories of challenges
 * Try to keep the "Challenge" title relatively short and expand on the details within the notebook
-* Review the [Repo Structure](https://github.com/donnemartin/coding-challenges#repo-structure) and [Notebook Structure](https://github.com/donnemartin/coding-challenges#notebook-structure) sections
-* Check out the [template challenge and solution notebooks](https://github.com/donnemartin/coding-challenges/templates/) to help you get started
+* Review the [Repo Structure](https://github.com/donnemartin/interactive-coding-challenges#repo-structure) and [Notebook Structure](https://github.com/donnemartin/interactive-coding-challenges#notebook-structure) sections
+* Check out the [template challenge and solution notebooks](https://github.com/donnemartin/interactive-coding-challenges/templates/) to help you get started
 
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Check if a number is prime | [Contribute](https://github.com/donnemartin/coding-challenges#contributing)│[Contribute](https://github.com/donnemartin/coding-challenges#contributing) |
-| Generate a list of primes | [Contribute](https://github.com/donnemartin/coding-challenges#contributing)│[Contribute](https://github.com/donnemartin/coding-challenges#contributing) |
+| Check if a number is prime | [Contribute](https://github.com/donnemartin/interactive-coding-challenges#contributing)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges#contributing) |
+| Generate a list of primes | [Contribute](https://github.com/donnemartin/interactive-coding-challenges#contributing)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges#contributing) |
 
 Update the list of challenges in the README so we can enjoy your challenge!
 
@@ -48,7 +48,7 @@ Update the list of challenges in the README so we can enjoy your challenge!
 
 When contributing to a notebook, update the notebook author(s):
 
-<small><i>This notebook was prepared by [Joe](https://github.com/Joe) and [Jane](https://github.com/Jane). Source and license info is on [GitHub](https://github.com/donnemartin/coding-challenges).</i></small>
+<small><i>This notebook was prepared by [Joe](https://github.com/Joe) and [Jane](https://github.com/Jane). Source and license info is on [GitHub](https://github.com/donnemartin/interactive-coding-challenges).</i></small>
 
 ### Maintain Consistent Style
 
