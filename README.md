@@ -7,7 +7,20 @@
 interactive-coding-challenges
 ============
 
-Continually updated Python Notebooks containing TDD-based coding challenges and solutions (algorithms and data structures).
+**Interactive, test-driven coding challenges**.
+
+Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews** or **coding competitions**.
+
+Each challenge has one or more reference solutions that are:
+* Fully functional
+* Unit tested
+* Easy-to-understand
+
+Notebooks also detail:
+* Constraints
+* Test cases
+* Algorithms
+* Big-O time and space complexities
 
 ## Index
 
