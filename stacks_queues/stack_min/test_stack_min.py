@@ -26,7 +26,7 @@ class TestStackMin(object):
         assert_equal(stack.pop(), 1)
         assert_equal(stack.min(), 5)
         assert_equal(stack.pop(), 5)
-        assert_equal(stack.min(), sys.maxint)
+        assert_equal(stack.min(), sys.maxsize)
 
         print('Test: Pop empty stack')
         assert_equal(stack.pop(), None)
