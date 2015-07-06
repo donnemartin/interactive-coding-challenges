@@ -379,22 +379,29 @@ More information on Nose can be found [here](https://nose.readthedocs.org/en/lat
 
 ## Credits
 
-* [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) | [GitHub](https://github.com/gaylemcd/ctci)
-* [Elements of Programming Interviews](http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) | [GitHub](https://github.com/epibook/epibook.github.io)
+### Resources
+
+* [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) | [GitHub Solutions](https://github.com/gaylemcd/ctci)
+* [Elements of Programming Interviews](http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) | [GitHub Solutions](https://github.com/epibook/epibook.github.io)
 * [Programming Interviews Exposed](http://www.amazon.com/gp/product/1118261364/)
-* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) | [Selected Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) | [Selected Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 * [CareerCup](http://www.careercup.com/)
 * [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
 * [TopCoder](https://www.topcoder.com/)
 
-## Contributing
+### Images
 
-Contributions are welcome!
-
-For bug reports or requests please [submit an issue](https://github.com/donnemartin/data-science-ipython-notebooks/issues).
-
-For pull requests, please follow the general notebook format.
+* [Arrays and Strings: nltk.org](http://www.nltk.org/images/string-slicing.png)
+* [Linked Lists: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
+* [Stacks: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/2/29/Data_stack.svg)
+* [Queues: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
+* [Sorting and Searching: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+* [Recursion and Dynamic Programming: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/b/bf/PascalTriangleFibanacci.svg)
+* [Trees and Graphs: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
+* [Mathematics and Probability: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/d/d2/Gaussian_distribution_2.jpg)
+* [Bit Manipulation: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/5/5c/Rotate_left_logically.svg)
+* [Online Judges: topcoder.com](https://www.topcoder.com/wp-content/uploads/2014/05/topcoder_logo_home_sm.png)
 
 ## Contact Info
 
