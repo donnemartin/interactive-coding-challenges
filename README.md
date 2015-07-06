@@ -384,7 +384,7 @@ More information on Nose can be found [here](https://nose.readthedocs.org/en/lat
 * [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) | [GitHub Solutions](https://github.com/gaylemcd/ctci)
 * [Elements of Programming Interviews](http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) | [GitHub Solutions](https://github.com/epibook/epibook.github.io)
 * [Programming Interviews Exposed](http://www.amazon.com/gp/product/1118261364/)
-* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) | [Selected Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
+* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) | [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
 * [CareerCup](http://www.careercup.com/)
 * [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
