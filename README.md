@@ -1,8 +1,8 @@
+<br/>
 <p align="center">
-  <img src="http://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif">
-  <br/>
-  <i>Wikipedia: Quicksort</i>
+  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
 </p>
+<br/>
 
 interactive-coding-challenges
 ============
