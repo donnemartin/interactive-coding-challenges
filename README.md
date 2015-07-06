@@ -61,6 +61,23 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 * [Challenge Notebook] Unit test for your code.  Expected to fail until you solve the challenge.
 * [Solution Notebook] Unit test for the reference solution(s).
 
+## Future Development
+
+Challenges, solutions, and unit tests are presented in the form of **IPython/Jupyter Notebooks**.
+
+* Notebooks currently contain mostly Python solutions, but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
+* Repo will be **continually updated** with new solutions and challenges
+
+
+## Contributing
+
+Contributions are welcome!
+
+Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details on how to:
+* Submit issues
+* Add solutions to existing challenges
+* Add new challenges
+
 ## Index
 
 * [Arrays and Strings](#arrays-and-strings)
