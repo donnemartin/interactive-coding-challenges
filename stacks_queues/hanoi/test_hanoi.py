@@ -2,14 +2,14 @@ from nose.tools import assert_equal
 
 
 class TestHanoi(object):
-    
+
     def test_hanoi(self):
         num_disks = 3
         src = Stack()
         buff = Stack()
         dest = Stack()
 
-        print('Test: NULL towers')
+        print('Test: None towers')
         hanoi(num_disks, None, None, None)
 
         print('Test: 0 disks')
@@ -33,6 +33,6 @@ class TestHanoi(object):
 def main():
     test = TestHanoi()
     test.test_hanoi()
-    
+
 if __name__ == '__main__':
     main()
