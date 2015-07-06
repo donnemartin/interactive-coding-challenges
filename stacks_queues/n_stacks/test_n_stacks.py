@@ -3,7 +3,7 @@ from nose.tools import raises
 
 
 class TestStacks(object):
-    
+
     @raises(Exception)
     def test_pop_on_empty(self, num_stacks, stack_size):
         print('Test: Pop on empty stack')
@@ -14,7 +14,7 @@ class TestStacks(object):
     def test_push_on_full(self, num_stacks, stack_size):
         print('Test: Push to full stack')
         stacks = Stacks(num_stacks, stack_size)
-        for i in xrange(0, stack_size):
+        for i in range(0, stack_size):
             stacks.push(2, i)
         stacks.push(2, stack_size)
 
@@ -36,11 +36,11 @@ class TestStacks(object):
 
 def main():
     num_stacks = 3
-    stack_size = 100    
+    stack_size = 100
     test = TestStacks()
     test.test_pop_on_empty(num_stacks, stack_size)
     test.test_push_on_full(num_stacks, stack_size)
     test.test_stacks(num_stacks, stack_size)
-    
+
 if __name__ == '__main__':
     main()

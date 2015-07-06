@@ -3,7 +3,7 @@ from nose.tools import assert_equal
 
 
 class TestSortStack(object):
-    
+
     def get_sorted_stack(self, numbers):
         stack = MyStack()
         for x in numbers:
@@ -22,13 +22,13 @@ class TestSortStack(object):
 
         print('Test: Two or more element stack (general case)')
         num_items = 10
-        numbers = [randint(0, 10) for x in xrange(num_items)]
+        numbers = [randint(0, 10) for x in range(num_items)]
         sorted_stack = self.get_sorted_stack(numbers)
         sorted_numbers = []
-        for _ in xrange(num_items):
+        for _ in range(num_items):
             sorted_numbers.append(sorted_stack.pop())
         assert_equal(sorted_numbers, sorted(numbers, reverse=True))
-        
+
         print('Success: test_sort_stack')
 
 def main():
