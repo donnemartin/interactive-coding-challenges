@@ -30,6 +30,37 @@ Notebooks also detail:
 </p>
 <br/>
 
+## Notebook Structure
+
+Each challenge has two notebooks, a **challenge notebook** for you to solve and a **solution notebook** for reference.
+
+### Problem Statement
+
+* States the problem to solve.
+
+### Constraints
+
+* Describes any constraints or assumptions.
+
+### Test Cases
+
+* Describes the general and edge test cases that will be evaluated in the unit test.
+
+### Algorithm
+
+* [Challenge Notebook] Empty, refer to the solution notebook algorithm section if you need a hint.
+* [Solution Notebook] One or more algorithm solution discussions, with Big-O time and space complexities.
+
+### Code (Challenge: Implement Me!)
+
+* [Challenge Notebook] Skeleton code for you to implement.
+* [Solution Notebook] One or more reference solutions.
+
+### Unit Test
+
+* [Challenge Notebook] Unit test for your code.  Expected to fail until you solve the challenge.
+* [Solution Notebook] Unit test for the reference solution(s).
+
 ## Index
 
 * [Arrays and Strings](#arrays-and-strings)
