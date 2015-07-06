@@ -288,6 +288,61 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 | Maximizing xor | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/online_judges/maximizing_xor/maximizing_xor_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/online_judges/maximizing_xor/maximizing_xor_solution.ipynb) |
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
+## Repo Structure
+
+```
+interactive-coding-challenges        # Repo
+├─ arrays_strings                    # Category of challenges
+│  ├─ rotation                       # Challenge folder
+│  │  ├─ rotation_challenge.ipynb    # Challenge notebook
+│  │  ├─ rotation_solution.ipynb     # Solution notebook
+│  │  ├─ test_rotation.py            # Unit test*
+│  ├─ compress
+│  │  ├─ compress_challenge.ipynb
+│  │  ├─ compress_solution.ipynb
+│  │  ├─ test_compress.py
+│  ├─ ...
+├─ linked_lists
+│  ├─ palindrome
+│  │  └─ ...
+│  ├─ ...
+├─ ...
+```
+
+<i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
+
+## Running Challenges
+
+### Notebooks
+
+Challenges are provided in the form of **IPython/Jupyter Notebooks** and have been **tested with Python 2.7 and Python 3.4**.
+
+*If you need to install IPython/Jupyter Notebook, see the [Notebook Installation](#Notebook-Installation) section.*
+
+* This README contains links to [nbviewer](http://nbviewer.ipython.org), which hosts **static notebooks** of the repo's contents
+* To interact with or to modify elements within the **dynamic notebooks**, refer to the instructions below
+
+Run the notebook of challenges:
+
+```
+$ git clone https://github.com/donnemartin/interactive-coding-challenges.git
+$ cd interactive-coding-challenges
+$ ipython notebook
+```
+
+This will launch your web browser with the list of challenge categories:
+* Navigate to the **Challenge Notebook** you wish to solve
+* Run the cells within the challenge notebook (Cell->Run All)
+    * This will result in an expected unit test error
+* Solve the challenge and verify it passes the unit test
+* Check out the accompanying **Solution Notebook** for futher discussion
+
+### Nose Unit Tests
+
+Unit tests are provided in the form of **Nose tests**.
+
+*If you need to install Nose, see the [Nose Installation](#Nose-Installation) section.*
+
 ## Notebook Installation
 
 If you already have Python installed and are familiar with installing packages, you can get IPython with pip:
@@ -296,23 +351,31 @@ If you already have Python installed and are familiar with installing packages, 
 pip install ipython
 ```
 
-Or if you want to also get the dependencies for the IPython notebook:
+Or if you want to also get the dependencies for the IPython Notebook:
 
 ```
 pip install "ipython[notebook]"
 ```
 
-For more details on installation, follow the directions [here.](http://ipython.org/install.html)
+For more details on installation, follow the directions [here](http://ipython.org/install.html).
 
-To interact with or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
+More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
+
+## Nose Installation
+
+Install nose using setuptools/distribute:
 
 ```
-$ git clone https://github.com/donnemartin/interactive-coding-challenges.git
-$ cd [downloaded repo directory name]
-$ ipython notebook
+easy_install nose
 ```
 
-Notebook tested with Python 2.7.x.
+or
+
+```
+pip install nose
+```
+
+More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
 
 ## Credits
 
