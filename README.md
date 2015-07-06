@@ -22,6 +22,14 @@ Notebooks also detail:
 * Algorithms
 * Big-O time and space complexities
 
+## Challenge Solutions
+
+<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_solution.gif">
+</p>
+<br/>
+
 ## Index
 
 * [Arrays and Strings](#arrays-and-strings)
