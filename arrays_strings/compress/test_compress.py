@@ -13,12 +13,6 @@ class TestCompress(object):
 def main():
     test = TestCompress()
     test.test_compress(compress_string)
-    try:
-        test.test_compress(compress_string_alt)
-    except NameError:
-        # Alternate solutions are only defined
-        # in the solutions file
-        pass
 
 if __name__ == '__main__':
     main()
