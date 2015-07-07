@@ -70,16 +70,7 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 
 * Notebooks currently contain mostly Python solutions, but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
 * Repo will be **continually updated** with new solutions and challenges
-
-
-## Contributing
-
-Contributions are welcome!
-
-Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details on how to:
-* Submit issues
-* Add solutions to existing challenges
-* Add new challenges
+* Contributions are welcome!  See the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md).
 
 ## Index
 
@@ -105,6 +96,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 
 ### Misc
 
+* [Contributing](#contributing)
 * [Credits](#credits)
 * [Contact Info](#contact-info)
 * [License](#license)
@@ -379,6 +371,15 @@ pip install nose
 ```
 
 More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
+
+## Contributing
+
+Contributions are welcome!
+
+Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details on how to:
+* Submit issues
+* Add solutions to existing challenges
+* Add new challenges
 
 ## Credits
 
