@@ -2,7 +2,10 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
 </p>
-<br/>
+
+<p align="center">
+  <a href="https://bit.ly/git-code">bit.ly/git-code</a>
+</p>
 
 interactive-coding-challenges
 ============
