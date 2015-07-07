@@ -35,7 +35,7 @@ The README contains several sample challenges that are not yet implemented.
 * Feel free to send pull requests on different challenges or categories of challenges
 * Try to keep the "Challenge" title relatively short and expand on the details within the notebook
 * Review the [Repo Structure](https://github.com/donnemartin/interactive-coding-challenges#repo-structure) and [Notebook Structure](https://github.com/donnemartin/interactive-coding-challenges#notebook-structure) sections
-* Check out the [template challenge and solution notebooks](https://github.com/donnemartin/interactive-coding-challenges/templates/) to help you get started
+* Check out the [template challenge and solution notebooks](https://github.com/donnemartin/interactive-coding-challenges/tree/master/templates) to help you get started
 
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Update the list of challenges in the README so we can enjoy your challenge!
 
 When contributing to a notebook, update the notebook author(s):
 
-<small><i>This notebook was prepared by [Joe](https://github.com/Joe) and [Jane](https://github.com/Jane). Source and license info is on [GitHub](https://github.com/donnemartin/interactive-coding-challenges).</i></small>
+<small><i>This notebook was prepared by [Joe](https://github.com/) and [Jane](https://github.com/). Source and license info is on [GitHub](https://github.com/donnemartin/interactive-coding-challenges).</i></small>
 
 ### Maintain Consistent Style
 
@@ -64,4 +64,4 @@ Feel free to share your thoughts on how we could best approach adding challenges
 * Installation instructions
 * Etc
 
-Share your thoughts in this [issue]().
+Share your thoughts in this [issue](https://github.com/donnemartin/interactive-coding-challenges/issues/3).
