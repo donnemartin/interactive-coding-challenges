@@ -330,7 +330,7 @@ This will launch your web browser with the list of challenge categories:
 * Run the cells within the challenge notebook (Cell->Run All)
     * This will result in an expected unit test error
 * Solve the challenge and verify it passes the unit test
-* Check out the accompanying **Solution Notebook** for futher discussion
+* Check out the accompanying **Solution Notebook** for further discussion
 
 ### Nose Unit Tests
 
