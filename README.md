@@ -312,7 +312,7 @@ interactive-coding-challenges        # Repo
 
 Challenges are provided in the form of **IPython/Jupyter Notebooks** and have been **tested with Python 2.7 and Python 3.4**.
 
-*If you need to install IPython/Jupyter Notebook, see the [Notebook Installation](#Notebook-Installation) section.*
+*If you need to install IPython/Jupyter Notebook, see the [Notebook Installation](#notebook-installation) section.*
 
 * This README contains links to [nbviewer](http://nbviewer.ipython.org), which hosts **static notebooks** of the repo's contents
 * To interact with or to modify elements within the **dynamic notebooks**, refer to the instructions below
@@ -338,7 +338,7 @@ Note: If your solution is different from those listed in the Solution Notebook, 
 
 Unit tests are provided in the form of **Nose tests**.
 
-*If you need to install Nose, see the [Nose Installation](#Nose-Installation) section.*
+*If you need to install Nose, see the [Nose Installation](#nose-installation) section.*
 
 ## Notebook Installation
 
