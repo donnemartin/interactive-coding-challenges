@@ -70,7 +70,7 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 
 * Notebooks currently contain mostly Python solutions (tested on both Python 2.7 and Python 3.4), but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
 * Repo will be **continually updated** with new solutions and challenges
-* Contributions are welcome!  See the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md).
+* [Contributions](#contributing) are welcome!
 
 ## Index
 
