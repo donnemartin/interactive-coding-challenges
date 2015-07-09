@@ -348,7 +348,7 @@ If you already have Python installed and are familiar with installing packages, 
 pip install ipython
 ```
 
-Or if you want to also get the dependencies for the IPython Notebook:
+Install the dependencies for the IPython Notebook:
 
 ```
 pip install "ipython[notebook]"
