@@ -348,7 +348,7 @@ If you already have Python installed and are familiar with installing packages, 
 pip install "ipython[notebook]"
 ```
 
-If you run into an issue about pyzmq, refer to the followwing [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
+If you run into an issue about pyzmq, refer to the following [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
 
 ```
 pip uninstall ipython
