@@ -342,16 +342,17 @@ Unit tests are provided in the form of **Nose tests**.
 
 ## Notebook Installation
 
-If you already have Python installed and are familiar with installing packages, you can get IPython with pip:
-
-```
-pip install ipython
-```
-
-Install the dependencies for the IPython Notebook:
+If you already have Python installed and are familiar with installing packages, you can get IPython Notebook with pip:
 
 ```
 pip install "ipython[notebook]"
+```
+
+If you run into an issue about pyzmq, refer to the followwing [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
+
+```
+pip uninstall ipython
+pip install "ipython[all]"
 ```
 
 For more details on installation, follow the directions [here](http://ipython.org/install.html).
