@@ -2,7 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestPalindrome(object):
-    
+
     def test_palindrome(self):
         print('Test: Empty list')
         linked_list = MyLinkedList()
@@ -33,12 +33,14 @@ class TestPalindrome(object):
         linked_list.append(2)
         linked_list.append(1)
         assert_equal(linked_list.is_palindrome(), True)
-        
+
         print('Success: test_palindrome')
+
 
 def main():
     test = TestPalindrome()
     test.test_palindrome()
+
 
 if __name__ == '__main__':
     main()

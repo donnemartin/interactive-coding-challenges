@@ -103,6 +103,7 @@ class TestLinkedList(object):
 
         print('Success: test_len\n')
 
+
 def main():
     test = TestLinkedList()
     test.test_insert_to_front()
@@ -110,6 +111,7 @@ def main():
     test.test_find()
     test.test_delete()
     test.test_len()
+
 
 if __name__ == '__main__':
     main()

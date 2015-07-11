@@ -2,7 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestAddReverse(object):
-    
+
     def test_add_reverse(self):
         print('Test: Empty list(s)')
         assert_equal(MyLinkedList().add_reverse(None, None), None)
@@ -35,12 +35,14 @@ class TestAddReverse(object):
         second_list.append(7)
         result = MyLinkedList().add_reverse(first_list, second_list)
         assert_equal(result.get_all_data(), [5, 4, 2, 1])
-        
+
         print('Success: test_add_reverse')
+
 
 def main():
     test = TestAddReverse()
     test.test_add_reverse()
+
 
 if __name__ == '__main__':
     main()
