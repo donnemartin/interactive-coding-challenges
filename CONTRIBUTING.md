@@ -54,7 +54,11 @@ When contributing to a notebook, update the notebook author(s):
 
 Please refer to the style of existing notebooks to help maintain consistency.  A consistently themed collection of notebooks will help users more seamlessly transition from challenge to challenge.
 
-Review [PEP-8](https://www.python.org/dev/peps/pep-0008/) and the following [style guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html).
+Review the following [style guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html).
+
+Review [PEP8](https://www.python.org/dev/peps/pep-0008/) and use a [validator](http://pep8online.com/).
+
+*Note: IPython Notebook doesn't seem to properly handle a blank line at the end of a code cell when writing the cell's contents to a file, as referenced in this [issue](https://github.com/ipython/ipython/issues/8626).  Notebook cells currently do not have a blank line at the end of each code cell.*
 
 ### Contributions in Languages Other than Python
 
