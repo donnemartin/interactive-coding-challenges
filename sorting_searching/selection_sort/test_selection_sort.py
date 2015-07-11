@@ -2,7 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestSelectionSort(object):
-    
+
     def test_selection_sort(self, func):
         print('Empty input')
         data = []
@@ -18,8 +18,9 @@ class TestSelectionSort(object):
         data = [5, 1, 7, 2, 6, -3, 5, 7, -1]
         func(data)
         assert_equal(data, sorted(data))
-        
+
         print('Success: test_selection_sort\n')
+
 
 def main():
     test = TestSelectionSort()
@@ -30,6 +31,7 @@ def main():
         # Alternate solutions are only defined
         # in the solutions file
         pass
+
 
 if __name__ == '__main__':
     main()
