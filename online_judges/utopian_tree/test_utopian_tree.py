@@ -9,9 +9,11 @@ class TestUtopianTree(object):
         assert_equal(calc_utopian_tree_height(4), 7)
         print('Success: test_utopian_tree')
 
+
 def main():
     test = TestUtopianTree()
     test.test_utopian_tree()
+
 
 if __name__ == '__main__':
     main()

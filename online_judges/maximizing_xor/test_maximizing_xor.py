@@ -7,9 +7,11 @@ class TestMaximingXor(object):
         assert_equal(max_xor(10, 15), 7)
         print('Success: test_maximizing_xor')
 
+
 def main():
     test = TestMaximingXor()
     test.test_maximizing_xor()
+
 
 if __name__ == '__main__':
     main()
