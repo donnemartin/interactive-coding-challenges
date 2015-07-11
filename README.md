@@ -332,6 +332,8 @@ This will launch your web browser with the list of challenge categories:
 * Solve the challenge and verify it passes the unit test
 * Check out the accompanying **Solution Notebook** for further discussion
 
+To **debug** your solution with pdb, refer to the following [ticket](https://github.com/donnemartin/interactive-coding-challenges/issues/11).
+
 Note: If your solution is different from those listed in the Solution Notebook, consider submitting a pull request so others can benefit from your work.  Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details.
 
 ### Nose Unit Tests
