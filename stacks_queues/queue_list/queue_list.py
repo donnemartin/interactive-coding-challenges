@@ -1,11 +1,12 @@
 class Node(object):
-    
+
     def __init__(self, data):
         self.data = data
         self.next = None
 
+
 class Queue(object):
-    
+
     def __init__(self):
         self.first = None
         self.last = None
@@ -23,7 +24,7 @@ class Queue(object):
         # Empty list
         if self.first is None and self.last is None:
             return None
-        
+
         # Remove only element from a one element list
         elif self.first == self.last:
             data = self.first.data

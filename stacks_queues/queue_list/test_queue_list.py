@@ -2,7 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestQueue(object):
-    
+
     # TODO: It would be better if we had unit tests for each
     # method in addition to the following end-to-end test
     def test_end_to_end(self):
@@ -25,12 +25,14 @@ class TestQueue(object):
         assert_equal(queue.dequeue(), 2)
         assert_equal(queue.dequeue(), 3)
         assert_equal(queue.dequeue(), 4)
-        
+
         print('Success: test_end_to_end')
+
 
 def main():
     test = TestQueue()
     test.test_end_to_end()
-    
+
+
 if __name__ == '__main__':
     main()

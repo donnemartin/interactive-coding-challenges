@@ -2,7 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestQueueFromStacks(object):
-    
+
     def test_queue_from_stacks(self):
         print('Test: Dequeue on empty stack')
         queue = QueueFromStacks()
@@ -12,7 +12,7 @@ class TestQueueFromStacks(object):
         print('Test: Enqueue on non-empty stack')
         print('Test: Multiple enqueue in a row')
         num_items = 3
-        for i in range (0, num_items):
+        for i in range(0, num_items):
             queue.enqueue(i)
 
         print('Test: Dequeue on non-empty stack')
@@ -29,9 +29,11 @@ class TestQueueFromStacks(object):
 
         print('Success: test_queue_from_stacks')
 
+
 def main():
     test = TestQueueFromStacks()
     test.test_queue_from_stacks()
-    
+
+
 if __name__ == '__main__':
     main()

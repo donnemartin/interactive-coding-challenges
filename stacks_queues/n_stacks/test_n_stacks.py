@@ -34,6 +34,7 @@ class TestStacks(object):
 
         print('Success: test_stacks\n')
 
+
 def main():
     num_stacks = 3
     stack_size = 100
@@ -41,6 +42,7 @@ def main():
     test.test_pop_on_empty(num_stacks, stack_size)
     test.test_push_on_full(num_stacks, stack_size)
     test.test_stacks(num_stacks, stack_size)
+
 
 if __name__ == '__main__':
     main()

@@ -2,7 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestStack(object):
-    
+
     # TODO: It would be better if we had unit tests for each
     # method in addition to the following end-to-end test
     def test_end_to_end(self):
@@ -30,12 +30,14 @@ class TestStack(object):
         assert_equal(stack.pop(), 1)
         assert_equal(stack.peek(), None)
         assert_equal(stack.is_empty(), True)
-        
+
         print('Success: test_end_to_end')
+
 
 def main():
     test = TestStack()
     test.test_end_to_end()
-    
+
+
 if __name__ == '__main__':
     main()

@@ -2,6 +2,7 @@ from nose.tools import assert_equal
 
 
 class TestStackMin(object):
+
     def test_stack_min(self):
         print('Test: Push on empty stack, non-empty stack')
         stack = MyStack()
@@ -30,12 +31,14 @@ class TestStackMin(object):
 
         print('Test: Pop empty stack')
         assert_equal(stack.pop(), None)
-        
+
         print('Success: test_stack_min')
+
 
 def main():
     test = TestStackMin()
     test.test_stack_min()
+
 
 if __name__ == '__main__':
     main()

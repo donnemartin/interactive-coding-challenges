@@ -31,9 +31,11 @@ class TestSortStack(object):
 
         print('Success: test_sort_stack')
 
+
 def main():
     test = TestSortStack()
     test.test_sort_stack()
+
 
 if __name__ == '__main__':
     main()

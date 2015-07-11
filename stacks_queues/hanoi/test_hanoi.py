@@ -30,9 +30,11 @@ class TestHanoi(object):
 
         print('Success: test_hanoi')
 
+
 def main():
     test = TestHanoi()
     test.test_hanoi()
+
 
 if __name__ == '__main__':
     main()
