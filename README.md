@@ -357,6 +357,12 @@ pip uninstall ipython
 pip install "ipython[all]"
 ```
 
+As an alternative, you can also use the provided ```requirements.txt``` file:
+
+```
+pip install -r requirements.txt
+```
+
 For more details on installation, follow the directions [here](http://ipython.org/install.html).
 
 More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
