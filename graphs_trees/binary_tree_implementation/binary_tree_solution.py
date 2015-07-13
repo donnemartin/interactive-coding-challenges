@@ -151,34 +151,3 @@ class BinaryTree (object):
 		PreOrder(self.root)
 		return preOrder
 
-	def __str__ (self):
-
-		def traverseStr (node, level):
-			s = ""
-			if node is not None:
-				s += traverseStr(node.leftChild, level + 1)
-				s += str(node.data) + '\n'
-				s += traverseStr(node.rightChild, level + 1)
-			return s 
-
-		return traverseStr(self.root, 0)
-
-def main():
-	T = BinaryTree()
-	T2 = BinaryTree()
-	for num in [50, 30, 70, 10, 40, 60, 80, 7, 25, 38]:
-		T.insert(num)
-	for i in range (1, 100, 10):
-            T2.insert(i)
-
-
-	print(T.printInOrder())
-	print(T.printPreOrder())
-	print(T.printPostOrder())
-	print(T2.printInOrder())
-	print(T2.printPreOrder())
-	print(T2.printPostOrder())
-
-
-if __name__ == '__main__':
-	main()
