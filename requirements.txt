@@ -1,0 +1,12 @@
+gnureadline==6.3.3
+ipython==3.2.1
+Jinja2==2.7.3
+jsonschema==2.5.1
+MarkupSafe==0.23
+mistune==0.6
+nose==1.3.7
+ptyprocess==0.5
+Pygments==2.0.2
+pyzmq==14.7.0
+terminado==0.5
+tornado==4.2
