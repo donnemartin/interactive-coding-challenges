@@ -19,7 +19,7 @@ Each challenge has one or more reference solutions that are:
 * Unit tested
 * Easy-to-understand
 
-Challenges will soon provide [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.
+Challenges will soon provide on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.
 
 Notebooks also detail:
 * Constraints
@@ -55,6 +55,10 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 
 * [Challenge Notebook] Empty, refer to the solution notebook algorithm section if you need a hint.
 * [Solution Notebook] One or more algorithm solution discussions, with Big-O time and space complexities.
+
+### Hints
+
+* [Challenge Notebook] Provides on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.  Coming soon!
 
 ### Code (Challenge: Implement Me!)
 
