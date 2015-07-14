@@ -5,18 +5,18 @@ class TestQuickSort(object):
     def test_quick_sort(self, func):
         print('Empty input')
         data = []
-        func(data)
-        assert_equal(data, [])
+        sorted_data = func(data)
+        assert_equal(sorted_data, [])
 
         print('One element')
         data = [5]
-        func(data)
-        assert_equal(data, [5])
+        sorted_data = func(data)
+        assert_equal(sorted_data, [5])
 
         print('Two or more elements')
         data = [5, 1, 7, 2, 6, -3, 5, 7, -1]
-        data = func(data)
-        assert_equal(data, sorted(data))
+        sorted_data = func(data)
+        assert_equal(sorted_data, sorted(data))
 
         print('Success: test_quick_sort\n')
 
