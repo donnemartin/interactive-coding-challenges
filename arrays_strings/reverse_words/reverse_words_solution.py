@@ -1,12 +1,15 @@
 #solution for reverse words on a string
 
-def reverse_words (str):
-  str = str.split()
-  newStr = ""
+def reverse_words (S):
+  if len(S) is 0:
+    return None
 
-  for words in str:
-    newStr += words[::-1]
+  S = S.split()
+  for i in range (len(S)):
+    S[i] = S[i][::-1]
 
-  return newStr
+  return " "join(S)
+
+
 
 
