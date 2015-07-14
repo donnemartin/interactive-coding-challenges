@@ -19,6 +19,8 @@ Each challenge has one or more reference solutions that are:
 * Unit tested
 * Easy-to-understand
 
+Challenges will soon provide [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.
+
 Notebooks also detail:
 * Constraints
 * Test cases
