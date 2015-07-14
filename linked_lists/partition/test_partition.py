@@ -21,19 +21,20 @@ class TestPartition(object):
 
         print('Test: General case')
         # Partition = 10
-        # Input: 4, 3, 7, 8, 10, 1, 10, 12
-        # Output: 4, 3, 7, 8, 1, 10, 10, 12
+        # Input: 4, 3, 13, 8, 10, 1, 14, 10, 12
+        # Output: 4, 3, 8, 1, 10, 10, 13, 14, 12
         linked_list = MyLinkedList(Node(12))
         linked_list.insert_to_front(10)
+        linked_list.insert_to_front(14)
         linked_list.insert_to_front(1)
         linked_list.insert_to_front(10)
         linked_list.insert_to_front(8)
-        linked_list.insert_to_front(7)
+        linked_list.insert_to_front(13)
         linked_list.insert_to_front(3)
         linked_list.insert_to_front(4)
         partitioned_list = linked_list.partition(10)
         assert_equal(partitioned_list.get_all_data(),
-                     [4, 3, 7, 8, 1, 10, 10, 12])
+                     [4, 3, 8, 1, 10, 10, 13, 14, 12])
 
         print('Success: test_partition')
 
