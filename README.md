@@ -369,7 +369,9 @@ As an alternative, you can also use the provided ```requirements.txt``` file:
 pip install -r requirements.txt
 ```
 
-For more details on installation, follow the directions [here](http://ipython.org/install.html).
+For detailed instructions, scripts, and tools to more optimally set up your development environment, check out the [dev-setup](https://github.com/donnemartin/dev-setup) repo.
+
+For more details on notebook installation, follow the directions [here](http://ipython.org/install.html).
 
 More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
 
