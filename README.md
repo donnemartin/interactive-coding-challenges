@@ -10,7 +10,7 @@
 interactive-coding-challenges
 ============
 
-**Interactive, test-driven coding challenges**.
+**Continually updated, interactive and test-driven coding challenges**.
 
 Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews** or **coding competitions**.
 
