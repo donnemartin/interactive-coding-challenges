@@ -23,10 +23,6 @@ class TestDfs(object):
             root.post_order_traversal(sys.stdout.write)
             assert_equal(out.getvalue().strip(), '13285')
 
-        with captured_output() as (out, err):
-            root.bfs(sys.stdout.write)
-            assert_equal(out.getvalue().strip(), '52813')
-
         root = Node(1)
         root.insert(2)
         root.insert(3)
