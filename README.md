@@ -82,8 +82,8 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 * [Linked Lists](#linked-lists)
 * [Stacks and Queues](#stacks-and-queues)
 * [Sorting and Searching](#sorting-and-searching)
-* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming)
 * [Trees and Graphs](#trees-and-graphs)
+* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming)
 * [Bit Manipulation](#bit-manipulation)
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
 * [Concurrency](#concurrency)
@@ -195,28 +195,6 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 
 <br/>
 <p>
-  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/fibonacci_wikipedia.png">
-</p>
-<br/>
-
-### Recursion and Dynamic Programming
-
-| Challenge | Static Notebooks |
-|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Implement fibonacci recursively, dynamically, and iteratively | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_solution.ipynb) |
-| Find the number of ways to represent n cents given an array of coins | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/coinchange_ways/coinchange_ways_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/coinchange_ways/coinchange_ways_solution.ipynb) |
-| Implement factorial recursively, dynamically, and iteratively | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Perform a binary search on a sorted array of integers | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Print all subsets of a set | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Print all permutations of a string | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Print all combinations of a string | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Print all valid combinations of n-pairs of parentheses | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Implement a paint fill function | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Find all permutations to represent n cents, given 1, 5, 10, 25 cent coins | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-
-<br/>
-<p>
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/binary_tree_wikipedia.png">
 </p>
 <br/>
@@ -237,6 +215,28 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 | Implement a right and left rotation on a tree | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 | Check if a binary tree is balanced | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 | Check if a binary tree is binary search tree | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+
+<br/>
+<p>
+  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/fibonacci_wikipedia.png">
+</p>
+<br/>
+
+### Recursion and Dynamic Programming
+
+| Challenge | Static Notebooks |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Implement fibonacci recursively, dynamically, and iteratively | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_solution.ipynb) |
+| Find the number of ways to represent n cents given an array of coins | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/coinchange_ways/coinchange_ways_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/coinchange_ways/coinchange_ways_solution.ipynb) |
+| Implement factorial recursively, dynamically, and iteratively | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Perform a binary search on a sorted array of integers | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Print all subsets of a set | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Print all permutations of a string | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Print all combinations of a string | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Print all valid combinations of n-pairs of parentheses | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Implement a paint fill function | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Find all permutations to represent n cents, given 1, 5, 10, 25 cent coins | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
