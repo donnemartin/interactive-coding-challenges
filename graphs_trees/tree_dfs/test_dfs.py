@@ -5,40 +5,40 @@ from nose.tools import assert_equal
 class TestDfs(object):
 
     def test_dfs(self):
-        root = Node(5)
-        root.insert(2)
-        root.insert(8)
-        root.insert(1)
-        root.insert(3)
+        node = Node(5)
+        insert(node, 2)
+        insert(node, 8)
+        insert(node, 1)
+        insert(node, 3)
 
         with captured_output() as (out, err):
-            root.in_order_traversal(sys.stdout.write)
+            in_order_traversal(node, sys.stdout.write)
             assert_equal(out.getvalue().strip(), '12358')
 
         with captured_output() as (out, err):
-            root.pre_order_traversal(sys.stdout.write)
+            pre_order_traversal(node, sys.stdout.write)
             assert_equal(out.getvalue().strip(), '52138')
 
         with captured_output() as (out, err):
-            root.post_order_traversal(sys.stdout.write)
+            post_order_traversal(node, sys.stdout.write)
             assert_equal(out.getvalue().strip(), '13285')
 
-        root = Node(1)
-        root.insert(2)
-        root.insert(3)
-        root.insert(4)
-        root.insert(5)
+        node = Node(1)
+        insert(node, 2)
+        insert(node, 3)
+        insert(node, 4)
+        insert(node, 5)
 
         with captured_output() as (out, err):
-            root.in_order_traversal(sys.stdout.write)
+            in_order_traversal(node, sys.stdout.write)
             assert_equal(out.getvalue().strip(), '12345')
 
         with captured_output() as (out, err):
-            root.pre_order_traversal(sys.stdout.write)
+            pre_order_traversal(node, sys.stdout.write)
             assert_equal(out.getvalue().strip(), '12345')
 
         with captured_output() as (out, err):
-            root.post_order_traversal(sys.stdout.write)
+            post_order_traversal(node, sys.stdout.write)
             assert_equal(out.getvalue().strip(), '54321')
 
         print('Success: test_dfs')
