@@ -10,3 +10,4 @@ Pygments==2.0.2
 pyzmq==14.7.0
 terminado==0.5
 tornado==4.2
+enum34==1.0.4
