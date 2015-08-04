@@ -1,8 +1,10 @@
-from __future__ import print_function
 from nose.tools import assert_equal
 
 
 class TestBfs(object):
+
+    def __init__(self):
+        self.results = Results()
 
     def test_bfs(self):
         node = Node(5)
@@ -10,10 +12,8 @@ class TestBfs(object):
         insert(node, 8)
         insert(node, 1)
         insert(node, 3)
-
-        with captured_output() as (out, err):
-            bfs(node, sys.stdout.write)
-            assert_equal(out.getvalue().strip(), '52813')
+        bfs(node, self.results.add_result)
+        assert_equal(str(self.results), '[5, 2, 8, 1, 3]')
 
         print('Success: test_bfs')
 
