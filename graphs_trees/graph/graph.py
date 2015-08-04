@@ -1,25 +1,18 @@
-# Python 2 users: Run pip install enum34
-from enum import Enum
-
-
-class State(Enum):
-    unvisited = 1
-    visited = 2
-    visiting = 3
+from collections import OrderedDict
 
 
 class Node:
 
     def __init__(self, id):
         self.id = id
-        self.state = State.unvisited
-        self.connections = {}
+        self.visited = False
+        self.adjacent = OrderedDict()  # key = node, val = weight
 
 
 class Graph:
 
     def __init__(self):
-        self.nodes = {}
+        self.nodes = OrderedDict()  # key = node id, val = node
 
     def add_node(self, id):
         node = Node(id)
@@ -31,4 +24,4 @@ class Graph:
             self.add_node(source)
         if dest not in self.nodes:
             self.add_node(dest)
-        self.nodes[source].connections[self.nodes[dest]] = weight
+        self.nodes[source].adjacent[self.nodes[dest]] = weight
