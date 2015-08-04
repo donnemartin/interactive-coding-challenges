@@ -1,8 +1,10 @@
-from __future__ import print_function
 from nose.tools import assert_equal
 
 
 class TestTree(object):
+
+    def __init__(self):
+        self.results = Results()
 
     def test_tree(self):
         node = Node(5)
@@ -10,20 +12,17 @@ class TestTree(object):
         insert(node, 8)
         insert(node, 1)
         insert(node, 3)
-
-        with captured_output() as (out, err):
-            in_order_traversal(node, sys.stdout.write)
-            assert_equal(out.getvalue().strip(), '12358')
+        in_order_traversal(node, self.results.add_result)
+        assert_equal(str(self.results), '[1, 2, 3, 5, 8]')
+        self.results.clear_results()
 
         node = Node(1)
         insert(node, 2)
         insert(node, 3)
         insert(node, 4)
         insert(node, 5)
-
-        with captured_output() as (out, err):
-            in_order_traversal(node, sys.stdout.write)
-            assert_equal(out.getvalue().strip(), '12345')
+        in_order_traversal(node, self.results.add_result)
+        assert_equal(str(self.results), '[1, 2, 3, 4, 5]')
 
         print('Success: test_tree')
 
