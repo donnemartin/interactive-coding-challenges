@@ -8,6 +8,9 @@ class Node:
         self.visited = False
         self.adjacent = OrderedDict()  # key = node, val = weight
 
+    def __str__(self):
+        return str(self.id)
+
 
 class Graph:
 

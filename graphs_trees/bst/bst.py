@@ -5,6 +5,10 @@ class Node(object):
         self.left = None
         self.right = None
 
+    def __str__(self):
+        return str(self.data)
+
+
 def insert(root, data):
     if data <= root.data:
         if root.left is None:

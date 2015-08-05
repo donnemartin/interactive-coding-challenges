@@ -4,7 +4,10 @@ class Results(object):
         self.results = []
 
     def add_result(self, result):
-        self.results.append(result)
+        # TODO: Clean this up
+        # Simplifies challenge coding and unit testing
+        # but makes this function look less appealing
+        self.results.append(int(str(result)))
 
     def clear_results(self):
         self.results = []
