@@ -18,6 +18,15 @@ class TestCheckBalance(object):
         insert(node, 10)
         assert_equal(check_balance(node), False)
 
+        node = Node(3)
+        insert(node, 2)
+        insert(node, 1)
+        insert(node, 5)
+        insert(node, 4)
+        insert(node, 6)
+        insert(node, 7)
+        assert_equal(check_balance(node), False)
+
         print('Success: test_check_balance')
 
 
