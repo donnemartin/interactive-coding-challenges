@@ -24,14 +24,11 @@ class Queue(object):
         # Empty list
         if self.first is None and self.last is None:
             return None
-
+        data = self.first.data
         # Remove only element from a one element list
-        elif self.first == self.last:
-            data = self.first.data
+        if self.first == self.last:
             self.first = None
             self.last = None
-            return data
         else:
-            data = self.first.data
             self.first = self.first.next
-            return data
+        return data
