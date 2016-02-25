@@ -4,6 +4,11 @@ from nose.tools import assert_equal
 class TestInsertionSort(object):
 
     def test_insertion_sort(self):
+        print('None input')
+        data = None
+        insertion_sort(data)
+        assert_equal(data, None)
+
         print('Empty input')
         data = []
         insertion_sort(data)
