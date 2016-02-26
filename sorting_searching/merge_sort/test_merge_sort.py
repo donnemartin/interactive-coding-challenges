@@ -3,6 +3,11 @@ from nose.tools import assert_equal
 
 class TestMergeSort(object):
     def test_merge_sort(self):
+        print('None input')
+        data = None
+        sorted_data = merge_sort(data)
+        assert_equal(sorted_data, None)
+
         print('Empty input')
         data = []
         sorted_data = merge_sort(data)
