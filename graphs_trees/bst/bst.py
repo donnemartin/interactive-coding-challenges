@@ -11,6 +11,9 @@ class Node(object):
 
 
 def insert(root, data):
+    if root is None:
+        root = Node(data)
+        return root
     if data <= root.data:
         if root.left is None:
             root.left = Node(data)

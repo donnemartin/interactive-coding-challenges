@@ -16,7 +16,7 @@ class TestTree(object):
         assert_equal(str(self.results), '[1, 2, 3, 5, 8]')
         self.results.clear_results()
 
-        node = Node(1)
+        node = insert(None, 1)
         insert(node, 2)
         insert(node, 3)
         insert(node, 4)
