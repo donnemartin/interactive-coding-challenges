@@ -331,7 +331,7 @@ Run the notebook of challenges:
 ```
 $ git clone https://github.com/donnemartin/interactive-coding-challenges.git
 $ cd interactive-coding-challenges
-$ ipython notebook
+$ jupyter notebook
 ```
 
 This will launch your web browser with the list of challenge categories:
