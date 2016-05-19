@@ -81,7 +81,7 @@ When contributing to a notebook, update the notebook author(s):
 
 Please refer to the style of existing notebooks to help maintain consistency.  A consistently themed collection of notebooks will help users more seamlessly transition from challenge to challenge.
 
-Review the following [style guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html).
+Review the following [style guide](https://google.github.io/styleguide/pyguide.html).
 
 Review [PEP8](https://www.python.org/dev/peps/pep-0008/) and use a [validator](http://pep8online.com/).
 
