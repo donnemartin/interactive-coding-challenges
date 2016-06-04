@@ -8,7 +8,7 @@ interactive-coding-challenges
 
 **Continually updated, interactive and test-driven coding challenges**.
 
-Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews** or **coding competitions**.
+Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews**.
 
 Each challenge has one or more reference solutions that are:
 * Fully functional
