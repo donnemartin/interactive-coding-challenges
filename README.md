@@ -8,7 +8,7 @@ interactive-coding-challenges
 
 **Continually updated, interactive and test-driven coding challenges**.
 
-Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews** or **coding competitions**.
+Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews**.
 
 Each challenge has one or more reference solutions that are:
 * Fully functional
@@ -92,9 +92,9 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 ### Installing and Running Challenges
 
 * [Repo Structure](#repo-structure)
-* [Running Challenges](#running-challenges)
 * [Notebook Installation](#notebook-installation)
-* [Nose Installation](#nose-installation)
+    * [Nose Installation](#nose-installation)
+* [Running Challenges](#running-challenges)
 
 ### Misc
 
@@ -315,6 +315,52 @@ interactive-coding-challenges        # Repo
 
 <i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
 
+
+## Notebook Installation
+
+### IPython Notebook
+
+If you already have Python installed and are familiar with installing packages, you can get IPython Notebook with pip:
+
+```
+pip install "ipython[notebook]"
+```
+
+If you run into an issue about pyzmq, refer to the following [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
+
+```
+pip uninstall ipython
+pip install "ipython[all]"
+```
+
+As an alternative, you can also use the provided ```requirements.txt``` file:
+
+```
+pip install -r requirements.txt
+```
+
+For detailed instructions, scripts, and tools to more optimally set up your development environment, check out the [dev-setup](https://github.com/donnemartin/dev-setup) repo.
+
+For more details on notebook installation, follow the directions [here](http://ipython.org/install.html).
+
+More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
+
+### Nose Tests
+
+Install nose using setuptools/distribute:
+
+```
+easy_install nose
+```
+
+or
+
+```
+pip install nose
+```
+
+More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
+
 ## Running Challenges
 
 ### Notebooks
@@ -345,55 +391,6 @@ To **debug** your solution with pdb, refer to the following [ticket](https://git
 
 Note: If your solution is different from those listed in the Solution Notebook, consider submitting a pull request so others can benefit from your work.  Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details.
 
-### Nose Unit Tests
-
-Unit tests are provided in the form of **Nose tests**.
-
-*If you need to install Nose, see the [Nose Installation](#nose-installation) section.*
-
-## Notebook Installation
-
-If you already have Python installed and are familiar with installing packages, you can get IPython Notebook with pip:
-
-```
-pip install "ipython[notebook]"
-```
-
-If you run into an issue about pyzmq, refer to the following [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
-
-```
-pip uninstall ipython
-pip install "ipython[all]"
-```
-
-As an alternative, you can also use the provided ```requirements.txt``` file:
-
-```
-pip install -r requirements.txt
-```
-
-For detailed instructions, scripts, and tools to more optimally set up your development environment, check out the [dev-setup](https://github.com/donnemartin/dev-setup) repo.
-
-For more details on notebook installation, follow the directions [here](http://ipython.org/install.html).
-
-More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
-
-## Nose Installation
-
-Install nose using setuptools/distribute:
-
-```
-easy_install nose
-```
-
-or
-
-```
-pip install nose
-```
-
-More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
-
 ## Contributing
 
 Contributions are welcome!
@@ -414,6 +411,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 * [CareerCup](http://www.careercup.com/)
 * [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
+* [LeetCode](https://leetcode.com/)
 * [TopCoder](https://www.topcoder.com/)
 
 ### Images
@@ -433,11 +431,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 
 Feel free to contact me to discuss any issues, questions, or comments.
 
-* Email: [donne.martin@gmail.com](mailto:donne.martin@gmail.com)
-* Twitter: [@donne_martin](https://twitter.com/donne_martin)
-* GitHub: [donnemartin](https://github.com/donnemartin)
-* LinkedIn: [donnemartin](https://www.linkedin.com/in/donnemartin)
-* Website: [donnemartin.com](http://donnemartin.com)
+My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ## License
 
