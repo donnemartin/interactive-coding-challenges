@@ -4,6 +4,7 @@ from nose.tools import assert_equal
 class TestUniqueChars(object):
 
     def test_unique_chars(self, func):
+        assert_equal(func(None), False)
         assert_equal(func(''), True)
         assert_equal(func('foo'), False)
         assert_equal(func('bar'), True)
