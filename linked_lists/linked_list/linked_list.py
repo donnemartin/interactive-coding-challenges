@@ -1,7 +1,7 @@
 class Node(object):
 
-    def __init__(self, data, next_node=None):
-        self.next = next_node
+    def __init__(self, data, next=None):
+        self.next = next
         self.data = data
 
     def __str__(self):
@@ -23,40 +23,35 @@ class LinkedList(object):
 
     def insert_to_front(self, data):
         if data is None:
-            return
-        node = Node(data)
-        if self.head is None:
-            self.head = node
-        else:
-            node.next = self.head
-            self.head = node
+            return None
+        node = Node(data, self.head)
+        self.head = node
         return node
 
-    def append(self, data, next_node=None):
+    def append(self, data):
         if data is None:
-            return
-        node = Node(data, next_node)
+            return None
+        node = Node(data)
         if self.head is None:
-            self.head = node
-        else:
-            curr_node = self.head
-            while curr_node.next is not None:
-                curr_node = curr_node.next
-            curr_node.next = node
+            self.head = Node(data)
+            return node
+        curr_node = self.head
+        while curr_node.next is not None:
+            curr_node = curr_node.next
+        curr_node.next = node
         return node
 
     def find(self, data):
         if data is None:
-            return
+            return None
         if self.head is None:
-            return
+            return None
         curr_node = self.head
         while curr_node is not None:
             if curr_node.data == data:
                 return curr_node
-            else:
-                curr_node = curr_node.next
-        return
+            curr_node = curr_node.next
+        return None
 
     def delete(self, data):
         if data is None:
@@ -72,6 +67,21 @@ class LinkedList(object):
             else:
                 prev_node = curr_node
                 curr_node = curr_node.next
+
+    def delete_alt(self, data):
+        if data is None:
+            return
+        if self.head is None:
+            return
+        curr_node = self.head
+        if curr_node.data == data:
+            curr_node = curr_node.next
+            return
+        while curr_node.next is not None:
+            if curr_node.next.data == data:
+                curr_node.next = curr_node.next.next
+                return
+            curr_node = curr_node.next
 
     def print_list(self):
         curr_node = self.head
