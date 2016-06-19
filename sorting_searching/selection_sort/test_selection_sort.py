@@ -20,7 +20,7 @@ class TestSelectionSort(object):
         assert_equal(data, [5])
 
         print('Two or more elements')
-        data = [5, 1, 7, 2, 6, -3, 5, 7, -1]
+        data = [5, 1, 7, 2, 6, -3, 5, 7, -10]
         func(data)
         assert_equal(data, sorted(data))
 
