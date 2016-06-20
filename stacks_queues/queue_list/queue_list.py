@@ -8,27 +8,28 @@ class Node(object):
 class Queue(object):
 
     def __init__(self):
-        self.first = None
-        self.last = None
+        self.head = None
+        self.tail = None
 
     def enqueue(self, data):
         node = Node(data)
-        if self.first is None and self.last is None:
-            self.first = node
-            self.last = node
+        # Empty list
+        if self.head is None and self.tail is None:
+            self.head = node
+            self.tail = node
         else:
-            self.last.next = node
-            self.last = node
+            self.tail.next = node
+            self.tail = node
 
     def dequeue(self):
         # Empty list
-        if self.first is None and self.last is None:
+        if self.head is None and self.tail is None:
             return None
-        data = self.first.data
+        data = self.head.data
         # Remove only element from a one element list
-        if self.first == self.last:
-            self.first = None
-            self.last = None
+        if self.head == self.tail:
+            self.head = None
+            self.tail = None
         else:
-            self.first = self.first.next
+            self.head = self.head.next
         return data
