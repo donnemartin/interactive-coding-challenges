@@ -11,8 +11,7 @@ class Stack(object):
         self.top = top
 
     def push(self, data):
-        node = Node(data, self.top)
-        self.top = node
+        self.top = Node(data, self.top)
 
     def pop(self):
         if self.top is None:
