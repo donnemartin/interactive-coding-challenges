@@ -5,7 +5,7 @@ class TestSetOfStacks(object):
 
     def test_set_of_stacks(self):
         print('Test: Push on an empty stack')
-        stacks = SetOfStacks(capacity=2)
+        stacks = SetOfStacks(indiv_stack_capacity=2)
         stacks.push(3)
 
         print('Test: Push on a non-empty stack')
