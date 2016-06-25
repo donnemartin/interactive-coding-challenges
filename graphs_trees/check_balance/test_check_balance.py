@@ -4,7 +4,11 @@ from nose.tools import assert_equal
 class TestCheckBalance(object):
 
     def test_check_balance(self):
+        assert_equal(check_balance(None), False)
+
         node = Node(5)
+        assert_equal(check_balance(node), True)
+
         insert(node, 3)
         insert(node, 8)
         insert(node, 1)
