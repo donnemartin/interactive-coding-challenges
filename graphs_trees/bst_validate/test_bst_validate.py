@@ -1,7 +1,12 @@
 from nose.tools import assert_equal
+from nose.tools import raises
 
 
 class TestBstValidate(object):
+
+    @raises(Exception)
+    def test_bst_validate_empty(self):
+        validate_bst(None)
 
     def test_bst_validate(self):
         node = Node(5)
@@ -26,6 +31,7 @@ class TestBstValidate(object):
 
 def main():
     test = TestBstValidate()
+    test.test_bst_validate_empty()
     test.test_bst_validate()
 
 
