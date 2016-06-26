@@ -19,11 +19,13 @@ def insert(root, data):
         if root.left is None:
             root.left = insert(root.left, data)
             root.left.parent = root
+            return root.left
         else:
-            insert(root.left, data)
+            return insert(root.left, data)
     else:
         if root.right is None:
             root.right = insert(root.right, data)
             root.right.parent = root
+            return root.right
         else:
-            insert(root.right, data)
+            return insert(root.right, data)
