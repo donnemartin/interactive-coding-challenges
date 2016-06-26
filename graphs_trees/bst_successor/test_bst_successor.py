@@ -1,7 +1,12 @@
 from nose.tools import assert_equal
+from nose.tools import raises
 
 
 class TestBstSuccessor(object):
+
+    @raises(Exception)
+    def test_bst_successor_empty(self):
+        bst_successor(None)
 
     def test_bst_successor(self):
         nodes = {}
@@ -30,6 +35,7 @@ class TestBstSuccessor(object):
 def main():
     test = TestBstSuccessor()
     test.test_bst_successor()
+    test.test_bst_successor_empty()
 
 
 if __name__ == '__main__':
