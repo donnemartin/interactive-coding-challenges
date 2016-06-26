@@ -1,11 +1,14 @@
 from nose.tools import assert_equal
+from nose.tools import raises
 
 
 class TestCheckBalance(object):
 
-    def test_check_balance(self):
-        assert_equal(check_balance(None), False)
+    @raises(Exception)
+    def test_check_balance_empty(self):
+        check_balance(None)
 
+    def test_check_balance(self):
         node = Node(5)
         assert_equal(check_balance(node), True)
 
@@ -36,6 +39,7 @@ class TestCheckBalance(object):
 
 def main():
     test = TestCheckBalance()
+    test.test_check_balance_empty()
     test.test_check_balance()
 
 
