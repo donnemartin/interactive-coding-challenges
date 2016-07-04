@@ -9,35 +9,63 @@ class State(Enum):
 
 class Node:
 
-    def __init__(self, id):
-        self.id = id
+    def __init__(self, key):
+        self.key = key
         self.visit_state = State.unvisited
-        self.adjacent = {}  # key = node, val = weight
+        self.incoming_edges = 0
+        self.adj_nodes = {}  # Key = key, val = Node
+        self.adj_weights = {}  # Key = key, val = weight
 
-    def __str__(self):
-        return str(self.id)
+    def __repr__(self):
+        return str(self.key)
+
+    def __lt__(self, other):
+        return self.key < other.key
 
     def add_neighbor(self, neighbor, weight=0):
-        self.adjacent[neighbor] = weight
+        if neighbor is None:
+            raise Exception('Invalid neighbor')
+        neighbor.incoming_edges += 1
+        self.adj_weights[neighbor.key] = weight
+        self.adj_nodes[neighbor.key] = neighbor
+
+    def remove_neighbor(self, neighbor):
+        if neighbor is None:
+            raise Exception('Invalid neighbor')
+        if neighbor.key in self.adj_nodes:
+            neighbor.incoming_edges -= 1
+            del self.adj_weights[neighbor.key]
+            del self.adj_nodes[neighbor.key]
+        else:
+            raise Exception('Invalid neighbor')
 
 
 class Graph:
 
     def __init__(self):
-        self.nodes = {}  # key = node id, val = node
+        self.nodes = {}  # Key = key, val = Node
 
-    def add_node(self, id):
-        node = Node(id)
-        self.nodes[id] = node
-        return node
+    def add_node(self, key):
+        if key is None:
+            raise Exception('Invalid key')
+        if key in self.nodes:
+            return self.nodes[key]
+        self.nodes[key] = Node(key)
+        return self.nodes[key]
 
-    def add_edge(self, id_source, id_dest, weight=0):
-        if id_source not in self.nodes:
-            self.add_node(id_source)
-        if id_dest not in self.nodes:
-            self.add_node(id_dest)
-        self.nodes[id_source].add_neighbor(self.nodes[id_dest], weight)
+    def add_edge(self, source_key, dest_key, weight=0):
+        if source_key is None or dest_key is None:
+            raise Exception('Invalid key')
+        if source_key not in self.nodes:
+            self.add_node(source_key)
+        if dest_key not in self.nodes:
+            self.add_node(dest_key)
+        self.nodes[source_key].add_neighbor(self.nodes[dest_key],
+                                            weight)
 
-    def add_undirected_edge(self, source, dest, weight=0):
-        self.add_edge(source, dest, weight)
-        self.nodes[dest].add_neighbor(self.nodes[source], weight)
+    def add_undirected_edge(self, source_key, dest_key, weight=0):
+        if source_key is None or dest_key is None:
+            raise Exception('Invalid key')
+        self.add_edge(source_key, dest_key, weight)
+        self.nodes[dest_key].add_neighbor(self.nodes[source_key],
+                                          weight)
