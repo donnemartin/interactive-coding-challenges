@@ -5,10 +5,10 @@ class TestFib(object):
 
     def test_fib(self, func):
         result = []
-        for i in range(num_items):
+        expected = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+        for i in range(len(expected)):
             result.append(func(i))
-        fib_seq = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-        assert_equal(result, fib_seq)
+        assert_equal(result, expected)
         print('Success: test_fib')
 
 
