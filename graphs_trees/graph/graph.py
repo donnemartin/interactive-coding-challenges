@@ -30,14 +30,11 @@ class Node:
         self.adj_nodes[neighbor.key] = neighbor
 
     def remove_neighbor(self, neighbor):
-        if neighbor is None:
+        if neighbor is None or neighbor.key not in self.adj_nodes:
             raise Exception('Invalid neighbor')
-        if neighbor.key in self.adj_nodes:
-            neighbor.incoming_edges -= 1
-            del self.adj_weights[neighbor.key]
-            del self.adj_nodes[neighbor.key]
-        else:
-            raise Exception('Invalid neighbor')
+        neighbor.incoming_edges -= 1
+        del self.adj_weights[neighbor.key]
+        del self.adj_nodes[neighbor.key]
 
 
 class Graph:
