@@ -13,7 +13,8 @@ class TestCompress(object):
 
 def main():
     test = TestCompress()
-    test.test_compress(compress_string)
+    compress_string = CompressString()
+    test.test_compress(compress_string.compress)
 
 
 if __name__ == '__main__':
