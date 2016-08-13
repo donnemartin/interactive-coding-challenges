@@ -13,10 +13,13 @@ class TestUniqueChars(object):
 
 def main():
     test = TestUniqueChars()
-    test.test_unique_chars(unique_chars)
+    unique_chars = UniqueChars()
+    test.test_unique_chars(unique_chars.has_unique_chars)
     try:
-        test.test_unique_chars(unique_chars_hash)
-        test.test_unique_chars(unique_chars_inplace)
+        unique_chars_set = UniqueCharsSet()
+        test.test_unique_chars(unique_chars_set.has_unique_chars)
+        unique_chars_in_place = UniqueCharsInPlace()
+        test.test_unique_chars(unique_chars_in_place.has_unique_chars)
     except NameError:
         # Alternate solutions are only defined
         # in the solutions file

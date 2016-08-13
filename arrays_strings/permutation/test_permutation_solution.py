@@ -14,9 +14,11 @@ class TestPermutation(object):
 
 def main():
     test = TestPermutation()
-    test.test_permutation(permutations)
+    permutations = Permutations()
+    test.test_permutation(permutations.is_permutation)
     try:
-        test.test_permutation(permutations_alt)
+        permutations_alt = PermutationsAlt()
+        test.test_permutation(permutations_alt.is_permutation)
     except NameError:
         # Alternate solutions are only defined
         # in the solutions file
