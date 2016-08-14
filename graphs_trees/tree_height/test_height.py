@@ -4,13 +4,13 @@ from nose.tools import assert_equal
 class TestHeight(object):
 
     def test_height(self):
-        root = Node(5)
-        assert_equal(height(root), 1)
-        insert(root, 2)
-        insert(root, 8)
-        insert(root, 1)
-        insert(root, 3)
-        assert_equal(height(root), 3)
+        bst = BstHeight(Node(5))
+        assert_equal(bst.height(bst.root), 1)
+        bst.insert(2)
+        bst.insert(8)
+        bst.insert(1)
+        bst.insert(3)
+        assert_equal(bst.height(bst.root), 3)
 
         print('Success: test_height')
 
