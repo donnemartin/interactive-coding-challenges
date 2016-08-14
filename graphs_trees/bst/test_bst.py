@@ -6,22 +6,25 @@ class TestTree(object):
     def __init__(self):
         self.results = Results()
 
-    def test_tree(self):
-        node = Node(5)
-        assert_equal(insert(node, 2).data, 2)
-        assert_equal(insert(node, 8).data, 8)
-        assert_equal(insert(node, 1).data, 1)
-        assert_equal(insert(node, 3).data, 3)
-        in_order_traversal(node, self.results.add_result)
+    def test_tree_one(self):
+        bst = Bst()
+        bst.insert(5)
+        bst.insert(2)
+        bst.insert(8)
+        bst.insert(1)
+        bst.insert(3)
+        in_order_traversal(bst.root, self.results.add_result)
         assert_equal(str(self.results), '[1, 2, 3, 5, 8]')
         self.results.clear_results()
 
-        node = insert(None, 1)
-        assert_equal(insert(node, 2).data, 2)
-        assert_equal(insert(node, 3).data, 3)
-        assert_equal(insert(node, 4).data, 4)
-        insert(node, 5)
-        in_order_traversal(node, self.results.add_result)
+    def test_tree_two(self):
+        bst = Bst()
+        bst.insert(1)
+        bst.insert(2)
+        bst.insert(3)
+        bst.insert(4)
+        bst.insert(5)
+        in_order_traversal(bst.root, self.results.add_result)
         assert_equal(str(self.results), '[1, 2, 3, 4, 5]')
 
         print('Success: test_tree')
@@ -29,7 +32,8 @@ class TestTree(object):
 
 def main():
     test = TestTree()
-    test.test_tree()
+    test.test_tree_one()
+    test.test_tree_two()
 
 
 if __name__ == '__main__':

@@ -10,22 +10,34 @@ class Node(object):
         return str(self.data)
 
 
-def insert(root, data):
-    # Constraint: Assume we are working with valid ints
-    if root is None:
-        root = Node(data)
-        return root
-    if data <= root.data:
-        if root.left is None:
-            root.left = insert(root.left, data)
-            root.left.parent = root
-            return root.left
+class Bst(object):
+
+    def __init__(self, root=None):
+        self.root = root
+
+    def insert(self, data):
+        if data is None:
+            raise Exception('Data cannot be None')
+        if self.root is None:
+            self.root = Node(data)
+            return self.root
+        return self._insert(self.root, data)
+
+    def _insert(self, node, data):
+        # Constraint: Assume we are working with valid ints
+        if node is None:
+            return Node(data)
+        if data <= node.data:
+            if node.left is None:
+                node.left = self._insert(node.left, data)
+                node.left.parent = node
+                return node.left
+            else:
+                return self._insert(node.left, data)
         else:
-            return insert(root.left, data)
-    else:
-        if root.right is None:
-            root.right = insert(root.right, data)
-            root.right.parent = root
-            return root.right
-        else:
-            return insert(root.right, data)
+            if node.right is None:
+                node.right = self._insert(node.right, data)
+                node.right.parent = node
+                return node.right
+            else:
+                return self._insert(node.right, data)
