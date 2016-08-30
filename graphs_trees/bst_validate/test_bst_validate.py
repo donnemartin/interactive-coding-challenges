@@ -9,22 +9,22 @@ class TestBstValidate(object):
         validate_bst(None)
 
     def test_bst_validate(self):
-        node = Node(5)
-        insert(node, 8)
-        insert(node, 5)
-        insert(node, 6)
-        insert(node, 4)
-        insert(node, 7)
-        assert_equal(validate_bst(node), True)
+        bst = BstValidate(Node(5))
+        bst.insert(8)
+        bst.insert(5)
+        bst.insert(6)
+        bst.insert(4)
+        bst.insert(7)
+        assert_equal(bst.validate(), True)
 
-        root = Node(5)
+        bst = BstValidate(Node(5))
         left = Node(5)
         right = Node(8)
         invalid = Node(20)
-        root.left = left
-        root.right = right
-        root.left.right = invalid
-        assert_equal(validate_bst(root), False)
+        bst.root.left = left
+        bst.root.right = right
+        bst.root.left.right = invalid
+        assert_equal(bst.validate(), False)
 
         print('Success: test_bst_validate')
 
