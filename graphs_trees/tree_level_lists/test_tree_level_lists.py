@@ -4,19 +4,19 @@ from nose.tools import assert_equal
 class TestTreeLevelLists(object):
 
     def test_tree_level_lists(self):
-        node = Node(5)
-        insert(node, 3)
-        insert(node, 8)
-        insert(node, 2)
-        insert(node, 4)
-        insert(node, 1)
-        insert(node, 7)
-        insert(node, 6)
-        insert(node, 9)
-        insert(node, 10)
-        insert(node, 11)
+        bst = BstLevelLists(Node(5))
+        bst.insert(3)
+        bst.insert(8)
+        bst.insert(2)
+        bst.insert(4)
+        bst.insert(1)
+        bst.insert(7)
+        bst.insert(6)
+        bst.insert(9)
+        bst.insert(10)
+        bst.insert(11)
 
-        levels = create_level_lists(node)
+        levels = bst.create_level_lists()
         results_list = []
         for level in levels:
             results = Results()
