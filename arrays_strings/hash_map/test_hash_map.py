@@ -1,4 +1,4 @@
-from nose.tools import assert_equal
+from nose.tools import assert_equal, assert_raises
 
 
 class TestHashMap(object):
@@ -9,7 +9,7 @@ class TestHashMap(object):
         hash_table = HashTable(10)
 
         print("Test: get on an empty hash table index")
-        assert_equal(hash_table.get(0), None)
+        assert_raises(KeyError, hash_table.get, 0)
 
         print("Test: set on an empty hash table index")
         hash_table.set(0, 'foo')
@@ -30,10 +30,10 @@ class TestHashMap(object):
         print("Test: remove on a key that already exists")
         hash_table.remove(10)
         assert_equal(hash_table.get(0), 'foo')
-        assert_equal(hash_table.get(10), None)
+        assert_raises(KeyError, hash_table.get, 10)
 
         print("Test: remove on a key that doesn't exist")
-        hash_table.remove(-1)
+        assert_raises(KeyError, hash_table.remove, -1)
 
         print('Success: test_end_to_end')
 
