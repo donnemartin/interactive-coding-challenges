@@ -35,7 +35,7 @@ class TestFindLoopStart(object):
         node0 = Node(0, node1)
         node10.next = node3
         linked_list = MyLinkedList(node0)
-        assert_equal(linked_list.find_loop_start(), 3)
+        assert_equal(linked_list.find_loop_start(), node3)
 
         print('Success: test_find_loop_start')
 
