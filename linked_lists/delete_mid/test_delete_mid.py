@@ -13,7 +13,7 @@ class TestDeleteNode(object):
         head = Node(2)
         linked_list = MyLinkedList(head)
         linked_list.delete_node(head)
-        assert_equal(linked_list.get_all_data(), [])
+        assert_equal(linked_list.get_all_data(), [None])
 
         print('Test: Multiple nodes')
         linked_list = MyLinkedList(None)
