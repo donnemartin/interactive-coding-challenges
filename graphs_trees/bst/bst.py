@@ -17,14 +17,13 @@ class Bst(object):
 
     def insert(self, data):
         if data is None:
-            raise Exception('Data cannot be None')
+            raise TypeError('data cannot be None')
         if self.root is None:
             self.root = Node(data)
             return self.root
         return self._insert(self.root, data)
 
     def _insert(self, node, data):
-        # Constraint: Assume we are working with valid ints
         if node is None:
             return Node(data)
         if data <= node.data:
