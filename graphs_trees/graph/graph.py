@@ -23,15 +23,17 @@ class Node:
         return self.key < other.key
 
     def add_neighbor(self, neighbor, weight=0):
-        if neighbor is None:
-            raise Exception('Invalid neighbor')
+        if neighbor is None or weight is None:
+            raise TypeError('neighbor or weight cannot be None')
         neighbor.incoming_edges += 1
         self.adj_weights[neighbor.key] = weight
         self.adj_nodes[neighbor.key] = neighbor
 
     def remove_neighbor(self, neighbor):
-        if neighbor is None or neighbor.key not in self.adj_nodes:
-            raise Exception('Invalid neighbor')
+        if neighbor is None:
+            raise TypeError('neighbor cannot be None')
+        if neighbor.key not in self.adj_nodes:
+            raise KeyError('neighbor not found')
         neighbor.incoming_edges -= 1
         del self.adj_weights[neighbor.key]
         del self.adj_nodes[neighbor.key]
@@ -44,7 +46,7 @@ class Graph:
 
     def add_node(self, key):
         if key is None:
-            raise Exception('Invalid key')
+            raise TypeError('key cannot be None')
         if key in self.nodes:
             return self.nodes[key]
         self.nodes[key] = Node(key)
@@ -60,9 +62,8 @@ class Graph:
         self.nodes[source_key].add_neighbor(self.nodes[dest_key],
                                             weight)
 
-    def add_undirected_edge(self, source_key, dest_key, weight=0):
-        if source_key is None or dest_key is None:
-            raise Exception('Invalid key')
-        self.add_edge(source_key, dest_key, weight)
-        self.nodes[dest_key].add_neighbor(self.nodes[source_key],
-                                          weight)
+    def add_undirected_edge(self, src_key, dst_key, weight=0):
+        if src_key is None or dst_key is None:
+            raise TypeError('key cannot be None')
+        self.add_edge(src_key, dst_key, weight)
+        self.add_edge(dst_key, src_key, weight)
