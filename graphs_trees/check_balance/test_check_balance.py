@@ -4,7 +4,7 @@ from nose.tools import raises
 
 class TestCheckBalance(object):
 
-    @raises(Exception)
+    @raises(TypeError)
     def test_check_balance_empty(self):
         bst = BstBalance(None)
         bst.check_balance()
