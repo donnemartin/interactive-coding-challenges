@@ -47,20 +47,18 @@ class Graph:
     def add_node(self, key):
         if key is None:
             raise TypeError('key cannot be None')
-        if key in self.nodes:
-            return self.nodes[key]
-        self.nodes[key] = Node(key)
+        if key not in self.nodes:
+            self.nodes[key] = Node(key)
         return self.nodes[key]
 
     def add_edge(self, source_key, dest_key, weight=0):
         if source_key is None or dest_key is None:
-            raise Exception('Invalid key')
+            raise KeyError('Invalid key')
         if source_key not in self.nodes:
             self.add_node(source_key)
         if dest_key not in self.nodes:
             self.add_node(dest_key)
-        self.nodes[source_key].add_neighbor(self.nodes[dest_key],
-                                            weight)
+        self.nodes[source_key].add_neighbor(self.nodes[dest_key], weight)
 
     def add_undirected_edge(self, src_key, dst_key, weight=0):
         if src_key is None or dst_key is None:
