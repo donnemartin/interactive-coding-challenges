@@ -44,8 +44,6 @@ class LinkedList(object):
     def find(self, data):
         if data is None:
             return None
-        if self.head is None:
-            return None
         curr_node = self.head
         while curr_node is not None:
             if curr_node.data == data:
@@ -58,15 +56,17 @@ class LinkedList(object):
             return
         if self.head is None:
             return
+        if self.head.data == data:
+            self.head = None
+            return
         prev_node = self.head
-        curr_node = prev_node.next
+        curr_node = self.head.next
         while curr_node is not None:
             if curr_node.data == data:
                 prev_node.next = curr_node.next
                 return
-            else:
-                prev_node = curr_node
-                curr_node = curr_node.next
+            prev_node = curr_node
+            curr_node = curr_node.next
 
     def delete_alt(self, data):
         if data is None:
