@@ -15,6 +15,9 @@ class TestRemoveDupes(object):
 
         print('Test: General case, duplicates')
         linked_list.insert_to_front(1)
+        linked_list.insert_to_front(1)
+        linked_list.insert_to_front(3)
+        linked_list.insert_to_front(2)
         linked_list.insert_to_front(3)
         linked_list.insert_to_front(1)
         linked_list.insert_to_front(1)

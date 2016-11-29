@@ -17,12 +17,21 @@ class TestDeleteNode(object):
 
         print('Test: Multiple nodes')
         linked_list = MyLinkedList(None)
-        node0 = linked_list.insert_to_front(1)
+        node0 = linked_list.insert_to_front(2)
         node1 = linked_list.insert_to_front(3)
         node2 = linked_list.insert_to_front(4)
         node3 = linked_list.insert_to_front(1)
-        linked_list.delete_node(node2)
-        assert_equal(linked_list.get_all_data(), [1, 3, 1])
+        linked_list.delete_node(node1)
+        assert_equal(linked_list.get_all_data(), [1, 4, 2])
+
+        print('Test: Multiple nodes, delete last element')
+        linked_list = MyLinkedList(None)
+        node0 = linked_list.insert_to_front(2)
+        node1 = linked_list.insert_to_front(3)
+        node2 = linked_list.insert_to_front(4)
+        node3 = linked_list.insert_to_front(1)
+        linked_list.delete_node(node0)
+        assert_equal(linked_list.get_all_data(), [1, 4, 3, None])
 
         print('Success: test_delete_node')
 

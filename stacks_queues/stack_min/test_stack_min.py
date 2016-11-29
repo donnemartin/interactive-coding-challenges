@@ -5,7 +5,7 @@ class TestStackMin(object):
 
     def test_stack_min(self):
         print('Test: Push on empty stack, non-empty stack')
-        stack = MyStack()
+        stack = StackMin()
         stack.push(5)
         assert_equal(stack.peek(), 5)
         assert_equal(stack.min(), 5)

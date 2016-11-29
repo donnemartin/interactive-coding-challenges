@@ -5,7 +5,7 @@ class TestPathExists(object):
 
     def test_path_exists(self):
         nodes = []
-        graph = Graph()
+        graph = GraphPathExists()
         for id in range(0, 6):
             nodes.append(graph.add_node(id))
         graph.add_edge(0, 1, 5)
@@ -17,9 +17,9 @@ class TestPathExists(object):
         graph.add_edge(3, 2, 7)
         graph.add_edge(3, 4, 8)
 
-        assert_equal(path_exists(nodes[0], nodes[2]), True)
-        assert_equal(path_exists(nodes[0], nodes[0]), True)
-        assert_equal(path_exists(nodes[4], nodes[5]), False)
+        assert_equal(graph.path_exists(nodes[0], nodes[2]), True)
+        assert_equal(graph.path_exists(nodes[0], nodes[0]), True)
+        assert_equal(graph.path_exists(nodes[4], nodes[5]), False)
 
         print('Success: test_path_exists')
 

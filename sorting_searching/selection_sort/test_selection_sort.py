@@ -4,6 +4,11 @@ from nose.tools import assert_equal
 class TestSelectionSort(object):
 
     def test_selection_sort(self, func):
+        print('None input')
+        data = None
+        func(data)
+        assert_equal(data, None)
+
         print('Empty input')
         data = []
         func(data)
@@ -15,7 +20,7 @@ class TestSelectionSort(object):
         assert_equal(data, [5])
 
         print('Two or more elements')
-        data = [5, 1, 7, 2, 6, -3, 5, 7, -1]
+        data = [5, 1, 7, 2, 6, -3, 5, 7, -10]
         func(data)
         assert_equal(data, sorted(data))
 
@@ -26,7 +31,8 @@ def main():
     test = TestSelectionSort()
     test.test_selection_sort(selection_sort)
     try:
-        test.test_selection_sort(selection_sort_iterative)
+        test.test_selection_sort(selection_sort_recursive)
+        test.test_selection_sort(selection_sort_iterative_alt)
     except NameError:
         # Alternate solutions are only defined
         # in the solutions file

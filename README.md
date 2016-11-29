@@ -8,7 +8,7 @@ interactive-coding-challenges
 
 **Continually updated, interactive and test-driven coding challenges**.
 
-Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews** or **coding competitions**.
+Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews**.
 
 Each challenge has one or more reference solutions that are:
 * Fully functional
@@ -81,8 +81,8 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 * [Arrays and Strings](#arrays-and-strings)
 * [Linked Lists](#linked-lists)
 * [Stacks and Queues](#stacks-and-queues)
-* [Sorting and Searching](#sorting-and-searching)
 * [Graphs and Trees](#graphs-and-trees)
+* [Sorting](#sorting)
 * [Recursion and Dynamic Programming](#recursion-and-dynamic-programming)
 * [Bit Manipulation](#bit-manipulation)
 * [Scalability and Memory Limits](#scalability-and-memory-limits)
@@ -92,9 +92,9 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 ### Installing and Running Challenges
 
 * [Repo Structure](#repo-structure)
-* [Running Challenges](#running-challenges)
 * [Notebook Installation](#notebook-installation)
-* [Nose Installation](#nose-installation)
+    * [Nose Installation](#nose-installation)
+* [Running Challenges](#running-challenges)
 
 ### Misc
 
@@ -172,28 +172,6 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 
 <br/>
 <p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif">
-</p>
-<br/>
-
-### Sorting and Searching
-
-| Challenge | Static Notebooks |
-|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Implement selection sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb) |
-| Implement insertion sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_solution.ipynb) |
-| Implement quick sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_solution.ipynb) |
-| Implement merge sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_solution.ipynb) |
-| Implement a stable selection sort | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Make an unstable sort stable | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Implement an efficient, in-place version of quicksort | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Given two sorted arrays, merge one into the other in sorted order | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Sort an array of strings so all anagrams are next to each other | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Find an element in a rotated and sorted array of integers | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-| Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
-
-<br/>
-<p>
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/binary_tree_wikipedia.png">
 </p>
 <br/>
@@ -209,6 +187,7 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 | Create a linked list for each level of a binary tree | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_level_lists/tree_level_lists_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_level_lists/tree_level_lists_solution.ipynb) |
 | Check if a binary tree is balanced | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/check_balance/check_balance_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/check_balance/check_balance_solution.ipynb) |
 | Determine if a tree is a valid binary search tree | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst_validate/bst_validate_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst_validate/bst_validate_solution.ipynb) |
+| Find the in-order successor of a given node in a binary search tree | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst_successor/bst_successor_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst_successor/bst_successor_solution.ipynb) |
 | Implement a binary search tree | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst/bst_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst/bst_solution.ipynb) |
 | Implement depth-first search on a graph |  [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_dfs/dfs_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_dfs/dfs_solution.ipynb) |
 | Implement breadth-first search on a graph | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_bfs/bfs_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_bfs/bfs_solution.ipynb) |
@@ -219,6 +198,28 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 | Transform a binary tree into a heap | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 | Implement a right and left rotation on a tree | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 | Check if a binary tree is binary search tree | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+
+<br/>
+<p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif">
+</p>
+<br/>
+
+### Sorting
+
+| Challenge | Static Notebooks |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Implement selection sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb) |
+| Implement insertion sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_solution.ipynb) |
+| Implement quick sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_solution.ipynb) |
+| Implement merge sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_solution.ipynb) |
+| Implement a stable selection sort | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Make an unstable sort stable | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Implement an efficient, in-place version of quicksort | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Given two sorted arrays, merge one into the other in sorted order | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Sort an array of strings so all anagrams are next to each other | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+| Find an element in a rotated and sorted array of integers | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
@@ -314,43 +315,10 @@ interactive-coding-challenges        # Repo
 
 <i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
 
-## Running Challenges
-
-### Notebooks
-
-Challenges are provided in the form of **IPython/Jupyter Notebooks** and have been **tested with Python 2.7 and Python 3.4**.
-
-*If you need to install IPython/Jupyter Notebook, see the [Notebook Installation](#notebook-installation) section.*
-
-* This README contains links to [nbviewer](http://nbviewer.ipython.org), which hosts **static notebooks** of the repo's contents
-* To interact with or to modify elements within the **dynamic notebooks**, refer to the instructions below
-
-Run the notebook of challenges:
-
-```
-$ git clone https://github.com/donnemartin/interactive-coding-challenges.git
-$ cd interactive-coding-challenges
-$ ipython notebook
-```
-
-This will launch your web browser with the list of challenge categories:
-* Navigate to the **Challenge Notebook** you wish to solve
-* Run the cells within the challenge notebook (Cell->Run All)
-    * This will result in an expected unit test error
-* Solve the challenge and verify it passes the unit test
-* Check out the accompanying **Solution Notebook** for further discussion
-
-To **debug** your solution with pdb, refer to the following [ticket](https://github.com/donnemartin/interactive-coding-challenges/issues/11).
-
-Note: If your solution is different from those listed in the Solution Notebook, consider submitting a pull request so others can benefit from your work.  Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details.
-
-### Nose Unit Tests
-
-Unit tests are provided in the form of **Nose tests**.
-
-*If you need to install Nose, see the [Nose Installation](#nose-installation) section.*
 
 ## Notebook Installation
+
+### IPython Notebook
 
 If you already have Python installed and are familiar with installing packages, you can get IPython Notebook with pip:
 
@@ -377,7 +345,7 @@ For more details on notebook installation, follow the directions [here](http://i
 
 More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
 
-## Nose Installation
+### Nose Tests
 
 Install nose using setuptools/distribute:
 
@@ -392,6 +360,36 @@ pip install nose
 ```
 
 More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
+
+## Running Challenges
+
+### Notebooks
+
+Challenges are provided in the form of **IPython/Jupyter Notebooks** and have been **tested with Python 2.7 and Python 3.4**.
+
+*If you need to install IPython/Jupyter Notebook, see the [Notebook Installation](#notebook-installation) section.*
+
+* This README contains links to [nbviewer](http://nbviewer.ipython.org), which hosts **static notebooks** of the repo's contents
+* To interact with or to modify elements within the **dynamic notebooks**, refer to the instructions below
+
+Run the notebook of challenges:
+
+```
+$ git clone https://github.com/donnemartin/interactive-coding-challenges.git
+$ cd interactive-coding-challenges
+$ jupyter notebook
+```
+
+This will launch your web browser with the list of challenge categories:
+* Navigate to the **Challenge Notebook** you wish to solve
+* Run the cells within the challenge notebook (Cell->Run All)
+    * This will result in an expected unit test error
+* Solve the challenge and verify it passes the unit test
+* Check out the accompanying **Solution Notebook** for further discussion
+
+To **debug** your solution with pdb, refer to the following [ticket](https://github.com/donnemartin/interactive-coding-challenges/issues/11).
+
+Note: If your solution is different from those listed in the Solution Notebook, consider submitting a pull request so others can benefit from your work.  Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details.
 
 ## Contributing
 
@@ -413,6 +411,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 * [CareerCup](http://www.careercup.com/)
 * [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
+* [LeetCode](https://leetcode.com/)
 * [TopCoder](https://www.topcoder.com/)
 
 ### Images
@@ -421,7 +420,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 * [Linked Lists: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 * [Stacks: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/2/29/Data_stack.svg)
 * [Queues: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
-* [Sorting and Searching: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+* [Sorting: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 * [Recursion and Dynamic Programming: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/b/bf/PascalTriangleFibanacci.svg)
 * [Graphs and Trees: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
 * [Mathematics and Probability: wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/d/d2/Gaussian_distribution_2.jpg)
@@ -432,11 +431,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 
 Feel free to contact me to discuss any issues, questions, or comments.
 
-* Email: [donne.martin@gmail.com](mailto:donne.martin@gmail.com)
-* Twitter: [@donne_martin](https://twitter.com/donne_martin)
-* GitHub: [donnemartin](https://github.com/donnemartin)
-* LinkedIn: [donnemartin](https://www.linkedin.com/in/donnemartin)
-* Website: [donnemartin.com](http://donnemartin.com)
+My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ## License
 

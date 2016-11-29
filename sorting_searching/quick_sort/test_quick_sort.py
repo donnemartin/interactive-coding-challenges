@@ -3,6 +3,11 @@ from nose.tools import assert_equal
 
 class TestQuickSort(object):
     def test_quick_sort(self, func):
+        print('None input')
+        data = None
+        sorted_data = func(data)
+        assert_equal(sorted_data, None)
+
         print('Empty input')
         data = []
         sorted_data = func(data)
@@ -24,12 +29,6 @@ class TestQuickSort(object):
 def main():
     test = TestQuickSort()
     test.test_quick_sort(quick_sort)
-    try:
-        test.test_quick_sort(quick_sort_alt)
-    except NameError:
-        # Alternate solutions are only defined
-        # in the solutions file
-        pass
 
 
 if __name__ == '__main__':
