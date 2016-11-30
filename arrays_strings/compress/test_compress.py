@@ -8,6 +8,8 @@ class TestCompress(object):
         assert_equal(func(''), '')
         assert_equal(func('AABBCC'), 'AABBCC')
         assert_equal(func('AAABCCDDDDE'), 'A3BC2D4E')
+        assert_equal(func('BAAACCDDDD'), 'BA3C2D4')
+        assert_equal(func('AAABAACCDDDD'), 'A3BA2C2D4')
         print('Success: test_compress')
 
 
