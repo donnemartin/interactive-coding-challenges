@@ -1,28 +1,23 @@
-from nose.tools import assert_equal
+from nose.tools import assert_equal, assert_raises
 
 
 class TestInsertionSort(object):
 
     def test_insertion_sort(self):
+        insertion_sort = InsertionSort()
+
         print('None input')
-        data = None
-        insertion_sort(data)
-        assert_equal(data, None)
+        assert_raises(TypeError, insertion_sort.sort, None)
 
         print('Empty input')
-        data = []
-        insertion_sort(data)
-        assert_equal(data, [])
+        assert_equal(insertion_sort.sort([]), [])
 
         print('One element')
-        data = [5]
-        insertion_sort(data)
-        assert_equal(data, [5])
+        assert_equal(insertion_sort.sort([5]), [5])
 
         print('Two or more elements')
         data = [5, 1, 7, 2, 6, -3, 5, 7, -1]
-        insertion_sort(data)
-        assert_equal(data, sorted(data))
+        assert_equal(insertion_sort.sort(data), sorted(data))
 
         print('Success: test_insertion_sort')
 
