@@ -14,9 +14,10 @@ class TestFib(object):
 
 def main():
     test = TestFib()
-    test.test_fib(fib_recursive)
-    test.test_fib(fib_dynamic)
-    test.test_fib(fib_iterative)
+    math = Math()
+    test.test_fib(math.fib_recursive)
+    test.test_fib(math.fib_dynamic)
+    test.test_fib(math.fib_iterative)
 
 
 if __name__ == '__main__':
