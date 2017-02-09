@@ -21,7 +21,8 @@ class Bst(object):
         if self.root is None:
             self.root = Node(data)
             return self.root
-        return self._insert(self.root, data)
+        else:
+            return self._insert(self.root, data)
 
     def _insert(self, node, data):
         if node is None:
