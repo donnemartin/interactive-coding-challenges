@@ -66,14 +66,6 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 * [Challenge Notebook] Unit test for your code.  Expected to fail until you solve the challenge.
 * [Solution Notebook] Unit test for the reference solution(s).
 
-## Future Development
-
-Challenges, solutions, and unit tests are presented in the form of **IPython/Jupyter Notebooks**.
-
-* Notebooks currently contain mostly Python solutions (tested on both Python 2.7 and Python 3.4), but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
-* Repo will be **continually updated** with new solutions and challenges
-* [Contributions](#contributing) are welcome!
-
 ## Index
 
 ### Challenges Categories
@@ -391,6 +383,14 @@ This will launch your web browser with the list of challenge categories:
 To **debug** your solution with pdb, refer to the following [ticket](https://github.com/donnemartin/interactive-coding-challenges/issues/11).
 
 Note: If your solution is different from those listed in the Solution Notebook, consider submitting a pull request so others can benefit from your work.  Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details.
+
+## Future Development
+
+Challenges, solutions, and unit tests are presented in the form of **IPython/Jupyter Notebooks**.
+
+* Notebooks currently contain mostly Python solutions (tested on both Python 2.7 and Python 3.4), but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
+* Repo will be **continually updated** with new solutions and challenges
+* [Contributions](#contributing) are welcome!
 
 ## Contributing
 
