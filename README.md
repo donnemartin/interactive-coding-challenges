@@ -358,7 +358,7 @@ More information on Nose can be found [here](https://nose.readthedocs.org/en/lat
 
 ### Notebooks
 
-Challenges are provided in the form of **IPython/Jupyter Notebooks** and have been **tested with Python 2.7 and Python 3.4**.
+Challenges are provided in the form of **IPython/Jupyter Notebooks** and have been **tested with Python 2.7 and Python 3.x**.
 
 *If you need to install IPython/Jupyter Notebook, see the [Notebook Installation](#notebook-installation) section.*
 
@@ -388,7 +388,7 @@ Note: If your solution is different from those listed in the Solution Notebook, 
 
 Challenges, solutions, and unit tests are presented in the form of **IPython/Jupyter Notebooks**.
 
-* Notebooks currently contain mostly Python solutions (tested on both Python 2.7 and Python 3.4), but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
+* Notebooks currently contain mostly Python solutions (tested on both Python 2.7 and Python 3.x), but can be extended to include [44 supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
 * Repo will be **continually updated** with new solutions and challenges
 * [Contributions](#contributing) are welcome!
 
