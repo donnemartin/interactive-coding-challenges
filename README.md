@@ -407,6 +407,11 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 
 * [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) | [GitHub Solutions](https://github.com/gaylemcd/ctci)
 * [Programming Interviews Exposed](http://www.amazon.com/gp/product/1118261364/)
+* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) | [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+* [CareerCup](http://www.careercup.com/)
+* [Quora](http://www.quora.com/)
+* [HackerRank](https://www.hackerrank.com)
+* [LeetCode](https://leetcode.com/)
 
 ### Images
 
