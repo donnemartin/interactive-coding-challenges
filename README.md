@@ -126,7 +126,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/linked_lists_wikipedia.png">
 </p>
 <br/>
@@ -147,7 +147,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/stack_queue_wikipedia.png">
 </p>
 <br/>
@@ -167,7 +167,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/binary_tree_wikipedia.png">
 </p>
 <br/>
@@ -200,7 +200,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif">
 </p>
 <br/>
@@ -227,7 +227,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/fibonacci_wikipedia.png">
 </p>
 <br/>
@@ -260,7 +260,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/probability_distribution_wikipedia.png">
 </p>
 <br/>
@@ -282,7 +282,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/bit_manipulation_wikipedia.png">
 </p>
 <br/>
@@ -303,7 +303,7 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
 
 <br/>
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/logo_topcoder.png">
 </p>
 <br/>
@@ -419,6 +419,7 @@ $ jupyter notebook
 ```
 
 This will launch your web browser with the list of challenge categories:
+
 * Navigate to the **Challenge Notebook** you wish to solve
 * Run the cells within the challenge notebook (Cell->Run All)
     * This will result in an expected unit test error
@@ -442,6 +443,7 @@ Challenges, solutions, and unit tests are presented in the form of **IPython/Jup
 Contributions are welcome!
 
 Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) for details on how to:
+
 * Submit issues
 * Add solutions to existing challenges
 * Add new challenges
