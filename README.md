@@ -86,6 +86,20 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 
 **Total number of challenges: 120**
 
+### Reference Implementations: Data Structures
+
+Unit tested, fully functional implementations of the following data structures:
+
+* [Linked List](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/linked_list/linked_list_solution.ipynb)
+* [Stack](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack/stack_solution.ipynb)
+* [Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/queue_list/queue_list_solution.ipynb)
+* [Binary Search Tree](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst/bst_solution.ipynb)
+* [Graph](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph/graph_solution.ipynb)
+* [Min Heap](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/min_heap/min_heap_solution.ipynb)
+* [Trie](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/trie/trie_solution.ipynb)
+* [Priority Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/priority_queue/priority_queue_solution.ipynb)
+* [Hash Map](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/hash_map/hash_map_solution.ipynb)
+
 ### Installing and Running Challenges
 
 * [Repo Structure](#repo-structure)
