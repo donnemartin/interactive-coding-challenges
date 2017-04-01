@@ -100,6 +100,26 @@ Unit tested, fully functional implementations of the following data structures:
 * [Priority Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/priority_queue/priority_queue_solution.ipynb)
 * [Hash Map](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/hash_map/hash_map_solution.ipynb)
 
+### Reference Implementations: Algorithms
+
+Unit tested, fully functional implementations of the following algorithms:
+
+* [Selection Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb)
+* [Insertion Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_solution.ipynb)
+* [Quick Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_solution.ipynb)
+* [Merge Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_solution.ipynb)
+* [Radix Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/radix_sort/radix_sort_solution.ipynb)
+* [Topological Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_build_order/build_order_solution.ipynb)
+* [Tree Depth-First Search (Pre-, In-, Post-Order)](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_dfs/dfs_solution.ipynb)
+* [Tree Breadth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_bfs/bfs_solution.ipynb)
+* [Graph Depth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_dfs/dfs_solution.ipynb)
+* [Graph Breadth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_bfs/bfs_solution.ipynb)
+* [Dijkstra's Shortest Path](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_shortest_path/graph_shortest_path_solution.ipynb)
+* [Unweighted Graph Shortest Path](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_shortest_path_unweighted/shortest_path_solution.ipynb)
+* [Knapsack 0/1](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_solution.ipynb)
+* [Knapsack Unbounded](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_solution.ipynb)
+* [Sieve of Eratosthenes](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/math_probability/generate_primes/check_prime_solution.ipynb)
+
 ### Installing and Running Challenges
 
 * [Repo Structure](#repo-structure)
