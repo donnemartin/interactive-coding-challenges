@@ -31,6 +31,19 @@ Notebooks also detail:
 </p>
 <br/>
 
+## Anki Flashcards: Coding and Design
+
+<p align="center">
+  <img src="http://i.imgur.com/b4YtAEN.png">
+  <br/>
+</p>
+
+The provided [Anki flashcard deck](https://apps.ankiweb.net/) uses spaced repetition to help you retain key concepts.
+
+* [Coding deck](anki_cards/Coding.apkg)
+
+Great for use while on-the-go.
+
 ## Notebook Structure
 
 Each challenge has two notebooks, a **challenge notebook** for you to solve and a **solution notebook** for reference.
