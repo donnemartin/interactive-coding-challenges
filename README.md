@@ -70,16 +70,21 @@ Each challenge has two notebooks, a **challenge notebook** for you to solve and 
 
 ### Challenges Categories
 
-* [Arrays and Strings](#arrays-and-strings)
-* [Linked Lists](#linked-lists)
-* [Stacks and Queues](#stacks-and-queues)
-* [Graphs and Trees](#graphs-and-trees)
-* [Sorting](#sorting)
-* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming)
-* [Bit Manipulation](#bit-manipulation)
-* [Scalability and Memory Limits](#scalability-and-memory-limits)
-* [Concurrency](#concurrency)
-* [Online Judges](#online-judges)
+**Format**: Challenge Category - Number of Challenges
+
+* [Arrays and Strings](#arrays-and-strings) - 10
+* [Linked Lists](#linked-lists) - 8
+* [Stacks and Queues](#stacks-and-queues) - 8
+* [Graphs and Trees](#graphs-and-trees) - 21
+* [Sorting](#sorting) - 10
+* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming) - 17
+* [Mathematics and Probability](#mathematics-and-probability) - 6
+* [Bit Manipulation](#bit-manipulation) - 8
+* [Online Judges](#online-judges) - 16
+* [System Design](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions) - 8
+* [Object Oriented Design](https://github.com/donnemartin/system-design-primer#object-oriented-design-interview-questions-with-solutions) - 8
+
+**Total number of challenges: 120**
 
 ### Installing and Running Challenges
 
