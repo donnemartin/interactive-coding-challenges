@@ -120,6 +120,21 @@ Unit tested, fully functional implementations of the following algorithms:
 * [Knapsack Unbounded](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_solution.ipynb)
 * [Sieve of Eratosthenes](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/math_probability/generate_primes/check_prime_solution.ipynb)
 
+### Reference Implementations: TODO
+
+* [A*](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Bellman-Ford](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Bloom Filter](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Convex Hull](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Fisher-Yates Shuffle](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Kruskal's](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Max Flow](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Prim's](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Rabin-Karp](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Traveling Salesman](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Union Find](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+
 ### Installing and Running Challenges
 
 * [Repo Structure](#repo-structure)
