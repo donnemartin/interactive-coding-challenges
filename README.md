@@ -177,7 +177,7 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Misc
 
-* [Contributing](#contributing)
+* [Contributing](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
 * [Credits](#credits)
 * [Contact Info](#contact-info)
 * [License](#license)
