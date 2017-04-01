@@ -66,7 +66,7 @@ Check out the sister repo [The System Design Primer](https://github.com/donnemar
 
 ## Notebook Structure
 
-Each challenge has two notebooks, a **challenge notebook** for you to solve and a **solution notebook** for reference.
+Each challenge has two notebooks, a **challenge notebook** with unit tests for you to solve and a **solution notebook** for reference.
 
 ### Problem Statement
 
