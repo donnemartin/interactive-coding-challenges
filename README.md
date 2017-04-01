@@ -8,9 +8,10 @@ interactive-coding-challenges
 
 **Continually updated, interactive and test-driven coding challenges**.
 
-Challenges focus on **algorithms** and **data structures** that are typically found in **coding interviews**.
+Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
 
 Each challenge has one or more reference solutions that are:
+
 * Fully functional
 * Unit tested
 * Easy-to-understand
@@ -18,6 +19,7 @@ Each challenge has one or more reference solutions that are:
 Challenges will soon provide on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.
 
 Notebooks also detail:
+
 * Constraints
 * Test cases
 * Algorithms
