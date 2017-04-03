@@ -17,13 +17,17 @@ def main():
     test = TestPermutation()
     permutations = Permutations()
     test.test_permutation(permutations.is_permutation)
+
+    alternate_solutions = []
     try:
-        permutations_alt = PermutationsAlt()
-        test.test_permutation(permutations_alt.is_permutation)
+        alternate_solutions.append(PermutationsDefaultdict())
+        alternate_solutions.append(PermutationsCounter())
     except NameError:
         # Alternate solutions are only defined
         # in the solutions file
         pass
+    for permutations_alt in alternate_solutions:
+        test.test_permutation(permutations_alt.is_permutation)
 
 
 if __name__ == '__main__':
