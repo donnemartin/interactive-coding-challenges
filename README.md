@@ -67,7 +67,6 @@ Check out the sister repo [The System Design Primer](https://github.com/donnemar
 * [System design exercises deck](resources/flash_cards/System%20Design%20Exercises.apkg)
 * [Object oriented design exercises deck](resources/flash_cards/OO%20Design.apkg)
 
-<br/>
 ![](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
 
 ## Notebook Structure
