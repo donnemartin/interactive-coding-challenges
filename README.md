@@ -3,6 +3,12 @@
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
 </p>
 
+## April 2017 - Huge Update!
+
+**Overhauled** to now include **120 challenges and solutions** and added [Anki Flash Cards](#anki-flashcards-coding-and-design).
+
+Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
+
 interactive-coding-challenges
 ============
 
