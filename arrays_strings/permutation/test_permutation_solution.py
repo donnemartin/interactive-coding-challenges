@@ -9,6 +9,7 @@ class TestPermutation(object):
         assert_equal(func('Nib', 'bin'), False)
         assert_equal(func('act', 'cat'), True)
         assert_equal(func('a ct', 'ca t'), True)
+        assert_equal(func('dog', 'doggo'), False)
         print('Success: test_permutation')
 
 
