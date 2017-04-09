@@ -1,7 +1,7 @@
 # %load test_remove_chars.py
 from nose.tools import assert_equal
 
- 
+
 class TestRemoveChars(object):
 
     def test_remove_chars(self, string, func):
@@ -17,7 +17,7 @@ def main():
     remove_chars = RemoveChars()
     string = 'Python is great'
     test.test_remove_chars(string, remove_chars.remove_chars)
-    
+
 
 if __name__ == '__main__':
     main()
