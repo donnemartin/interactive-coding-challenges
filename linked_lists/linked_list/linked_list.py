@@ -11,7 +11,8 @@ class Node(object):
 class LinkedList(object):
 
     def __init__(self, head=None):
-        self.head = head
+
+        self.head = Node(None)
 
     def __len__(self):
         curr = self.head
@@ -57,7 +58,7 @@ class LinkedList(object):
         if self.head is None:
             return
         if self.head.data == data:
-            self.head = None
+            self.head = self.head.next
             return
         prev_node = self.head
         curr_node = self.head.next
@@ -96,3 +97,8 @@ class LinkedList(object):
             data.append(curr_node.data)
             curr_node = curr_node.next
         return data
+
+node  = Node("emma")
+l = LinkedList()
+l.append("test")
+l.print_list()
