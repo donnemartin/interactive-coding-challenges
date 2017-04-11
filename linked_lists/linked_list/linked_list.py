@@ -11,7 +11,7 @@ class Node(object):
 class LinkedList(object):
 
     def __init__(self, head=None):
-        self.head = Node(None)
+        self.head = head
 
     def __len__(self):
         curr = self.head
