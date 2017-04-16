@@ -33,7 +33,7 @@ class LinkedList(object):
             return None
         node = Node(data)
         if self.head is None:
-            self.head = Node(data)
+            self.head = node
             return node
         curr_node = self.head
         while curr_node.next is not None:
@@ -57,7 +57,7 @@ class LinkedList(object):
         if self.head is None:
             return
         if self.head.data == data:
-            self.head = None
+            self.head = self.head.next
             return
         prev_node = self.head
         curr_node = self.head.next
