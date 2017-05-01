@@ -1,7 +1,7 @@
 from nose.tools import assert_equal
 
 
-class TestMaximingXor(object):
+class TestMaximizingXor(object):
 
     def test_maximizing_xor(self):
         solution = Solution()
@@ -10,7 +10,7 @@ class TestMaximingXor(object):
 
 
 def main():
-    test = TestMaximingXor()
+    test = TestMaximizingXor()
     test.test_maximizing_xor()
 
 
