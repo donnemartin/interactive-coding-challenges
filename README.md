@@ -443,7 +443,7 @@ interactive-coding-challenges        # Repo
 ├─ ...
 ```
 
-<i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
+<i>\*The notebooks (.ipynb) read/write the associated unit test (.py) file.</i>
 
 
 ## Notebook Installation
