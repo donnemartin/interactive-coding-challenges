@@ -51,7 +51,7 @@ Refer to [Accessing the Challenges](https://github.com/donnemartin/interactive-c
 ### Adding New Solutions to Existing Challenges
 
 Challenges have multiple solutions.  If adding new solutions to existing challenges:
-* Add your algorithm discusion and code solution to the existing notebook
+* Add your algorithm discussion and code solution to the existing notebook
 * Update the unit test to include your solution
 * Verify your code passes the unit tests
 

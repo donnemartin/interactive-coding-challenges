@@ -75,25 +75,25 @@ class BinaryTree (object):
 				parent.rightChild = current.rightChild
 
 		else:
-			succesor = current.rightChild
-			succesorParent = current
+			successor = current.rightChild
+			successorParent = current
 
-			while succesor.leftChild is not None:
-				succesorParent = succesor
-				succesor = succesor.leftChild
+			while successor.leftChild is not None:
+				successorParent = successor
+				successor = successor.leftChild
 
 			if current is self.root:
-				self.root = succesor
+				self.root = successor
 			elif isLeft:
-				parent.leftChild = succesor
+				parent.leftChild = successor
 			else:
-				parent.rightChild = succesor
+				parent.rightChild = successor
 
-			succesor.leftChild = current.leftChild
+			successor.leftChild = current.leftChild
 
-			if succesor is not current.rightChild:
-				succesorParent.leftChild = succesor.rightChild
-				succesor.rightChild = current.rightChild
+			if successor is not current.rightChild:
+				successorParent.leftChild = successor.rightChild
+				successor.rightChild = current.rightChild
 
 		return True 
 
