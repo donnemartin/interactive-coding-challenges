@@ -28,16 +28,9 @@ class Bst(object):
         if node is None:
             return Node(data)
         if data <= node.data:
-            if node.left is None:
-                node.left = self._insert(node.left, data)
-                node.left.parent = node
-                return node.left
-            else:
-                return self._insert(node.left, data)
+            node.left = self._insert(node.left, data)
+            node.left.parent = node
         else:
-            if node.right is None:
-                node.right = self._insert(node.right, data)
-                node.right.parent = node
-                return node.right
-            else:
-                return self._insert(node.right, data)
+            node.right = self._insert(node.right, data)
+            node.right.parent = node
+        return node
