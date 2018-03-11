@@ -6,7 +6,7 @@
 interactive-coding-challenges
 ============
 
-**120+ continually updated, interactive and test-driven coding challenges**, with [Anki flashcards](#anki-flashcards-coding-and-design).
+**120+ continually updated, interactive, and test-driven coding challenges**, with [Anki flashcards](#anki-flashcards-coding-and-design).
 
 Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
 
