@@ -3,16 +3,10 @@
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
 </p>
 
-## April 2017 - Huge Update!
-
-[**Overhauled**](https://github.com/donnemartin/interactive-coding-challenges/pull/153) to now include **120 challenges and solutions** and added [Anki flashcards](#anki-flashcards-coding-and-design).
-
-Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
-
 interactive-coding-challenges
 ============
 
-**Continually updated, interactive and test-driven coding challenges**.
+**120+ continually updated, interactive, and test-driven coding challenges**, with [Anki flashcards](#anki-flashcards-coding-and-design).
 
 Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
 
@@ -30,6 +24,8 @@ Notebooks also detail:
 * Test cases
 * Algorithms
 * Big-O time and space complexities
+
+Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
 
 ## Challenge Solutions
 
