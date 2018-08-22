@@ -444,25 +444,12 @@ interactive-coding-challenges        # Repo
 
 ## Notebook Installation
 
-### IPython Notebook
+### Jupyter Notebook
 
-If you already have Python installed and are familiar with installing packages, you can get IPython Notebook with pip:
-
-```
-pip install "ipython[notebook]"
-```
-
-If you run into an issue about pyzmq, refer to the following [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
+Run:
 
 ```
-pip uninstall ipython
-pip install "ipython[all]"
-```
-
-As an alternative, you can also use the provided ```requirements.txt``` file:
-
-```
-pip install -r requirements.txt
+pip install jupyter
 ```
 
 For detailed instructions, scripts, and tools to more optimally set up your development environment, check out the [dev-setup](https://github.com/donnemartin/dev-setup) repo.
