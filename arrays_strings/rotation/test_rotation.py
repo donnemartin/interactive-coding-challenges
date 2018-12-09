@@ -3,19 +3,26 @@ from nose.tools import assert_equal
 
 class TestRotation(object):
 
-    def test_rotation(self):
-        rotation = Rotation()
-        assert_equal(rotation.is_rotation('o', 'oo'), False)
-        assert_equal(rotation.is_rotation(None, 'foo'), False)
-        assert_equal(rotation.is_rotation('', 'foo'), False)
-        assert_equal(rotation.is_rotation('', ''), True)
-        assert_equal(rotation.is_rotation('foobarbaz', 'barbazfoo'), True)
+    def test_rotation(self, func):
+        assert_equal(func('o', 'oo'), False)
+        assert_equal(func(None, 'foo'), False)
+        assert_equal(func('', 'foo'), False)
+        assert_equal(func('', ''), True)
+        assert_equal(func('foobarbaz', 'barbazfoo'), True)
         print('Success: test_rotation')
 
 
 def main():
     test = TestRotation()
-    test.test_rotation()
+    rotation = Rotation()
+    test.test_rotation(rotation.is_rotation)
+    try:
+        rotation_in_place = RotationInPlace()
+        test.test_rotation(rotation_in_place.is_rotation)
+    except NameError:
+        # Alternate solutions are only defined
+        # in the solutions file
+        pass
 
 
 if __name__ == '__main__':
