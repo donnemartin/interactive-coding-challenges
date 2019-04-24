@@ -6,6 +6,7 @@ class TestPermutation(object):
     def test_permutation(self, func):
         assert_equal(func(None, 'foo'), False)
         assert_equal(func('', 'foo'), False)
+        assert_equal(func('', ''), False)
         assert_equal(func('Nib', 'bin'), False)
         assert_equal(func('act', 'cat'), True)
         assert_equal(func('a ct', 'ca t'), True)
