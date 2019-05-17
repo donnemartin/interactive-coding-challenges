@@ -1,4 +1,3 @@
-import sys
 from nose.tools import assert_equal
 
 
@@ -13,6 +12,9 @@ class TestStackMin(object):
         stack.push(1)
         assert_equal(stack.peek(), 1)
         assert_equal(stack.minimum(), 1)
+        stack.push(1)
+        assert_equal(stack.peek(), 1)
+        assert_equal(stack.minimum(), 1)
         stack.push(3)
         assert_equal(stack.peek(), 3)
         assert_equal(stack.minimum(), 1)
@@ -24,6 +26,8 @@ class TestStackMin(object):
         assert_equal(stack.pop(), 0)
         assert_equal(stack.minimum(), 1)
         assert_equal(stack.pop(), 3)
+        assert_equal(stack.minimum(), 1)
+        assert_equal(stack.pop(), 1)
         assert_equal(stack.minimum(), 1)
         assert_equal(stack.pop(), 1)
         assert_equal(stack.minimum(), 5)
