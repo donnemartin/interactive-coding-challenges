@@ -6,6 +6,7 @@ class TestPermutation(object):
     def test_permutation(self, func):
         assert_equal(func(None, 'foo'), False)
         assert_equal(func('', 'foo'), False)
+        assert_equal(func('', ''), False)
         assert_equal(func('Nib', 'bin'), False)
         assert_equal(func('act', 'cat'), True)
         assert_equal(func('a ct', 'ca t'), True)
@@ -20,6 +21,8 @@ def main():
     try:
         permutations_alt = PermutationsAlt()
         test.test_permutation(permutations_alt.is_permutation)
+        permutations_array = PermutationsArray()
+        test.test_permutation(permutations_array.is_permutation)
     except NameError:
         # Alternate solutions are only defined
         # in the solutions file
