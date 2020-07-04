@@ -1,15 +1,15 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestPermutation(object):
+class TestPermutation(unittest.TestCase):
 
     def test_permutation(self, func):
-        assert_equal(func(None, 'foo'), False)
-        assert_equal(func('', 'foo'), False)
-        assert_equal(func('Nib', 'bin'), False)
-        assert_equal(func('act', 'cat'), True)
-        assert_equal(func('a ct', 'ca t'), True)
-        assert_equal(func('dog', 'doggo'), False)
+        self.assertEqual(func(None, 'foo'), False)
+        self.assertEqual(func('', 'foo'), False)
+        self.assertEqual(func('Nib', 'bin'), False)
+        self.assertEqual(func('act', 'cat'), True)
+        self.assertEqual(func('a ct', 'ca t'), True)
+        self.assertEqual(func('dog', 'doggo'), False)
         print('Success: test_permutation')
 
 

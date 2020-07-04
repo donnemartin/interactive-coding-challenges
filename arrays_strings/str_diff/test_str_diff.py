@@ -1,19 +1,19 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestFindDiff(object):
+class TestFindDiff(unittest.TestCase):
 
     def test_find_diff(self):
         solution = Solution()
-        assert_raises(TypeError, solution.find_diff, None)
-        assert_equal(solution.find_diff('ab', 'aab'), 'a')
-        assert_equal(solution.find_diff('aab', 'ab'), 'a')
-        assert_equal(solution.find_diff('abcd', 'abcde'), 'e')
-        assert_equal(solution.find_diff('aaabbcdd', 'abdbacade'), 'e')
-        assert_equal(solution.find_diff_xor('ab', 'aab'), 'a')
-        assert_equal(solution.find_diff_xor('aab', 'ab'), 'a')
-        assert_equal(solution.find_diff_xor('abcd', 'abcde'), 'e')
-        assert_equal(solution.find_diff_xor('aaabbcdd', 'abdbacade'), 'e')
+        self.assertRaises(TypeError, solution.find_diff, None)
+        self.assertEqual(solution.find_diff('ab', 'aab'), 'a')
+        self.assertEqual(solution.find_diff('aab', 'ab'), 'a')
+        self.assertEqual(solution.find_diff('abcd', 'abcde'), 'e')
+        self.assertEqual(solution.find_diff('aaabbcdd', 'abdbacade'), 'e')
+        self.assertEqual(solution.find_diff_xor('ab', 'aab'), 'a')
+        self.assertEqual(solution.find_diff_xor('aab', 'ab'), 'a')
+        self.assertEqual(solution.find_diff_xor('abcd', 'abcde'), 'e')
+        self.assertEqual(solution.find_diff_xor('aaabbcdd', 'abdbacade'), 'e')
         print('Success: test_find_diff')
 
 

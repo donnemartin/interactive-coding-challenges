@@ -1,12 +1,12 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestReverse(object):
+class TestReverse(unittest.TestCase):
 
     def test_reverse(self, func):
-        assert_equal(func(None), None)
-        assert_equal(func(['']), [''])
-        assert_equal(func(
+        self.assertEqual(func(None), None)
+        self.assertEqual(func(['']), [''])
+        self.assertEqual(func(
             ['f', 'o', 'o', ' ', 'b', 'a', 'r']),
             ['r', 'a', 'b', ' ', 'o', 'o', 'f'])
         print('Success: test_reverse')
@@ -14,7 +14,7 @@ class TestReverse(object):
     def test_reverse_inplace(self, func):
         target_list = ['f', 'o', 'o', ' ', 'b', 'a', 'r']
         func(target_list)
-        assert_equal(target_list, ['r', 'a', 'b', ' ', 'o', 'o', 'f'])
+        self.assertEqual(target_list, ['r', 'a', 'b', ' ', 'o', 'o', 'f'])
         print('Success: test_reverse_inplace')
 
 
