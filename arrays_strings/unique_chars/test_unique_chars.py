@@ -1,13 +1,13 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestUniqueChars(object):
+class TestUniqueChars(unittest.TestCase):
 
     def test_unique_chars(self, func):
-        assert_equal(func(None), False)
-        assert_equal(func(''), True)
-        assert_equal(func('foo'), False)
-        assert_equal(func('bar'), True)
+        self.assertEqual(func(None), False)
+        self.assertEqual(func(''), True)
+        self.assertEqual(func('foo'), False)
+        self.assertEqual(func('bar'), True)
         print('Success: test_unique_chars')
 
 

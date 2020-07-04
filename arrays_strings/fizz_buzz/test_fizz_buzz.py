@@ -1,12 +1,12 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestFizzBuzz(object):
+class TestFizzBuzz(unittest.TestCase):
 
     def test_fizz_buzz(self):
         solution = Solution()
-        assert_raises(TypeError, solution.fizz_buzz, None)
-        assert_raises(ValueError, solution.fizz_buzz, 0)
+        self.assertRaises(TypeError, solution.fizz_buzz, None)
+        self.assertRaises(ValueError, solution.fizz_buzz, 0)
         expected = [
             '1',
             '2',
@@ -24,7 +24,7 @@ class TestFizzBuzz(object):
             '14',
             'FizzBuzz'
         ]
-        assert_equal(solution.fizz_buzz(15), expected)
+        self.assertEqual(solution.fizz_buzz(15), expected)
         print('Success: test_fizz_buzz')
 
 

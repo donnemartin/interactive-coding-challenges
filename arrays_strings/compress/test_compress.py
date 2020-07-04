@@ -1,16 +1,15 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestCompress(object):
+class TestCompress(unittest.TestCase):
 
     def test_compress(self, func):
-        assert_equal(func(None), None)
-        assert_equal(func(''), '')
-        assert_equal(func('ABC'), 'ABC')
-        assert_equal(func('AABBCC'), 'AABBCC')
-        assert_equal(func('AAABCCDDDDE'), 'A3BC2D4E')
-        assert_equal(func('BAAACCDDDD'), 'BA3C2D4')
-        assert_equal(func('AAABAACCDDDD'), 'A3BA2C2D4')
+        self.assertEqual(func(None), None)
+        self.assertEqual(func(''), '')
+        self.assertEqual(func('AABBCC'), 'AABBCC')
+        self.assertEqual(func('AAABCCDDDDE'), 'A3BC2D4E')
+        self.assertEqual(func('BAAACCDDDD'), 'BA3C2D4')
+        self.assertEqual(func('AAABAACCDDDD'), 'A3BA2C2D4')
         print('Success: test_compress')
 
 

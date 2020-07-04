@@ -1,15 +1,15 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestRotation(object):
+class TestRotation(unittest.TestCase):
 
     def test_rotation(self):
         rotation = Rotation()
-        assert_equal(rotation.is_rotation('o', 'oo'), False)
-        assert_equal(rotation.is_rotation(None, 'foo'), False)
-        assert_equal(rotation.is_rotation('', 'foo'), False)
-        assert_equal(rotation.is_rotation('', ''), True)
-        assert_equal(rotation.is_rotation('foobarbaz', 'barbazfoo'), True)
+        self.assertEqual(rotation.is_rotation('o', 'oo'), False)
+        self.assertEqual(rotation.is_rotation(None, 'foo'), False)
+        self.assertEqual(rotation.is_rotation('', 'foo'), False)
+        self.assertEqual(rotation.is_rotation('', ''), True)
+        self.assertEqual(rotation.is_rotation('foobarbaz', 'barbazfoo'), True)
         print('Success: test_rotation')
 
 

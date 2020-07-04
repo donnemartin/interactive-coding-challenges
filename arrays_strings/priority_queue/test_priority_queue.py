@@ -1,11 +1,11 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestPriorityQueue(object):
+class TestPriorityQueue(unittest.TestCase):
 
     def test_priority_queue(self):
         priority_queue = PriorityQueue()
-        assert_equal(priority_queue.extract_min(), None)
+        self.assertEqual(priority_queue.extract_min(), None)
         priority_queue.insert(PriorityQueueNode('a', 20))
         priority_queue.insert(PriorityQueueNode('b', 5))
         priority_queue.insert(PriorityQueueNode('c', 15))
@@ -17,7 +17,7 @@ class TestPriorityQueue(object):
         mins = []
         while priority_queue.array:
             mins.append(priority_queue.extract_min().key)
-        assert_equal(mins, [2, 5, 15, 19, 22, 40])
+        self.assertEqual(mins, [2, 5, 15, 19, 22, 40])
         print('Success: test_min_heap')
 
 
