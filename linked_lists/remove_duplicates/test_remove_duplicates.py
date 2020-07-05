@@ -1,17 +1,17 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestRemoveDupes(object):
+class TestRemoveDupes(unittest.TestCase):
 
     def test_remove_dupes(self, linked_list):
         print('Test: Empty list')
         linked_list.remove_dupes()
-        assert_equal(linked_list.get_all_data(), [])
+        self.assertEqual(linked_list.get_all_data(), [])
 
         print('Test: One element list')
         linked_list.insert_to_front(2)
         linked_list.remove_dupes()
-        assert_equal(linked_list.get_all_data(), [2])
+        self.assertEqual(linked_list.get_all_data(), [2])
 
         print('Test: General case, duplicates')
         linked_list.insert_to_front(1)
@@ -22,11 +22,11 @@ class TestRemoveDupes(object):
         linked_list.insert_to_front(1)
         linked_list.insert_to_front(1)
         linked_list.remove_dupes()
-        assert_equal(linked_list.get_all_data(), [1, 3, 2])
+        self.assertEqual(linked_list.get_all_data(), [1, 3, 2])
 
         print('Test: General case, no duplicates')
         linked_list.remove_dupes()
-        assert_equal(linked_list.get_all_data(), [1, 3, 2])
+        self.assertEqual(linked_list.get_all_data(), [1, 3, 2])
 
         print('Success: test_remove_dupes\n')
 
