@@ -1,21 +1,21 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestPalindrome(object):
+class TestPalindrome(unittest.TestCase):
 
     def test_palindrome(self):
         print('Test: Empty list')
         linked_list = MyLinkedList()
-        assert_equal(linked_list.is_palindrome(), False)
+        self.assertEqual(linked_list.is_palindrome(), False)
 
         print('Test: Single element list')
         head = Node(1)
         linked_list = MyLinkedList(head)
-        assert_equal(linked_list.is_palindrome(), False)
+        self.assertEqual(linked_list.is_palindrome(), False)
 
         print('Test: Two element list, not a palindrome')
         linked_list.append(2)
-        assert_equal(linked_list.is_palindrome(), False)
+        self.assertEqual(linked_list.is_palindrome(), False)
 
         print('Test: General case: Palindrome with even length')
         head = Node('a')
@@ -23,7 +23,7 @@ class TestPalindrome(object):
         linked_list.append('b')
         linked_list.append('b')
         linked_list.append('a')
-        assert_equal(linked_list.is_palindrome(), True)
+        self.assertEqual(linked_list.is_palindrome(), True)
 
         print('Test: General case: Palindrome with odd length')
         head = Node(1)
@@ -32,7 +32,7 @@ class TestPalindrome(object):
         linked_list.append(3)
         linked_list.append(2)
         linked_list.append(1)
-        assert_equal(linked_list.is_palindrome(), True)
+        self.assertEqual(linked_list.is_palindrome(), True)
 
         print('Success: test_palindrome')
 

@@ -1,13 +1,13 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestAddReverse(object):
+class TestAddReverse(unittest.TestCase):
 
     def test_add_reverse(self):
         print('Test: Empty list(s)')
-        assert_equal(MyLinkedList().add_reverse(None, None), None)
-        assert_equal(MyLinkedList().add_reverse(Node(5), None), None)
-        assert_equal(MyLinkedList().add_reverse(None, Node(10)), None)
+        self.assertEqual(MyLinkedList().add_reverse(None, None), None)
+        self.assertEqual(MyLinkedList().add_reverse(Node(5), None), None)
+        self.assertEqual(MyLinkedList().add_reverse(None, Node(10)), None)
 
         print('Test: Add values of different lengths')
         # Input 1: 6->5->None
@@ -19,7 +19,7 @@ class TestAddReverse(object):
         second_list.append(8)
         second_list.append(7)
         result = MyLinkedList().add_reverse(first_list, second_list)
-        assert_equal(result.get_all_data(), [5, 4, 8])
+        self.assertEqual(result.get_all_data(), [5, 4, 8])
 
         print('Test: Add values of same lengths')
         # Input 1: 6->5->4
@@ -34,7 +34,7 @@ class TestAddReverse(object):
         second_list.append(8)
         second_list.append(7)
         result = MyLinkedList().add_reverse(first_list, second_list)
-        assert_equal(result.get_all_data(), [5, 4, 2, 1])
+        self.assertEqual(result.get_all_data(), [5, 4, 2, 1])
 
         print('Success: test_add_reverse')
 

@@ -1,25 +1,25 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestFindLoopStart(object):
+class TestFindLoopStart(unittest.TestCase):
 
     def test_find_loop_start(self):
         print('Test: Empty list')
         linked_list = MyLinkedList()
-        assert_equal(linked_list.find_loop_start(), None)
+        self.assertEqual(linked_list.find_loop_start(), None)
 
         print('Test: Not a circular linked list: One element')
         head = Node(1)
         linked_list = MyLinkedList(head)
-        assert_equal(linked_list.find_loop_start(), None)
+        self.assertEqual(linked_list.find_loop_start(), None)
 
         print('Test: Not a circular linked list: Two elements')
         linked_list.append(2)
-        assert_equal(linked_list.find_loop_start(), None)
+        self.assertEqual(linked_list.find_loop_start(), None)
 
         print('Test: Not a circular linked list: Three or more elements')
         linked_list.append(3)
-        assert_equal(linked_list.find_loop_start(), None)
+        self.assertEqual(linked_list.find_loop_start(), None)
 
         print('Test: General case: Circular linked list')
         node10 = Node(10)
@@ -35,7 +35,7 @@ class TestFindLoopStart(object):
         node0 = Node(0, node1)
         node10.next = node3
         linked_list = MyLinkedList(node0)
-        assert_equal(linked_list.find_loop_start(), node3)
+        self.assertEqual(linked_list.find_loop_start(), node3)
 
         print('Success: test_find_loop_start')
 
