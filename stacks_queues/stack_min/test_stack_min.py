@@ -1,37 +1,36 @@
-import sys
-from nose.tools import assert_equal
+import unittest
 
 
-class TestStackMin(object):
+class TestStackMin(unittest.TestCase):
 
     def test_stack_min(self):
         print('Test: Push on empty stack, non-empty stack')
         stack = StackMin()
         stack.push(5)
-        assert_equal(stack.peek(), 5)
-        assert_equal(stack.minimum(), 5)
+        self.assertEqual(stack.peek(), 5)
+        self.assertEqual(stack.minimum(), 5)
         stack.push(1)
-        assert_equal(stack.peek(), 1)
-        assert_equal(stack.minimum(), 1)
+        self.assertEqual(stack.peek(), 1)
+        self.assertEqual(stack.minimum(), 1)
         stack.push(3)
-        assert_equal(stack.peek(), 3)
-        assert_equal(stack.minimum(), 1)
+        self.assertEqual(stack.peek(), 3)
+        self.assertEqual(stack.minimum(), 1)
         stack.push(0)
-        assert_equal(stack.peek(), 0)
-        assert_equal(stack.minimum(), 0)
+        self.assertEqual(stack.peek(), 0)
+        self.assertEqual(stack.minimum(), 0)
 
         print('Test: Pop on non-empty stack')
-        assert_equal(stack.pop(), 0)
-        assert_equal(stack.minimum(), 1)
-        assert_equal(stack.pop(), 3)
-        assert_equal(stack.minimum(), 1)
-        assert_equal(stack.pop(), 1)
-        assert_equal(stack.minimum(), 5)
-        assert_equal(stack.pop(), 5)
-        assert_equal(stack.minimum(), sys.maxsize)
+        self.assertEqual(stack.pop(), 0)
+        self.assertEqual(stack.minimum(), 1)
+        self.assertEqual(stack.pop(), 3)
+        self.assertEqual(stack.minimum(), 1)
+        self.assertEqual(stack.pop(), 1)
+        self.assertEqual(stack.minimum(), 5)
+        self.assertEqual(stack.pop(), 5)
+        self.assertEqual(stack.minimum(), sys.maxsize)
 
         print('Test: Pop empty stack')
-        assert_equal(stack.pop(), None)
+        self.assertEqual(stack.pop(), None)
 
         print('Success: test_stack_min')
 

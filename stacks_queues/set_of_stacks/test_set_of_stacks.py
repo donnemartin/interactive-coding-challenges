@@ -1,7 +1,7 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestSetOfStacks(object):
+class TestSetOfStacks(unittest.TestCase):
 
     def test_set_of_stacks(self):
         print('Test: Push on an empty stack')
@@ -15,14 +15,14 @@ class TestSetOfStacks(object):
         stacks.push('a')
 
         print('Test: Pop on a stack to destroy it')
-        assert_equal(stacks.pop(), 'a')
+        self.assertEqual(stacks.pop(), 'a')
 
         print('Test: Pop general case')
-        assert_equal(stacks.pop(), 5)
-        assert_equal(stacks.pop(), 3)
+        self.assertEqual(stacks.pop(), 5)
+        self.assertEqual(stacks.pop(), 3)
 
         print('Test: Pop on no elements')
-        assert_equal(stacks.pop(), None)
+        self.assertEqual(stacks.pop(), None)
 
         print('Success: test_set_of_stacks')
 
