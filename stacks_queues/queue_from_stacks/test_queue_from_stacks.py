@@ -1,12 +1,12 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestQueueFromStacks(object):
+class TestQueueFromStacks(unittest.TestCase):
 
     def test_queue_from_stacks(self):
         print('Test: Dequeue on empty stack')
         queue = QueueFromStacks()
-        assert_equal(queue.dequeue(), None)
+        self.assertEqual(queue.dequeue(), None)
 
         print('Test: Enqueue on empty stack')
         print('Test: Enqueue on non-empty stack')
@@ -17,15 +17,15 @@ class TestQueueFromStacks(object):
 
         print('Test: Dequeue on non-empty stack')
         print('Test: Dequeue after an enqueue')
-        assert_equal(queue.dequeue(), 0)
+        self.assertEqual(queue.dequeue(), 0)
 
         print('Test: Multiple dequeue in a row')
-        assert_equal(queue.dequeue(), 1)
-        assert_equal(queue.dequeue(), 2)
+        self.assertEqual(queue.dequeue(), 1)
+        self.assertEqual(queue.dequeue(), 2)
 
         print('Test: Enqueue after a dequeue')
         queue.enqueue(5)
-        assert_equal(queue.dequeue(), 5)
+        self.assertEqual(queue.dequeue(), 5)
 
         print('Success: test_queue_from_stacks')
 

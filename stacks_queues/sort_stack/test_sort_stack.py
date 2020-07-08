@@ -1,8 +1,8 @@
 from random import randint
-from nose.tools import assert_equal
+import unittest
 
 
-class TestSortStack(object):
+class TestSortStack(unittest.TestCase):
 
     def get_sorted_stack(self, stack, numbers):
         for x in numbers:
@@ -13,11 +13,11 @@ class TestSortStack(object):
     def test_sort_stack(self, stack):
         print('Test: Empty stack')
         sorted_stack = self.get_sorted_stack(stack, [])
-        assert_equal(sorted_stack.pop(), None)
+        self.assertEqual(sorted_stack.pop(), None)
 
         print('Test: One element stack')
         sorted_stack = self.get_sorted_stack(stack, [1])
-        assert_equal(sorted_stack.pop(), 1)
+        self.assertEqual(sorted_stack.pop(), 1)
 
         print('Test: Two or more element stack (general case)')
         num_items = 10
@@ -26,7 +26,7 @@ class TestSortStack(object):
         sorted_numbers = []
         for _ in range(num_items):
             sorted_numbers.append(sorted_stack.pop())
-        assert_equal(sorted_numbers, sorted(numbers, reverse=True))
+        self.assertEqual(sorted_numbers, sorted(numbers, reverse=True))
 
         print('Success: test_sort_stack')
 
