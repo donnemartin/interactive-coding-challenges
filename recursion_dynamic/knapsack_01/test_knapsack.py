@@ -1,5 +1,4 @@
-from nose.tools import assert_equal, assert_raises
-
+from nose.tools import assert_equal, assert_raises, assert_true
 
 class TestKnapsack(object):
 
@@ -15,8 +14,9 @@ class TestKnapsack(object):
         total_weight = 8
         expected_value = 13
         results = knapsack.fill_knapsack(items, total_weight)
-        assert_equal(results[0].label, 'd')
-        assert_equal(results[1].label, 'b')
+        labels = [x.label for x in results]
+        assert_true('b' in labels)
+        assert_true('d' in labels)
         total_value = 0
         for item in results:
             total_value += item.value
