@@ -1,9 +1,10 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestDfs(object):
+class TestDfs(unittest.TestCase):
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
+        super(TestDfs, self).__init__()
         self.results = Results()
 
     def test_dfs(self):
@@ -20,7 +21,7 @@ class TestDfs(object):
         graph.add_edge(3, 2, 7)
         graph.add_edge(3, 4, 8)
         graph.dfs(nodes[0], self.results.add_result)
-        assert_equal(str(self.results), "[0, 1, 3, 2, 4, 5]")
+        self.assertEqual(str(self.results), "[0, 1, 3, 2, 4, 5]")
 
         print('Success: test_dfs')
 

@@ -72,5 +72,5 @@ class Trie(object):
             return
         for key, child in node.children.items():
             if child.terminates:
-                result.append(curr_word+key)
-            self._list_words(child, curr_word+key, result)
+                result.append(curr_word + key)
+            self._list_words(child, curr_word + key, result)

@@ -1,4 +1,4 @@
-from nose.tools import assert_equal
+import unittest
 
 
 def height(node):
@@ -8,18 +8,18 @@ def height(node):
                    height(node.right))
 
 
-class TestBstMin(object):
+class TestBstMin(unittest.TestCase):
 
     def test_bst_min(self):
         min_bst = MinBst()
         array = [0, 1, 2, 3, 4, 5, 6]
         root = min_bst.create_min_bst(array)
-        assert_equal(height(root), 3)
+        self.assertEqual(height(root), 3)
 
         min_bst = MinBst()
         array = [0, 1, 2, 3, 4, 5, 6, 7]
         root = min_bst.create_min_bst(array)
-        assert_equal(height(root), 4)
+        self.assertEqual(height(root), 4)
 
         print('Success: test_bst_min')
 

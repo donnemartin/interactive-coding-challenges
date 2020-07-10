@@ -1,10 +1,8 @@
-from nose.tools import assert_equal
-from nose.tools import raises
+import unittest
 
 
-class TestBstSuccessor(object):
+class TestBstSuccessor(unittest.TestCase):
 
-    @raises(Exception)
     def test_bst_successor_empty(self):
         bst_successor = BstSuccessor()
         bst_successor.get_next(None)
@@ -27,10 +25,10 @@ class TestBstSuccessor(object):
         nodes[9] = bst.insert(9)
 
         bst_successor = BstSuccessor()
-        assert_equal(bst_successor.get_next(nodes[4]), 5)
-        assert_equal(bst_successor.get_next(nodes[5]), 6)
-        assert_equal(bst_successor.get_next(nodes[8]), 9)
-        assert_equal(bst_successor.get_next(nodes[15]), None)
+        self.assertEqual(bst_successor.get_next(nodes[4]), 5)
+        self.assertEqual(bst_successor.get_next(nodes[5]), 6)
+        self.assertEqual(bst_successor.get_next(nodes[8]), 9)
+        self.assertEqual(bst_successor.get_next(nodes[15]), None)
 
         print('Success: test_bst_successor')
 
@@ -38,7 +36,7 @@ class TestBstSuccessor(object):
 def main():
     test = TestBstSuccessor()
     test.test_bst_successor()
-    test.test_bst_successor_empty()
+    test.assertRaises(TypeError, test.test_bst_successor_empty)
 
 
 if __name__ == '__main__':

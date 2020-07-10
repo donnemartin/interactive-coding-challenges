@@ -2,6 +2,7 @@ from enum import Enum  # Python 2 users: Run pip install enum34
 
 
 class State(Enum):
+
     unvisited = 0
     visiting = 1
     visited = 2

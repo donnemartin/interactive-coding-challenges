@@ -1,7 +1,7 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestInvertTree(object):
+class TestInvertTree(unittest.TestCase):
 
     def test_invert_tree(self):
         root = Node(5)
@@ -13,13 +13,13 @@ class TestInvertTree(object):
         node6 = bst.insert(6)
         node9 = bst.insert(9)
         result = bst.invert_tree()
-        assert_equal(result, root)
-        assert_equal(result.left, node7)
-        assert_equal(result.right, node2)
-        assert_equal(result.left.left, node9)
-        assert_equal(result.left.right, node6)
-        assert_equal(result.right.left, node3)
-        assert_equal(result.right.right, node1)
+        self.assertEqual(result, root)
+        self.assertEqual(result.left, node7)
+        self.assertEqual(result.right, node2)
+        self.assertEqual(result.left.left, node9)
+        self.assertEqual(result.left.right, node6)
+        self.assertEqual(result.right.left, node3)
+        self.assertEqual(result.right.right, node1)
         print('Success: test_invert_tree')
 
 

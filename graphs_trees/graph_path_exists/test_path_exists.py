@@ -1,7 +1,7 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestPathExists(object):
+class TestPathExists(unittest.TestCase):
 
     def test_path_exists(self):
         nodes = []
@@ -17,9 +17,9 @@ class TestPathExists(object):
         graph.add_edge(3, 2, 7)
         graph.add_edge(3, 4, 8)
 
-        assert_equal(graph.path_exists(nodes[0], nodes[2]), True)
-        assert_equal(graph.path_exists(nodes[0], nodes[0]), True)
-        assert_equal(graph.path_exists(nodes[4], nodes[5]), False)
+        self.assertEqual(graph.path_exists(nodes[0], nodes[2]), True)
+        self.assertEqual(graph.path_exists(nodes[0], nodes[0]), True)
+        self.assertEqual(graph.path_exists(nodes[4], nodes[5]), False)
 
         print('Success: test_path_exists')
 

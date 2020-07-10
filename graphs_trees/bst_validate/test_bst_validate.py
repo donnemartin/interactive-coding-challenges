@@ -1,12 +1,11 @@
-from nose.tools import assert_equal
-from nose.tools import raises
+import unittest
 
 
-class TestBstValidate(object):
+class TestBstValidate(unittest.TestCase):
 
-    @raises(Exception)
     def test_bst_validate_empty(self):
-        validate_bst(None)
+        bst = BstValidate(None)
+        bst.validate()
 
     def test_bst_validate(self):
         bst = BstValidate(Node(5))
@@ -15,7 +14,7 @@ class TestBstValidate(object):
         bst.insert(6)
         bst.insert(4)
         bst.insert(7)
-        assert_equal(bst.validate(), True)
+        self.assertEqual(bst.validate(), True)
 
         bst = BstValidate(Node(5))
         left = Node(5)
@@ -24,14 +23,14 @@ class TestBstValidate(object):
         bst.root.left = left
         bst.root.right = right
         bst.root.left.right = invalid
-        assert_equal(bst.validate(), False)
+        self.assertEqual(bst.validate(), False)
 
         print('Success: test_bst_validate')
 
 
 def main():
     test = TestBstValidate()
-    test.test_bst_validate_empty()
+    test.assertRaises(TypeError, test.test_bst_validate_empty)
     test.test_bst_validate()
 
 
