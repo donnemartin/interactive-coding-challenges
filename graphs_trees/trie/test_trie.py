@@ -1,8 +1,7 @@
-from nose.tools import assert_true
-from nose.tools import raises
+import unittest
 
 
-class TestTrie(object):       
+class TestTrie(unittest.TestCase):       
 
     def test_trie(self):
         trie = Trie()
@@ -13,7 +12,7 @@ class TestTrie(object):
         for word in words:
             trie.insert(word)
         for word in trie.list_words():
-            assert_true(trie.find(word) is not None)
+            self.assertTrue(trie.find(word) is not None)
             
         print('Test: Remove me')
         trie.remove('me')
@@ -21,9 +20,9 @@ class TestTrie(object):
         words = ['a', 'at', 'has', 'hat', 'he',
                  'men', 'mens', 'met']
         for word in words:
-            assert_true(trie.find(word) is not None)
+            self.assertTrue(trie.find(word) is not None)
         for word in words_removed:
-            assert_true(trie.find(word) is None)
+            self.assertTrue(trie.find(word) is None)
 
         print('Test: Remove mens')
         trie.remove('mens')
@@ -31,9 +30,9 @@ class TestTrie(object):
         words = ['a', 'at', 'has', 'hat', 'he',
                  'men', 'met']
         for word in words:
-            assert_true(trie.find(word) is not None)
+            self.assertTrue(trie.find(word) is not None)
         for word in words_removed:
-            assert_true(trie.find(word) is None)
+            self.assertTrue(trie.find(word) is None)
 
         print('Test: Remove a')
         trie.remove('a')
@@ -41,9 +40,9 @@ class TestTrie(object):
         words = ['at', 'has', 'hat', 'he',
                  'men', 'met']
         for word in words:
-            assert_true(trie.find(word) is not None)
+            self.assertTrue(trie.find(word) is not None)
         for word in words_removed:
-            assert_true(trie.find(word) is None)
+            self.assertTrue(trie.find(word) is None)
 
         print('Test: Remove has')
         trie.remove('has')
@@ -51,23 +50,22 @@ class TestTrie(object):
         words = ['at', 'hat', 'he',
                  'men', 'met']
         for word in words:
-            assert_true(trie.find(word) is not None)
+            self.assertTrue(trie.find(word) is not None)
         for word in words_removed:
-            assert_true(trie.find(word) is None)
+            self.assertTrue(trie.find(word) is None)
 
         print('Success: test_trie')
 
-    @raises(Exception)
     def test_trie_remove_invalid(self):
         print('Test: Remove from empty trie')
         trie = Trie()
-        assert_true(trie.remove('foo') is None) 
+        self.assertTrue(trie.remove('foo') is None) 
 
 
 def main():
     test = TestTrie()
     test.test_trie()
-    test.test_trie_remove_invalid()
+    test.assertRaises(KeyError, test.test_trie_remove_invalid)
 
 
 if __name__ == '__main__':

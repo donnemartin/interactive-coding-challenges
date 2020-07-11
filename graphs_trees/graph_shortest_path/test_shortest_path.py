@@ -1,7 +1,7 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestShortestPath(object):
+class TestShortestPath(unittest.TestCase):
 
     def test_shortest_path(self):
         graph = Graph()
@@ -26,8 +26,8 @@ class TestShortestPath(object):
         graph.add_edge('h', 'g', weight=2)
         shortest_path = ShortestPath(graph)
         result = shortest_path.find_shortest_path('a', 'i')
-        assert_equal(result, ['a', 'c', 'd', 'g', 'i'])
-        assert_equal(shortest_path.path_weight['i'], 8)
+        self.assertEqual(result, ['a', 'c', 'd', 'g', 'i'])
+        self.assertEqual(shortest_path.path_weight['i'], 8)
 
         print('Success: test_shortest_path')
 

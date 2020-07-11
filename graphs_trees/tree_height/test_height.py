@@ -1,16 +1,16 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestHeight(object):
+class TestHeight(unittest.TestCase):
 
     def test_height(self):
         bst = BstHeight(Node(5))
-        assert_equal(bst.height(bst.root), 1)
+        self.assertEqual(bst.height(bst.root), 1)
         bst.insert(2)
         bst.insert(8)
         bst.insert(1)
         bst.insert(3)
-        assert_equal(bst.height(bst.root), 3)
+        self.assertEqual(bst.height(bst.root), 3)
 
         print('Success: test_height')
 

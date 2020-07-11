@@ -1,7 +1,7 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestTreeLevelLists(object):
+class TestTreeLevelLists(unittest.TestCase):
 
     def test_tree_level_lists(self):
         bst = BstLevelLists(Node(5))
@@ -24,11 +24,11 @@ class TestTreeLevelLists(object):
                 results.add_result(node)
             results_list.append(results)
 
-        assert_equal(str(results_list[0]), '[5]')
-        assert_equal(str(results_list[1]), '[3, 8]')
-        assert_equal(str(results_list[2]), '[2, 4, 7, 9]')
-        assert_equal(str(results_list[3]), '[1, 6, 10]')
-        assert_equal(str(results_list[4]), '[11]')
+        self.assertEqual(str(results_list[0]), '[5]')
+        self.assertEqual(str(results_list[1]), '[3, 8]')
+        self.assertEqual(str(results_list[2]), '[2, 4, 7, 9]')
+        self.assertEqual(str(results_list[3]), '[1, 6, 10]')
+        self.assertEqual(str(results_list[4]), '[11]')
 
         print('Success: test_tree_level_lists')
 

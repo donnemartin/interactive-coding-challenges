@@ -1,9 +1,10 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestBfs(object):
+class TestBfs(unittest.TestCase):
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
+        super(TestBfs, self).__init__()
         self.results = Results()
 
     def test_bfs(self):
@@ -20,7 +21,7 @@ class TestBfs(object):
         graph.add_edge(3, 2, 7)
         graph.add_edge(3, 4, 8)
         graph.bfs(nodes[0], self.results.add_result)
-        assert_equal(str(self.results), "[0, 1, 4, 5, 3, 2]")
+        self.assertEqual(str(self.results), "[0, 1, 4, 5, 3, 2]")
 
         print('Success: test_bfs')
 

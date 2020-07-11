@@ -1,7 +1,7 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestLowestCommonAncestor(object):
+class TestLowestCommonAncestor(unittest.TestCase):
 
     def test_lca(self):
         node10 = Node(10)
@@ -26,13 +26,13 @@ class TestLowestCommonAncestor(object):
         root = node10
         node0 = Node(0)
         binary_tree = BinaryTree()
-        assert_equal(binary_tree.lca(root, node0, node5), None)
-        assert_equal(binary_tree.lca(root, node5, node0), None)
-        assert_equal(binary_tree.lca(root, node1, node8), node3)
-        assert_equal(binary_tree.lca(root, node12, node8), node5)
-        assert_equal(binary_tree.lca(root, node12, node40), node10)
-        assert_equal(binary_tree.lca(root, node9, node20), node9)
-        assert_equal(binary_tree.lca(root, node3, node5), node5)
+        self.assertEqual(binary_tree.lca(root, node0, node5), None)
+        self.assertEqual(binary_tree.lca(root, node5, node0), None)
+        self.assertEqual(binary_tree.lca(root, node1, node8), node3)
+        self.assertEqual(binary_tree.lca(root, node12, node8), node5)
+        self.assertEqual(binary_tree.lca(root, node12, node40), node10)
+        self.assertEqual(binary_tree.lca(root, node9, node20), node9)
+        self.assertEqual(binary_tree.lca(root, node3, node5), node5)
         print('Success: test_lca')
 
 

@@ -1,10 +1,10 @@
-from nose.tools import assert_equal
-from nose.tools import assert_true
+import unittest
 
 
-class TestBuildOrder(object):
+class TestBuildOrder(unittest.TestCase):
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
+        super(TestBuildOrder, self).__init__()
         self.dependencies = [
             Dependency('d', 'g'),
             Dependency('f', 'c'),
@@ -22,13 +22,13 @@ class TestBuildOrder(object):
 
         expected_result0 = ('d', 'f')
         expected_result1 = ('c', 'b', 'g')
-        assert_true(processed_nodes[0].key in expected_result0)
-        assert_true(processed_nodes[1].key in expected_result0)
-        assert_true(processed_nodes[2].key in expected_result1)
-        assert_true(processed_nodes[3].key in expected_result1)
-        assert_true(processed_nodes[4].key in expected_result1)
-        assert_true(processed_nodes[5].key is 'a')
-        assert_true(processed_nodes[6].key is 'e')
+        self.assertTrue(processed_nodes[0].key in expected_result0)
+        self.assertTrue(processed_nodes[1].key in expected_result0)
+        self.assertTrue(processed_nodes[2].key in expected_result1)
+        self.assertTrue(processed_nodes[3].key in expected_result1)
+        self.assertTrue(processed_nodes[4].key in expected_result1)
+        self.assertTrue(processed_nodes[5].key is 'a')
+        self.assertTrue(processed_nodes[6].key is 'e')
 
         print('Success: test_build_order')
 
@@ -36,7 +36,7 @@ class TestBuildOrder(object):
         self.dependencies.append(Dependency('e', 'f'))
         build_order = BuildOrder(self.dependencies)
         processed_nodes = build_order.find_build_order()
-        assert_true(processed_nodes is None)
+        self.assertTrue(processed_nodes is None)
 
         print('Success: test_build_order_circular')
 
