@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestRadixSort(object):
+class TestRadixSort(unittest.TestCase):
 
     def test_sort(self):
         radix_sort = RadixSort()
-        assert_raises(TypeError, radix_sort.sort, None)
-        assert_equal(radix_sort.sort([]), [])
+        self.assertRaises(TypeError, radix_sort.sort, None)
+        self.assertEqual(radix_sort.sort([]), [])
         array = [128, 256, 164, 8, 2, 148, 212, 242, 244]
         expected = [2, 8, 128, 148, 164, 212, 242, 244, 256]
-        assert_equal(radix_sort.sort(array), expected)
+        self.assertEqual(radix_sort.sort(array), expected)
         print('Success: test_sort')
 
 

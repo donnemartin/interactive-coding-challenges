@@ -1,23 +1,23 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestQuickSort(object):
+class TestQuickSort(unittest.TestCase):
 
     def test_quick_sort(self):
         quick_sort = QuickSort()
 
         print('None input')
-        assert_raises(TypeError, quick_sort.sort, None)
+        self.assertRaises(TypeError, quick_sort.sort, None)
 
         print('Empty input')
-        assert_equal(quick_sort.sort([]), [])
+        self.assertEqual(quick_sort.sort([]), [])
 
         print('One element')
-        assert_equal(quick_sort.sort([5]), [5])
+        self.assertEqual(quick_sort.sort([5]), [5])
 
         print('Two or more elements')
         data = [5, 1, 7, 2, 6, -3, 5, 7, -1]
-        assert_equal(quick_sort.sort(data), sorted(data))
+        self.assertEqual(quick_sort.sort(data), sorted(data))
 
         print('Success: test_quick_sort\n')
 
