@@ -1,7 +1,7 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSortedMatrix(object):
+class TestSortedMatrix(unittest.TestCase):
 
     def test_find_val(self):
         matrix = [[20, 40, 63, 80],
@@ -9,9 +9,9 @@ class TestSortedMatrix(object):
                   [40, 60, 110, 110],
                   [50, 65, 105, 150]]
         sorted_matrix = SortedMatrix()
-        assert_raises(TypeError, sorted_matrix.find_val, None, None)
-        assert_equal(sorted_matrix.find_val(matrix, 1000), None)
-        assert_equal(sorted_matrix.find_val(matrix, 60), (2, 1))
+        self.assertRaises(TypeError, sorted_matrix.find_val, None, None)
+        self.assertEqual(sorted_matrix.find_val(matrix, 1000), None)
+        self.assertEqual(sorted_matrix.find_val(matrix, 60), (2, 1))
         print('Success: test_find_val')
 
 

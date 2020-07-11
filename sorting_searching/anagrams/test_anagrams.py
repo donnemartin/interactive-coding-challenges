@@ -1,14 +1,14 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestAnagrams(object):
+class TestAnagrams(unittest.TestCase):
 
     def test_group_anagrams(self):
         anagram = Anagram()
-        assert_raises(TypeError, anagram.group_anagrams, None)
+        self.assertRaises(TypeError, anagram.group_anagrams, None)
         data = ['ram', 'act', 'arm', 'bat', 'cat', 'tab']
         expected = ['ram', 'arm', 'act', 'cat', 'bat', 'tab']
-        assert_equal(anagram.group_anagrams(data), expected)
+        self.assertEqual(anagram.group_anagrams(data), expected)
 
         print('Success: test_group_anagrams')
 

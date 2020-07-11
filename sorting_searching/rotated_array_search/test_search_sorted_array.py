@@ -1,17 +1,17 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestArray(object):
+class TestArray(unittest.TestCase):
 
     def test_search_sorted_array(self):
         array = Array()
-        assert_raises(TypeError, array.search_sorted_array, None)
-        assert_equal(array.search_sorted_array([3, 1, 2], 0), None)
-        assert_equal(array.search_sorted_array([3, 1, 2], 0), None)
+        self.assertRaises(TypeError, array.search_sorted_array, None)
+        self.assertEqual(array.search_sorted_array([3, 1, 2], 0), None)
+        self.assertEqual(array.search_sorted_array([3, 1, 2], 0), None)
         data = [10, 12, 14,  1,  3,  5,  6,  7,  8,  9]
-        assert_equal(array.search_sorted_array(data, val=1), 3)
+        self.assertEqual(array.search_sorted_array(data, val=1), 3)
         data = [ 1,  1,  2,  1,  1,  1,  1,  1,  1,  1]
-        assert_equal(array.search_sorted_array(data, val=2), 2)
+        self.assertEqual(array.search_sorted_array(data, val=2), 2)
         print('Success: test_search_sorted_array')
 
 
