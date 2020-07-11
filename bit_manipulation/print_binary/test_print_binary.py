@@ -1,18 +1,18 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestBits(object):
+class TestBits(unittest.TestCase):
 
     def test_print_binary(self):
         bit = Bits()
-        assert_equal(bit.print_binary(None), 'ERROR')
-        assert_equal(bit.print_binary(0), 'ERROR')
-        assert_equal(bit.print_binary(1), 'ERROR')
+        self.assertEqual(bit.print_binary(None), 'ERROR')
+        self.assertEqual(bit.print_binary(0), 'ERROR')
+        self.assertEqual(bit.print_binary(1), 'ERROR')
         num = 0.625
         expected = '0.101'
-        assert_equal(bit.print_binary(num), expected)
+        self.assertEqual(bit.print_binary(num), expected)
         num = 0.987654321
-        assert_equal(bit.print_binary(num), 'ERROR')
+        self.assertEqual(bit.print_binary(num), 'ERROR')
         print('Success: test_print_binary')
 
 
