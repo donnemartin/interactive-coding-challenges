@@ -1,26 +1,26 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestBits(object):
+class TestBits(unittest.TestCase):
 
     def test_get_next_largest(self):
         bits = Bits()
-        assert_raises(Exception, bits.get_next_largest, None)
-        assert_raises(Exception, bits.get_next_largest, 0)
-        assert_raises(Exception, bits.get_next_largest, -1)
+        self.assertRaises(Exception, bits.get_next_largest, None)
+        self.assertRaises(Exception, bits.get_next_largest, 0)
+        self.assertRaises(Exception, bits.get_next_largest, -1)
         num = int('011010111', base=2)
         expected = int('011011011', base=2)
-        assert_equal(bits.get_next_largest(num), expected)
+        self.assertEqual(bits.get_next_largest(num), expected)
         print('Success: test_get_next_largest')
 
     def test_get_next_smallest(self):
         bits = Bits()
-        assert_raises(Exception, bits.get_next_smallest, None)
-        assert_raises(Exception, bits.get_next_smallest, 0)
-        assert_raises(Exception, bits.get_next_smallest, -1)
+        self.assertRaises(Exception, bits.get_next_smallest, None)
+        self.assertRaises(Exception, bits.get_next_smallest, 0)
+        self.assertRaises(Exception, bits.get_next_smallest, -1)
         num = int('011010111', base=2)
         expected = int('011001111', base=2)
-        assert_equal(bits.get_next_smallest(num), expected)
+        self.assertEqual(bits.get_next_smallest(num), expected)
         print('Success: test_get_next_smallest')
 
 def main():
