@@ -1,19 +1,19 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestPermutations(object):
+class TestPermutations(unittest.TestCase):
 
     def test_permutations(self):
         permutations = Permutations()
-        assert_equal(permutations.find_permutations(None), None)
-        assert_equal(permutations.find_permutations(''), '')
+        self.assertEqual(permutations.find_permutations(None), None)
+        self.assertEqual(permutations.find_permutations(''), '')
         string = 'AABC'
         expected = [
             'AABC', 'AACB', 'ABAC', 'ABCA',
             'ACAB', 'ACBA', 'BAAC', 'BACA',
             'BCAA', 'CAAB', 'CABA', 'CBAA'
         ]
-        assert_equal(permutations.find_permutations(string), expected)
+        self.assertEqual(permutations.find_permutations(string), expected)
         print('Success: test_permutations')
 
 

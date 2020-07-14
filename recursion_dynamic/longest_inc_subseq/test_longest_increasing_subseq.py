@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestLongestIncreasingSubseq(object):
+class TestLongestIncreasingSubseq(unittest.TestCase):
 
     def test_longest_increasing_subseq(self):
         subseq = Subsequence()
-        assert_raises(TypeError, subseq.longest_inc_subseq, None)
-        assert_equal(subseq.longest_inc_subseq([]), [])
+        self.assertRaises(TypeError, subseq.longest_inc_subseq, None)
+        self.assertEqual(subseq.longest_inc_subseq([]), [])
         seq = [3, 4, -1, 0, 6, 2, 3]
         expected = [-1, 0, 2, 3]
-        assert_equal(subseq.longest_inc_subseq(seq), expected)
+        self.assertEqual(subseq.longest_inc_subseq(seq), expected)
         print('Success: test_longest_increasing_subseq')
 
 

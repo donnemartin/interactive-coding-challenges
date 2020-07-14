@@ -1,7 +1,7 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestPowerSet(object):
+class TestPowerSet(unittest.TestCase):
 
     def test_power_set(self):
         input_set = ''
@@ -27,7 +27,7 @@ class TestPowerSet(object):
     def run_test(self, input_set, expected):
         combinatoric = Combinatoric()
         result = combinatoric.find_power_set(input_set)
-        assert_equal(result, expected)
+        self.assertEqual(result, expected)
 
 
 def main():

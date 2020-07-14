@@ -1,7 +1,7 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestHanoi(object):
+class TestHanoi(unittest.TestCase):
 
     def test_hanoi(self):
         hanoi = Hanoi()
@@ -11,23 +11,23 @@ class TestHanoi(object):
         dest = Stack()
 
         print('Test: None towers')
-        assert_raises(TypeError, hanoi.move_disks, num_disks, None, None, None)
+        self.assertRaises(TypeError, hanoi.move_disks, num_disks, None, None, None)
 
         print('Test: 0 disks')
         hanoi.move_disks(num_disks, src, dest, buff)
-        assert_equal(dest.pop(), None)
+        self.assertEqual(dest.pop(), None)
 
         print('Test: 1 disk')
         src.push(5)
         hanoi.move_disks(num_disks, src, dest, buff)
-        assert_equal(dest.pop(), 5)
+        self.assertEqual(dest.pop(), 5)
 
         print('Test: 2 or more disks')
         for disk_index in range(num_disks, -1, -1):
             src.push(disk_index)
         hanoi.move_disks(num_disks, src, dest, buff)
         for disk_index in range(0, num_disks):
-            assert_equal(dest.pop(), disk_index)
+            self.assertEqual(dest.pop(), disk_index)
 
         print('Success: test_hanoi')
 
