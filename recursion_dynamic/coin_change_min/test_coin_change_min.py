@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestCoinChange(object):
+class TestCoinChange(unittest.TestCase):
 
     def test_coin_change(self):
         coin_changer = CoinChanger()
-        assert_raises(TypeError, coin_changer.make_change, None, None)
-        assert_equal(coin_changer.make_change([], 0), 0)
-        assert_equal(coin_changer.make_change([1, 2, 3], 5), 2)
-        assert_equal(coin_changer.make_change([3, 2, 1], 5), 2)
-        assert_equal(coin_changer.make_change([3, 2, 1], 8), 3)
+        self.assertRaises(TypeError, coin_changer.make_change, None, None)
+        self.assertEqual(coin_changer.make_change([], 0), 0)
+        self.assertEqual(coin_changer.make_change([1, 2, 3], 5), 2)
+        self.assertEqual(coin_changer.make_change([3, 2, 1], 5), 2)
+        self.assertEqual(coin_changer.make_change([3, 2, 1], 8), 3)
         print('Success: test_coin_change')
 
 

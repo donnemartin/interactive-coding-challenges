@@ -1,14 +1,14 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestFib(object):
+class TestFib(unittest.TestCase):
 
     def test_fib(self, func):
         result = []
         expected = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
         for i in range(len(expected)):
             result.append(func(i))
-        assert_equal(result, expected)
+        self.assertEqual(result, expected)
         print('Success: test_fib')
 
 

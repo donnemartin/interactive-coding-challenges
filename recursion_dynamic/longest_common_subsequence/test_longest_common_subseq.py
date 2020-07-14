@@ -1,16 +1,16 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestLongestCommonSubseq(object):
+class TestLongestCommonSubseq(unittest.TestCase):
 
     def test_longest_common_subseq(self):
         str_comp = StringCompare()
-        assert_raises(TypeError, str_comp.longest_common_subseq, None, None)
-        assert_equal(str_comp.longest_common_subseq('', ''), '')
+        self.assertRaises(TypeError, str_comp.longest_common_subseq, None, None)
+        self.assertEqual(str_comp.longest_common_subseq('', ''), '')
         str0 = 'ABCDEFGHIJ'
         str1 = 'FOOBCDBCDE'
         expected = 'BCDE'
-        assert_equal(str_comp.longest_common_subseq(str0, str1), expected)
+        self.assertEqual(str_comp.longest_common_subseq(str0, str1), expected)
         print('Success: test_longest_common_subseq')
 
 

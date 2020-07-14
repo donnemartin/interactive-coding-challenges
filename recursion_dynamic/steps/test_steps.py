@@ -1,18 +1,18 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSteps(object):
+class TestSteps(unittest.TestCase):
 
     def test_steps(self):
         steps = Steps()
-        assert_raises(TypeError, steps.count_ways, None)
-        assert_raises(TypeError, steps.count_ways, -1)
-        assert_equal(steps.count_ways(0), 1)
-        assert_equal(steps.count_ways(1), 1)
-        assert_equal(steps.count_ways(2), 2)
-        assert_equal(steps.count_ways(3), 4)
-        assert_equal(steps.count_ways(4), 7)
-        assert_equal(steps.count_ways(10), 274)
+        self.assertRaises(TypeError, steps.count_ways, None)
+        self.assertRaises(TypeError, steps.count_ways, -1)
+        self.assertEqual(steps.count_ways(0), 1)
+        self.assertEqual(steps.count_ways(1), 1)
+        self.assertEqual(steps.count_ways(2), 2)
+        self.assertEqual(steps.count_ways(3), 4)
+        self.assertEqual(steps.count_ways(4), 7)
+        self.assertEqual(steps.count_ways(10), 274)
         print('Success: test_steps')
 
 
