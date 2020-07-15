@@ -1,11 +1,11 @@
-from nose.tools import assert_equal, assert_true, assert_raises
+import unittest
 
 
-class TestMathOps(object):
+class TestMathOps(unittest.TestCase):
 
     def test_math_ops(self):
         solution = Solution()
-        assert_raises(TypeError, solution.insert, None)
+        self.assertRaises(TypeError, solution.insert, None)
         solution.insert(5)
         solution.insert(2)
         solution.insert(7)
@@ -17,10 +17,10 @@ class TestMathOps(object):
         solution.insert(3)
         solution.insert(3)
         solution.insert(2)
-        assert_equal(solution.max, 9)
-        assert_equal(solution.min, 2)
-        assert_equal(solution.mean, 5)
-        assert_true(solution.mode in (2, 9))
+        self.assertEqual(solution.max, 9)
+        self.assertEqual(solution.min, 2)
+        self.assertEqual(solution.mean, 5)
+        self.assertTrue(solution.mode in (2, 9))
         print('Success: test_math_ops')
 
 

@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSubTwo(object):
+class TestSubTwo(unittest.TestCase):
 
     def test_sub_two(self):
         solution = Solution()
-        assert_raises(TypeError, solution.sub_two, None)
-        assert_equal(solution.sub_two(7, 5), 2)
-        assert_equal(solution.sub_two(-5, -7), 2)
-        assert_equal(solution.sub_two(-5, 7), -12)
-        assert_equal(solution.sub_two(5, -7), 12)
+        self.assertRaises(TypeError, solution.sub_two, None)
+        self.assertEqual(solution.sub_two(7, 5), 2)
+        self.assertEqual(solution.sub_two(-5, -7), 2)
+        self.assertEqual(solution.sub_two(-5, 7), -12)
+        self.assertEqual(solution.sub_two(5, -7), 12)
         print('Success: test_sub_two')
 
 

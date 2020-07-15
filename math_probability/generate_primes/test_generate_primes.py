@@ -1,13 +1,13 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestMath(object):
+class TestMath(unittest.TestCase):
 
     def test_generate_primes(self):
         prime_generator = PrimeGenerator()
-        assert_raises(TypeError, prime_generator.generate_primes, None)
-        assert_raises(TypeError, prime_generator.generate_primes, 98.6)
-        assert_equal(prime_generator.generate_primes(20), [False, False, True, 
+        self.assertRaises(TypeError, prime_generator.generate_primes, None)
+        self.assertRaises(TypeError, prime_generator.generate_primes, 98.6)
+        self.assertEqual(prime_generator.generate_primes(20), [False, False, True, 
                                                            True, False, True, 
                                                            False, True, False, 
                                                            False, False, True, 

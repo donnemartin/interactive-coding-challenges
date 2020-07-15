@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestAddDigits(object):
+class TestAddDigits(unittest.TestCase):
 
     def test_add_digits(self, func):
-        assert_raises(TypeError, func, None)
-        assert_raises(ValueError, func, -1)
-        assert_equal(func(0), 0)
-        assert_equal(func(9), 9)
-        assert_equal(func(138), 3)
-        assert_equal(func(65536), 7) 
+        self.assertRaises(TypeError, func, None)
+        self.assertRaises(ValueError, func, -1)
+        self.assertEqual(func(0), 0)
+        self.assertEqual(func(9), 9)
+        self.assertEqual(func(138), 3)
+        self.assertEqual(func(65536), 7) 
         print('Success: test_add_digits')
 
 
