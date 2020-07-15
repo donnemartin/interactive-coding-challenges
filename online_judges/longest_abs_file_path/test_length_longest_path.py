@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSolution(object):
+class TestSolution(unittest.TestCase):
 
     def test_length_longest_path(self):
         solution = Solution()
-        assert_raises(TypeError, solution.length_longest_path, None)
-        assert_equal(solution.length_longest_path(''), 0)
+        self.assertRaises(TypeError, solution.length_longest_path, None)
+        self.assertEqual(solution.length_longest_path(''), 0)
         file_system = 'dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext'
         expected = 32
-        assert_equal(solution.length_longest_path(file_system), expected)
+        self.assertEqual(solution.length_longest_path(file_system), expected)
         print('Success: test_length_longest_path')
 
 

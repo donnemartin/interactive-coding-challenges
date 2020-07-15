@@ -1,12 +1,12 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestFindDiff(object):
+class TestFindDiff(unittest.TestCase):
 
     def test_find_diff(self):
         solution = Solution()
-        assert_raises(TypeError, solution.find_diff, None)
-        assert_equal(solution.find_diff('aaabbcdd', 'abdbacade'), 'e')
+        self.assertRaises(TypeError, solution.find_diff, None)
+        self.assertEqual(solution.find_diff('aaabbcdd', 'abdbacade'), 'e')
         print('Success: test_find_diff')
 
 

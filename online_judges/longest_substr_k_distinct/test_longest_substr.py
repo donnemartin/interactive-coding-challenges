@@ -1,14 +1,14 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSolution(object):
+class TestSolution(unittest.TestCase):
 
     def test_longest_substr(self):
         solution = Solution()
-        assert_raises(TypeError, solution.longest_substr, None)
-        assert_equal(solution.longest_substr('', k=3), 0)
-        assert_equal(solution.longest_substr('abcabcdefgghiij', k=3), 6)
-        assert_equal(solution.longest_substr('abcabcdefgghighij', k=3), 7)
+        self.assertRaises(TypeError, solution.longest_substr, None)
+        self.assertEqual(solution.longest_substr('', k=3), 0)
+        self.assertEqual(solution.longest_substr('abcabcdefgghiij', k=3), 6)
+        self.assertEqual(solution.longest_substr('abcabcdefgghighij', k=3), 7)
         print('Success: test_longest_substr')
 
 
