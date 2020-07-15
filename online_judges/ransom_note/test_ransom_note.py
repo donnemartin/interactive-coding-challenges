@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestRansomNote(object):
+class TestRansomNote(unittest.TestCase):
 
     def test_ransom_note(self):
         solution = Solution()
-        assert_raises(TypeError, solution.match_note_to_magazine, None, None)
-        assert_equal(solution.match_note_to_magazine('', ''), True)
-        assert_equal(solution.match_note_to_magazine('a', 'b'), False)
-        assert_equal(solution.match_note_to_magazine('aa', 'ab'), False)
-        assert_equal(solution.match_note_to_magazine('aa', 'aab'), True)
+        self.assertRaises(TypeError, solution.match_note_to_magazine, None, None)
+        self.assertEqual(solution.match_note_to_magazine('', ''), True)
+        self.assertEqual(solution.match_note_to_magazine('a', 'b'), False)
+        self.assertEqual(solution.match_note_to_magazine('aa', 'ab'), False)
+        self.assertEqual(solution.match_note_to_magazine('aa', 'aab'), True)
         print('Success: test_ransom_note')
 
 

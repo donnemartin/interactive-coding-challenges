@@ -1,11 +1,11 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestMaximizingXor(object):
+class TestMaximizingXor(unittest.TestCase):
 
     def test_maximizing_xor(self):
         solution = Solution()
-        assert_equal(solution.max_xor(10, 15), 7)
+        self.assertEqual(solution.max_xor(10, 15), 7)
         print('Success: test_maximizing_xor')
 
 

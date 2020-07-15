@@ -1,12 +1,12 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSolution(object):
+class TestSolution(unittest.TestCase):
 
     def test_find_busiest_period(self):
         solution = Solution()
-        assert_raises(TypeError, solution.find_busiest_period, None)
-        assert_equal(solution.find_busiest_period([]), None)
+        self.assertRaises(TypeError, solution.find_busiest_period, None)
+        self.assertEqual(solution.find_busiest_period([]), None)
         data = [
             Data(3, 2, EventType.EXIT),
             Data(1, 2, EventType.ENTER),
@@ -15,7 +15,7 @@ class TestSolution(object):
             Data(9, 2, EventType.EXIT),
             Data(8, 2, EventType.EXIT),
         ]
-        assert_equal(solution.find_busiest_period(data), Period(7, 8))
+        self.assertEqual(solution.find_busiest_period(data), Period(7, 8))
         print('Success: test_find_busiest_period')
 
 

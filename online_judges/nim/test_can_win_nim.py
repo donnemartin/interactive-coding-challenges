@@ -1,17 +1,17 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSolution(object):
+class TestSolution(unittest.TestCase):
 
     def test_can_win_nim(self):
         solution = Solution()
-        assert_raises(TypeError, solution.can_win_nim, None)
-        assert_equal(solution.can_win_nim(1), True)
-        assert_equal(solution.can_win_nim(2), True)
-        assert_equal(solution.can_win_nim(3), True)
-        assert_equal(solution.can_win_nim(4), False)
-        assert_equal(solution.can_win_nim(7), True)
-        assert_equal(solution.can_win_nim(40), False)
+        self.assertRaises(TypeError, solution.can_win_nim, None)
+        self.assertEqual(solution.can_win_nim(1), True)
+        self.assertEqual(solution.can_win_nim(2), True)
+        self.assertEqual(solution.can_win_nim(3), True)
+        self.assertEqual(solution.can_win_nim(4), False)
+        self.assertEqual(solution.can_win_nim(7), True)
+        self.assertEqual(solution.can_win_nim(40), False)
         print('Success: test_can_win_nim')
 
 

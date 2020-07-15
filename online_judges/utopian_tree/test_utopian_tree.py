@@ -1,13 +1,13 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestUtopianTree(object):
+class TestUtopianTree(unittest.TestCase):
 
     def test_utopian_tree(self):
         solution = Solution()
-        assert_equal(solution.calc_utopian_tree_height(0), 1)
-        assert_equal(solution.calc_utopian_tree_height(1), 2)
-        assert_equal(solution.calc_utopian_tree_height(4), 7)
+        self.assertEqual(solution.calc_utopian_tree_height(0), 1)
+        self.assertEqual(solution.calc_utopian_tree_height(1), 2)
+        self.assertEqual(solution.calc_utopian_tree_height(4), 7)
         print('Success: test_utopian_tree')
 
 

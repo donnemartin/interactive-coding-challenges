@@ -1,16 +1,16 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestAssignCookie(object):
+class TestAssignCookie(unittest.TestCase):
 
     def test_assign_cookie(self):
         solution = Solution()
-        assert_raises(TypeError, solution.find_content_children, None, None)
-        assert_equal(solution.find_content_children([1, 2, 3], 
+        self.assertRaises(TypeError, solution.find_content_children, None, None)
+        self.assertEqual(solution.find_content_children([1, 2, 3], 
                                                     [1, 1]), 1)
-        assert_equal(solution.find_content_children([1, 2], 
+        self.assertEqual(solution.find_content_children([1, 2], 
                                                     [1, 2, 3]), 2)
-        assert_equal(solution.find_content_children([7, 8, 9, 10], 
+        self.assertEqual(solution.find_content_children([7, 8, 9, 10], 
                                                     [5, 6, 7, 8]), 2)
         print('Success: test_find_content_children')
 
