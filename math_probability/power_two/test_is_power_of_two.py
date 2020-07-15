@@ -1,16 +1,16 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSolution(object):
+class TestSolution(unittest.TestCase):
 
     def test_is_power_of_two(self):
         solution = Solution()
-        assert_raises(TypeError, solution.is_power_of_two, None)
-        assert_equal(solution.is_power_of_two(0), False)
-        assert_equal(solution.is_power_of_two(1), True)
-        assert_equal(solution.is_power_of_two(2), True)
-        assert_equal(solution.is_power_of_two(15), False)
-        assert_equal(solution.is_power_of_two(16), True)
+        self.assertRaises(TypeError, solution.is_power_of_two, None)
+        self.assertEqual(solution.is_power_of_two(0), False)
+        self.assertEqual(solution.is_power_of_two(1), True)
+        self.assertEqual(solution.is_power_of_two(2), True)
+        self.assertEqual(solution.is_power_of_two(15), False)
+        self.assertEqual(solution.is_power_of_two(16), True)
         print('Success: test_is_power_of_two')
 
 

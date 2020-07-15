@@ -1,14 +1,14 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestSumTwo(object):
+class TestSumTwo(unittest.TestCase):
 
     def test_sum_two(self):
         solution = Solution()
-        assert_raises(TypeError, solution.sum_two, None)
-        assert_equal(solution.sum_two(5, 7), 12)
-        assert_equal(solution.sum_two(-5, -7), -12)
-        assert_equal(solution.sum_two(5, -7), -2)
+        self.assertRaises(TypeError, solution.sum_two, None)
+        self.assertEqual(solution.sum_two(5, 7), 12)
+        self.assertEqual(solution.sum_two(-5, -7), -12)
+        self.assertEqual(solution.sum_two(5, -7), -2)
         print('Success: test_sum_two')
 
 

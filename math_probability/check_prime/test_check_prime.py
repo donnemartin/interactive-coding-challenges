@@ -1,15 +1,15 @@
-from nose.tools import assert_equal, assert_raises
+import unittest
 
 
-class TestMath(object):
+class TestMath(unittest.TestCase):
 
     def test_check_prime(self):
         math = Math()
-        assert_raises(TypeError, math.check_prime, None)
-        assert_raises(TypeError, math.check_prime, 98.6)
-        assert_equal(math.check_prime(0), False)
-        assert_equal(math.check_prime(1), False)
-        assert_equal(math.check_prime(97), True)
+        self.assertRaises(TypeError, math.check_prime, None)
+        self.assertRaises(TypeError, math.check_prime, 98.6)
+        self.assertEqual(math.check_prime(0), False)
+        self.assertEqual(math.check_prime(1), False)
+        self.assertEqual(math.check_prime(97), True)
         print('Success: test_check_prime')
 
 
