@@ -1,6 +1,6 @@
-from nose.tools import assert_equal
+import unittest
 
-class TestBinaryTree(object):
+class TestBinaryTree(unittest.TestCase):
 
 	def test_insert_traversals (self):
 		myTree = BinaryTree()
@@ -11,22 +11,22 @@ class TestBinaryTree(object):
 
 		print("Test: insert checking with in order traversal")
 		expectVal = [7, 10, 25, 30, 38, 40, 50, 60, 70, 80]
-		assert_equal(myTree.printInOrder(), expectVal)
+		self.assertEqual(myTree.printInOrder(), expectVal)
 		expectVal = [1, 11, 21, 31, 41, 51, 61, 71, 81, 91]
-		assert_equal(myTree2.printInOrder(), expectVal)
+		self.assertEqual(myTree2.printInOrder(), expectVal)
 
 		print("Test: insert checking with post order traversal")
 		expectVal = [7, 25, 10, 38, 40, 30, 60, 80, 70, 50]
-		assert_equal(myTree.printPostOrder(), expectVal)
+		self.assertEqual(myTree.printPostOrder(), expectVal)
 		expectVal = [91, 81, 71, 61, 51, 41, 31, 21, 11, 1]
-		assert_equal(myTree2.printPostOrder(), expectVal)
+		self.assertEqual(myTree2.printPostOrder(), expectVal)
 
 
 		print("Test: insert checking with pre order traversal")
 		expectVal = [50, 30, 10, 7, 25, 40, 38, 70, 60, 80]
-		assert_equal(myTree.printPreOrder(), expectVal)
+		self.assertEqual(myTree.printPreOrder(), expectVal)
 		expectVal = [1, 11, 21, 31, 41, 51, 61, 71, 81, 91]
-		assert_equal(myTree2.printPreOrder(), expectVal)
+		self.assertEqual(myTree2.printPreOrder(), expectVal)
 
 
 		print("Success: test_insert_traversals")
@@ -38,16 +38,16 @@ class TestBinaryTree(object):
 		myTree.insert(21)
 
 		print("Test: max node")
-		assert_equal(myTree.maxNode(), 21)
+		self.assertEqual(myTree.maxNode(), 21)
 		myTree.insert(32)
-		assert_equal(myTree.maxNode(), 32)
+		self.assertEqual(myTree.maxNode(), 32)
 
 		print("Test: min node")
-		assert_equal(myTree.minNode(), 1)
+		self.assertEqual(myTree.minNode(), 1)
 
 		print("Test: min node inserting negative number")
 		myTree.insert(-10)
-		assert_equal(myTree.minNode(), -10)
+		self.assertEqual(myTree.minNode(), -10)
 
 		print("Success: test_max_min_nodes")
 
@@ -57,14 +57,15 @@ class TestBinaryTree(object):
 
 		print("Test: delete")
 		myTree.delete(5)
-		assert_equal(myTree.treeIsEmpty(), True)
+		self.assertEqual(myTree.treeIsEmpty(), True)
 		
 		print("Test: more complex deletions")
 		[myTree.insert(x) for x in range(1, 5)]
 		myTree.delete(2)
-		assert_equal(myTree.root.rightChild.data, 3)
+		self.assertEqual(myTree.root.rightChild.data, 3)
+        
 		print("Test: delete invalid value")
-		assert_equal(myTree.delete(100), False)
+		self.assertEqual(myTree.delete(100), False)
 
 
 		print("Success: test_delete")

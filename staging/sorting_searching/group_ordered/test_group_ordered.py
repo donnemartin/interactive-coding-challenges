@@ -1,19 +1,19 @@
-from nose.tools import assert_equal
+import unittest
 
 
-class TestGroupOrdered(object):
+class TestGroupOrdered(unittest.TestCase):
     def test_group_ordered(self, func):
 
-        assert_equal(func(None), None)
+        self.assertEqual(func(None), None)
         print('Success: ' + func.__name__ + " None case.")
-        assert_equal(func([]), [])
+        self.assertEqual(func([]), [])
         print('Success: ' + func.__name__ + " Empty case.")
-        assert_equal(func([1]), [1])
+        self.assertEqual(func([1]), [1])
         print('Success: ' + func.__name__ + " Single element case.")
-        assert_equal(func([1, 2, 1, 3, 2]), [1, 1, 2, 2, 3])
-        assert_equal(func(['a', 'b', 'a']), ['a', 'a', 'b'])
-        assert_equal(func([1, 1, 2, 3, 4, 5, 2, 1]), [1, 1, 1, 2, 2, 3, 4, 5])
-        assert_equal(func([1, 2, 3, 4, 3, 4]), [1, 2, 3, 3, 4, 4])
+        self.assertEqual(func([1, 2, 1, 3, 2]), [1, 1, 2, 2, 3])
+        self.assertEqual(func(['a', 'b', 'a']), ['a', 'a', 'b'])
+        self.assertEqual(func([1, 1, 2, 3, 4, 5, 2, 1]), [1, 1, 1, 2, 2, 3, 4, 5])
+        self.assertEqual(func([1, 2, 3, 4, 3, 4]), [1, 2, 3, 3, 4, 4])
         print('Success: ' + func.__name__)
 
 
