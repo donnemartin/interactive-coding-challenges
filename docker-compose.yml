@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  jupyter-challenge:
+    build:
+      context: .
+    volumes:
+      - ".:/notebook"
+    command: "/notebook/start_notebook.sh"
+    ports:
+      - "8888:8888"

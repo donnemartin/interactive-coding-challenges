@@ -474,6 +474,22 @@ pip install nose
 
 More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
 
+### Docker
+
+This repo contains a `Dockerfile`. The Dockerfile uses the official `jupyter/minimal-notebook` container as it's base image. To get up and running, clone this repo and use the included `docker-compose.yml` file to build and run the container:
+
+```
+$ docker-compose up
+```
+
+This will build a local Docker container that contains all the necessary dependencies, bind-mounts this directory and will set up port-forwarding on port 8888. Any changes to files in this repo will be immediately reflected without the need to rebuild or restart the container.
+
+This will not alter your system Python installation and is entirely self-contained within the Docker container.
+
+For more details on installing and using Docker, documentation may be found [here](https://docs.docker.com/engine/installation/).
+
+For additional information about the Jupyter Docker image, documentation may be found [here](https://github.com/jupyter/docker-stacks/tree/master/minimal-notebook).
+
 ## Running Challenges
 
 ### Notebooks
