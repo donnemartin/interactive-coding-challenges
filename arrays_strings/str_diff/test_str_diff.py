@@ -9,10 +9,12 @@ class TestFindDiff(unittest.TestCase):
         self.assertEqual(solution.find_diff('ab', 'aab'), 'a')
         self.assertEqual(solution.find_diff('aab', 'ab'), 'a')
         self.assertEqual(solution.find_diff('abcd', 'abcde'), 'e')
+        self.assertEqual(solution.find_diff('abcde', 'abcd'), 'e')
         self.assertEqual(solution.find_diff('aaabbcdd', 'abdbacade'), 'e')
         self.assertEqual(solution.find_diff_xor('ab', 'aab'), 'a')
         self.assertEqual(solution.find_diff_xor('aab', 'ab'), 'a')
         self.assertEqual(solution.find_diff_xor('abcd', 'abcde'), 'e')
+        self.assertEqual(solution.find_diff('abcde', 'abcd'), 'e')
         self.assertEqual(solution.find_diff_xor('aaabbcdd', 'abdbacade'), 'e')
         print('Success: test_find_diff')
 
