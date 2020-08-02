@@ -6,6 +6,8 @@
 interactive-coding-challenges
 ============
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 **120+ continually updated, interactive, and test-driven coding challenges**, with [Anki flashcards](#anki-flashcards-coding-and-design).
 
 Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
@@ -195,6 +197,8 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Arrays and Strings
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 | Challenge | Static Notebook |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Determine if a string contains unique characters | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/unique_chars/unique_chars_challenge.ipynb) │ [Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/unique_chars/unique_chars_solution.ipynb) |
@@ -221,6 +225,8 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Linked Lists
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 | Challenge | Static Notebook |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Remove duplicates from a linked list | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/remove_duplicates/remove_duplicates_challenge.ipynb) │ [Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/remove_duplicates/remove_duplicates_solution.ipynb) |
@@ -242,6 +248,8 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Stacks and Queues
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 | Challenge | Static Notebook |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Implement n stacks using a single array | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/n_stacks/n_stacks_challenge.ipynb) │ [Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/n_stacks/n_stacks_solution.ipynb) |
@@ -261,6 +269,8 @@ Unit tested, fully functional implementations of the following algorithms:
 <br/>
 
 ### Graphs and Trees
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
 
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -295,6 +305,8 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Sorting
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Implement selection sort | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_challenge.ipynb) │ [Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb) |
@@ -321,6 +333,8 @@ Unit tested, fully functional implementations of the following algorithms:
 <br/>
 
 ### Recursion and Dynamic Programming
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
 
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -355,6 +369,8 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Mathematics and Probability
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Generate a list of primes | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/math_probability/generate_primes/check_prime_challenge.ipynb) │ [Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/math_probability/generate_primes/check_prime_solution.ipynb) |
@@ -377,6 +393,8 @@ Unit tested, fully functional implementations of the following algorithms:
 
 ### Bit Manipulation
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Implement common bit manipulation operations | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/bit_manipulation/bit/bit_challenge.ipynb) │ [Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/bit_manipulation/bit/bit_solution.ipynb) |
@@ -397,6 +415,8 @@ Unit tested, fully functional implementations of the following algorithms:
 <br/>
 
 ### Online Judges
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
 
 | Challenge | Static Notebooks |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -443,6 +463,12 @@ interactive-coding-challenges        # Repo
 
 
 ## Notebook Installation
+
+### Zero Install
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master)
+
+This README contains links to [Binder](https://mybinder.org/v2/gh/donnemartin/interactive-coding-challenges/master) , which hosts **dynamic notebooks** of the repo's contents online with no installation needed.
 
 ### Jupyter Notebook
 
