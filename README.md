@@ -175,7 +175,6 @@ Unit tested, fully functional implementations of the following algorithms:
 
 * [Repo Structure](#repo-structure)
 * [Notebook Installation](#notebook-installation)
-    * [Nose Installation](#nose-installation)
 * [Running Challenges](#running-challenges)
 
 ### Misc
@@ -483,22 +482,6 @@ For detailed instructions, scripts, and tools to more optimally set up your deve
 For more details on notebook installation, follow the directions [here](http://ipython.org/install.html).
 
 More information on IPython/Jupyter Notebooks can be found [here](http://ipython.org/notebook.html).
-
-### Nose Tests
-
-Install nose using setuptools/distribute:
-
-```
-easy_install nose
-```
-
-or
-
-```
-pip install nose
-```
-
-More information on Nose can be found [here](https://nose.readthedocs.org/en/latest/).
 
 ## Running Challenges
 
