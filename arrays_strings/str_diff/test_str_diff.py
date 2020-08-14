@@ -8,6 +8,7 @@ class TestFindDiff(unittest.TestCase):
         self.assertRaises(TypeError, solution.find_diff, None)
         self.assertEqual(solution.find_diff('ab', 'aab'), 'a')
         self.assertEqual(solution.find_diff('aab', 'ab'), 'a')
+        self.assertEqual(solution.find_diff('baa', 'ab'), 'a')
         self.assertEqual(solution.find_diff('abcd', 'abcde'), 'e')
         self.assertEqual(solution.find_diff('aaabbcdd', 'abdbacade'), 'e')
         self.assertEqual(solution.find_diff_xor('ab', 'aab'), 'a')
