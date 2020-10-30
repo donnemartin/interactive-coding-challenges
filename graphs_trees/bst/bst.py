@@ -7,7 +7,10 @@ class Node(object):
         self.parent = None
 
     def __repr__(self):
-        return str(self.data)
+        return 'Node<data=%s>' % (self.data,)
+
+    def __eq__(self, other):
+        return isinstance(other, Node) and self.data == other.data
 
 
 class Bst(object):
