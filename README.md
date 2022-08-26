@@ -543,6 +543,7 @@ Review the [Contributing Guidelines](https://github.com/donnemartin/interactive-
 * [Quora](http://www.quora.com/)
 * [HackerRank](https://www.hackerrank.com)
 * [LeetCode](https://leetcode.com/)
+* [Scaler Topics](https://www.scaler.com/topics/)
 
 ### Images
 
